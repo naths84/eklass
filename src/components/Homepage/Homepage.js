@@ -4,18 +4,20 @@ import { Button } from "react-bootstrap";
 
 import "./homepage.css"
 
+const Class = (props) => {
+    return (
+        <Button className="square" href="#Subjects" variant="primary" size="lg">
+            {props.children}
+        </Button>
+    )
+}
+
 const Homepage = (props) => {
     return (
         <div className="mb-2">
-            <Button className="square" variant="primary" size="lg">
-                9e
-            </Button>{' '}
-            <Button className="square" variant="primary" size="lg">
-                10e
-            </Button>
-            <Button className="square" variant="primary" size="lg">
-                11e
-            </Button>
+            <Class>9e</Class>
+            <Class>10e</Class>
+            <Class>11e</Class>
         </div>
         
     )
