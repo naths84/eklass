@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 
 import styles from "./ideas.css"
 
+
 const Idea = props => (
     <div >
         <div className={styles.description}>

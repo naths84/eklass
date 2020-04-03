@@ -1,16 +1,20 @@
-import React from "react"
+import React, { Suspense } from 'react';
 import { Link } from "gatsby"
 import Footer from "./footer"
 import Header from "./header"
 
+import './i18n';
+
 const Layout = (props) => {
   return (
-    <div>
-        <Header />
-            { props.children }
-        <Footer />
-    </div>
-    
+    <Suspense fallback={null}>
+        <div>
+            <Header />
+                { props.children }
+            <Footer />
+        </div>
+    </Suspense>
+        
   )
 }
 
