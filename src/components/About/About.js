@@ -2,12 +2,12 @@ import React from "react"
 
 import Vector from 'components/Vector/Vector';
 
-import styles from "./about.css";
+import styles from "./About.module.css";
 
 const About = (props) => {
   return (
     <div>
-      <div align="left">
+      <div align="left" className={styles.Vector}>
         <Vector type='logo' className={styles.logo} />
       </div>
       
