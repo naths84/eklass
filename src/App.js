@@ -18,7 +18,7 @@ import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import Quiz from './components/Quiz/Quiz';
-
+import QuizSetup from './components/QuizSetup/QuizSetup';
 import styles from './App.module.css';
 
 function App() {
@@ -43,6 +43,7 @@ function App() {
         <Login path="/login" />
         <SignUp path="/signup" />
         <Quiz path="/quiz" />
+        <QuizSetup path="/quizSetup"/>
       </Router>
       <Footer />
     </div>

@@ -10,7 +10,7 @@ import styles from "./Subjects.module.css";
 
 const Subject = (props) => {
   return (
-      <Link to="/quiz">
+      <Link to="/quizSetup">
         <Button className="subject" variant="outline-primary" size="lg">
             {props.children}
         </Button>
