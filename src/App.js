@@ -17,7 +17,7 @@ import Homepage from './components/Homepage/Homepage';
 import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
-
+import Quiz from './components/Quiz/Quiz';
 import styles from './App.module.css';
 
 
@@ -37,6 +37,7 @@ function App() {
       <Router>
         <Homepage path="/" />
         <Subjects path="/class/:classId"/>
+        <Quiz path="/quiz"/>
         <About path="/about" />
         <Contact path="/contact" />
         <Login path="/login" />

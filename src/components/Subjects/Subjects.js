@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "react-bootstrap";
+import { Link } from "@reach/router";
 
 import getClassLevelData from 'utils/getClassLevelData';
 import mockData from "data/data";
@@ -9,9 +10,12 @@ import styles from "./Subjects.module.css";
 
 const Subject = (props) => {
   return (
-    <Button className="subject" variant="outline-primary" size="lg">
-      {props.children}
-    </Button>
+      <Link to="/quiz">
+        <Button className="subject" variant="outline-primary" size="lg">
+            {props.children}
+        </Button>
+      </Link>
+    
   );
 };
 
