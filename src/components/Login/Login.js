@@ -4,14 +4,18 @@ import handleGoogleAuth from "utils/googleAuth";
 
 const Login = () => {
   const [emailValue, setEmailValue] = useState('')
-
+  const [passwordValue, setPasswordValue] = useState('')
   const handleEmailInputChange = e => {
       setEmailValue(e.target.value)
   }
+  const handlePasswordInputChange = e => {
+    setPasswordValue(e.target.value)
+}
 
   const handleFormSubmit = e => {
     e.preventDefault();
     console.log(emailValue);
+    console.log(passwordValue);
   }
 
   return (
@@ -37,6 +41,8 @@ const Login = () => {
             type="password"
             className="form-control"
             placeholder="Enter password"
+            value={passwordValue}
+            onChange={handlePasswordInputChange}
           />
         </div>
 
