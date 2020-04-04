@@ -5,6 +5,8 @@ import { Navbar, Nav} from "react-bootstrap";
 
 import { useTranslation } from "react-i18next";
 
+import authSignOut from 'utils/authSignOut';
+
 import styles from "./header.module.css";
 
 const Header = (props) => {
@@ -36,6 +38,10 @@ const Header = (props) => {
               {t("translation:fr")}
             </button>
           </Navbar.Collapse>
+
+          <button onClick={authSignOut}>Sign out</button>
+          
+          <Nav>{props.user && props.user.displayName}</Nav>
         </Navbar>
       </header>
     </div>

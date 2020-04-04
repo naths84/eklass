@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import {Router} from '@reach/router';
+import { useAuthState } from 'react-firebase-hooks/auth';
+
 import { useDocumentData, useDocument } from 'react-firebase-hooks/firestore';
 
-import { db } from './config/firebase';
+import { db, auth } from './config/firebase';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -18,27 +20,17 @@ import SignUp from './components/SignUp/SignUp';
 import './App.css';
 
 function App() {
-  const [value, loading, error] = useDocument(
-    // firebase.firestore().doc('fooCollection/3HUA9W19DOf1yHdOM0DL'),
-    db.doc('fooCollection/3HUA9W19DOf1yHdOM0DL'),
-    {
-      snapshotListenOptions: { includeMetadataChanges: true },
-    }
-  );
+  const [user, loading, error] = useAuthState(auth)
 
   useEffect(() => {
-    if (error) {
-      console.error(error);
-    } else if (!loading && value) {
-      console.log(value.data());
-    } else {
-      console.log('loading');
-    }
-  }, [value, loading, error])
+    console.log('user', user);
+    console.log('loading : ', loading);
+    console.log('error', error);
+  }, [user, loading, error])
 
   return (
     <div className="App">
-      <Header />
+      <Header user={user} />
       <Router>
         <Homepage path="/" />
         <Subjects path="/class/:classId"/>
