@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 export default class Login extends Component {
     render() {
         return (
@@ -28,9 +29,10 @@ export default class Login extends Component {
                     Forgot <a href="#">password?</a>
                 </p>
                 <p className="forgot-password text-center">
-                    Don't have an account yet ? <a href="/SignUp">Register here</a>
+                    Don't have an account yet ? <a href="/signup">Register here</a>
                 </p>
             </form>
+             
         );
     }
 }

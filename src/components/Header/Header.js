@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 
-import { Navbar, Nav} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown} from "react-bootstrap";
 
 import { useTranslation } from "react-i18next";
 
@@ -28,13 +28,20 @@ const Header = (props) => {
               <Link className={styles.link} to="/login">{t("loginItem")}</Link>              
               <Link className={styles.link} to={`/class/${Math.ceil(Math.random() * 10)}`}>Class</Link>
             </Nav>
-            <button type="button" onClick={() => changeLanguage("en")}>
-              {t("translation:en")}
-            </button>
-
-            <button type="button" onClick={() => changeLanguage("fr")}>
-              {t("translation:fr")}
-            </button>
+            <NavDropdown title="Languages" id="collasible-nav-dropdown">
+              <NavDropdown.Item>
+              <button type="button" onClick={() => changeLanguage("en")}>
+                {t("translation:en")}
+              </button>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <button type="button" onClick={() => changeLanguage("fr")}>
+                  {t("translation:fr")}
+                </button>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/">Know another language ? Help us now </NavDropdown.Item>
+            </NavDropdown>
           </Navbar.Collapse>
         </Navbar>
       </header>
