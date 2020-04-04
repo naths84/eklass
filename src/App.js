@@ -17,6 +17,7 @@ import Homepage from './components/Homepage/Homepage';
 import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
+import Quiz from './components/Quiz/Quiz';
 
 import styles from './App.module.css';
 
@@ -41,6 +42,7 @@ function App() {
         <Contact path="/contact" />
         <Login path="/login" />
         <SignUp path="/signup" />
+        <Quiz path="/quiz" />
       </Router>
       <Footer />
     </div>
