@@ -26,8 +26,8 @@ function App() {
 
   useEffect(() => {
     console.log('user', user);
-    console.log('loading : ', loading);
-    console.log('error', error);
+    // console.log('loading : ', loading);
+    // console.log('error', error);
   }, [user, loading, error])
 
   return (

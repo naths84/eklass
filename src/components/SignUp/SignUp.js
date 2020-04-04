@@ -1,59 +1,99 @@
 import React, { useState } from "react";
-import firebase from 'config/firebase';
+import { navigate } from "@reach/router"
+
+import createUserWithEmailAndPassword from 'utils/registerUserWithEmailAndPassword';
+
 
 const SignUp = () => {
-        const [emailValue, setEmailValue] = useState('')
-        const [passwordValue, setPasswordValue] = useState('')
-        const handleEmailInputChange = e => {
-            setEmailValue(e.target.value)
-        }
-        const handlePasswordInputChange = e => {
-            setPasswordValue(e.target.value)
-        }
+  const [emailValue, setEmailValue] = useState("");
+  const [passwordValue, setPasswordValue] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const [registrationError, setRegistrationError] = useState(null);
 
-        const handleFormSubmit = e => {
-            e.preventDefault();
-            console.log(emailValue);
-            console.log(passwordValue);
-        }
-        const handlePasswordAuth = () => {
-            firebase.auth().createUserWithEmailAndPassword(emailValue, passwordValue).catch(function(error) {
-                // Handle Errors here.
-                var errorCode = error.code;
-                var errorMessage = error.message;
-                // ...
-              });
-        }
-        return (
-            <form onSubmit={handleFormSubmit}>
+  const handleEmailInputChange = (e) => {
+    setEmailValue(e.target.value);
+  };
 
-                <h3>Sign Up</h3>
+  const handlePasswordInputChange = (e) => {
+    setPasswordValue(e.target.value);
+  };
 
-                <div className="form-group">
-                    <label>First name</label>
-                    <input type="text" className="form-control" placeholder="First name" />
-                </div>
+  const handleDisplayNameInputChange = e => {
+    setDisplayName(e.target.value);
+  }
 
-                <div className="form-group">
-                    <label>Last name</label>
-                    <input type="text" className="form-control" placeholder="Last name" />
-                </div>
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    console.log(emailValue);
+    console.log(passwordValue);
 
-                <div className="form-group">
-                    <label>Email address</label>
-                    <input type="email" className="form-control" placeholder="Enter email" value={emailValue} onChange={handleEmailInputChange}/>
-                </div>
+    handlePasswordAuth(emailValue, passwordValue, displayName);
+  };
 
-                <div className="form-group">
-                    <label>Password</label>
-                    <input type="password" className="form-control" placeholder="Enter password" value={passwordValue} onChange={handlePasswordInputChange}/>
-                </div>
+  const handlePasswordAuth = async (emailValue, passwordValue, displayName) => {
+    try {
+      const submission = await createUserWithEmailAndPassword(emailValue, passwordValue)
+      if (submission.type === 'error') {
+        setRegistrationError(submission);
+      }
 
-                <button type="submit" className="btn btn-primary btn-block" onClick={handlePasswordAuth}>Sign Up</button>
-                <p className="forgot-password text-right">
-                    Already registered ?<a href="/login">Login here</a>
-                </p>
-            </form>
-        );
-}
+      if (submission.type === 'success') {
+        navigate('/');
+      }
+      console.log(submission.message);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return (
+    <form onSubmit={handleFormSubmit}>
+      <h3>Sign Up</h3>
+
+    {registrationError && <h3>{registrationError.message}</h3>}
+      <div className="form-group">
+        <label>Name</label>
+        <input 
+            type="text" 
+            className="form-control" 
+            placeholder="First name" 
+            value={displayName}
+            onChange={handleDisplayNameInputChange}
+        />
+      </div>
+
+      <div className="form-group">
+        <label>Email address</label>
+        <input
+          type="email"
+          className="form-control"
+          placeholder="Enter email"
+          value={emailValue}
+          onChange={handleEmailInputChange}
+        />
+      </div>
+
+      <div className="form-group">
+        <label>Password</label>
+        <input
+          type="password"
+          className="form-control"
+          placeholder="Enter password"
+          value={passwordValue}
+          onChange={handlePasswordInputChange}
+        />
+      </div>
+
+      <button
+        type="submit"
+        className="btn btn-primary btn-block"
+      >
+        Sign Up
+      </button>
+      <p className="forgot-password text-right">
+        Already registered ?<a href="/login">Login here</a>
+      </p>
+    </form>
+  );
+};
 export default SignUp;
