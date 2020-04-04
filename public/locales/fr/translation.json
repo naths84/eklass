@@ -1,6 +1,7 @@
 {
     "title": "Fr eclass",
     "loginItem": "Se connecter",
+    "signoutItem": "Se déconnecter",
     "about": "A propos",
 
     "subjectPageTitle": "Matières",

@@ -1,6 +1,7 @@
 {
     "title": "En eclass",
     "loginItem": "Login",
+    "signoutItem": "Sign out",
     "about": "About",
 
     "subjectPageTitle": "Subjects",
