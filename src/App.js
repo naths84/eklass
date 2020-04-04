@@ -11,8 +11,10 @@ import Footer from './components/Footer/Footer';
 import Class from './components/Class/Class';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Subject from './components/Subjects/Subjects';
 
 import './App.css';
+import Homepage from './components/Homepage/Homepage';
 
 function App() {
   const [value, loading, error] = useDocument(
@@ -36,11 +38,14 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Homepage />
         <Router>
+          <Subject  path="/subject"/>
           <Class path="/class/:id" />
           <About path="/about" />
           <Contact path="/contact" />
         </Router>
+        
       <Footer />
       {value && <p>{JSON.stringify(value.data())}</p>}
     </div>

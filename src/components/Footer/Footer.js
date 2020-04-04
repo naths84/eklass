@@ -4,14 +4,14 @@ import styles from "./footer.css"
 
 
 const ColumnLink = props => (
-    <li style={{ display: "block", fontSize: "18px"}}>
+    <li style={{ display: "inline-block", fontSize: "15px", marginInlineStart: "10px", marginInlineEnd: "10px"}}>
       <Link to={props.to} >{props.children}</Link>
     </li>
 )
   
 const Footer = (props) => {
     return (
-        <div>
+        <div style={{ position: "absolute", bottom: "0", width: "100%"}}>
              <footer>
                 <ul>
                     <ColumnLink to="/about/">About</ColumnLink>
