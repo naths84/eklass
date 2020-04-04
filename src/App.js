@@ -12,6 +12,8 @@ import Class from './components/Class/Class';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Subject from './components/Subjects/Subjects';
+import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp';
 
 import './App.css';
 import Homepage from './components/Homepage/Homepage';
@@ -44,6 +46,8 @@ function App() {
         <Class path="/class/:id" />
         <About path="/about" />
         <Contact path="/contact" />
+        <Login path="/login" />
+        <SignUp path="/signup" />
       </Router>
       <Footer />
       {/* {value && <p>{JSON.stringify(value.data())}</p>} */}
