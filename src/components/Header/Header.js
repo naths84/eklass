@@ -18,7 +18,11 @@ const Header = (props) => {
     <div style={{ margin: `auto`, padding: `0 1rem` }}>
       <header style={{ marginBottom: `1.5rem` }}>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand to="/">{t("title")}</Navbar.Brand>
+          <Navbar.Brand >
+            <Link to="/">
+            {t("title")}
+            </Link>
+          </Navbar.Brand>
 
           <button type="button" onClick={() => changeLanguage("en")}>
             {t("translation:en")}

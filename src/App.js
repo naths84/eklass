@@ -38,16 +38,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Homepage />
-        <Router>
-          <Subject  path="/subject"/>
-          <Class path="/class/:id" />
-          <About path="/about" />
-          <Contact path="/contact" />
-        </Router>
-        
+      <Router>
+        <Homepage path="/" />
+        <Subject path="/subject"/>
+        <Class path="/class/:id" />
+        <About path="/about" />
+        <Contact path="/contact" />
+      </Router>
       <Footer />
-      {value && <p>{JSON.stringify(value.data())}</p>}
+      {/* {value && <p>{JSON.stringify(value.data())}</p>} */}
     </div>
   );
 }
