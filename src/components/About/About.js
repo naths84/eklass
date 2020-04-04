@@ -12,7 +12,7 @@ const About = (props) => {
       </div>
       
       <div class="jumbotron">
-      <h1 style={{ textAlign: "left", marginLeft: "30px"}}>Presentation</h1>
+      <h1 style={{ textAlign: "left", marginLeft: "30px", marginBottom: "30px"}}>Presentation</h1>
         <p class="text-left">The worldwide coronavirus crisis is a unique opportunity to propose a global platform for school girls and boys, students and teachers across the world to communicate and learn.
           Our idea is to propose a platform focused on the learning of mathematics through practice. We want to provide an extensive program arranged by topics going through all school levels before university.
           Given a selection of chosen topics and range of levels, the student will be able to randomly generate a chosen number of unique exercises and practice on them. She/he will then have access to detailed automated feedback about each exercise's resolution.
