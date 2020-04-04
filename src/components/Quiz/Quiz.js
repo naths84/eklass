@@ -1,6 +1,4 @@
 import React from 'react'
-import XMLViewer from 'react-xml-viewer'
-//import xmlText from 'equations_deuxieme_degre.xml'
 
 
 const xml = '<hello>World</hello>'
