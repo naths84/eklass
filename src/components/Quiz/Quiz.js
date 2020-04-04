@@ -1,29 +1,16 @@
-import React from 'react'
+import React, { Component } from "react";
+//import XMLViewer from './react-xml-viewer';
+//import xmlText from './equations_deuxieme_degre.xml'
+import DataContent from "./DataContent";
 
+const xml = "<hello>World</hello>";
 
-const xml = '<hello>World</hello>'
-
-/*const equations_deuxieme_degre={
-    question: "quel est le delta de ?",
-    answer: 3,
-    // etc
-}*/
-
-//<Quiz quiz={equations_deuxieme_degre} />
-
-class Quiz extends React.Component{
-   render(){
-       const question = this.props.equations_deuxieme_degre.text;
-       return(
-           <div className="Quiz">
-               <div className="Quest">
-                   {question}
-               </div>
-               <div className="Rep"></div>
-           </div>
-       );
-   }
-}
-
+const Quiz = () => {
+  return (
+    <div>
+      <h1>Quiz</h1>
+      <DataContent />
+    </div>
+  );
+};
 export default Quiz;
-
