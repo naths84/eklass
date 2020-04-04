@@ -24,6 +24,7 @@
   @media only screen and (max-width:800px){
     .container{
         flex-direction: column;
+        margin-top: 30px;
     }
     .square{
         height: 125px;
