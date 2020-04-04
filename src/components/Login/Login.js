@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 
 import handleGoogleAuth from "utils/googleAuth";
+import firebase from 'config/firebase';
 
 const Login = () => {
   const [emailValue, setEmailValue] = useState('')
   const [passwordValue, setPasswordValue] = useState('')
   const handleEmailInputChange = e => {
-      setEmailValue(e.target.value)
+    setEmailValue(e.target.value)
   }
   const handlePasswordInputChange = e => {
     setPasswordValue(e.target.value)
@@ -17,7 +18,14 @@ const Login = () => {
     console.log(emailValue);
     console.log(passwordValue);
   }
-
+  const handlePasswordAuth = () => {
+    firebase.auth().signInWithEmailAndPassword(emailValue, passwordValue).catch(function(error) {
+      // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      // ...
+    });
+  }
   return (
     <>
       <form onSubmit={handleFormSubmit}>
@@ -59,14 +67,14 @@ const Login = () => {
           </div>
         </div>
 
-        <button type="submit" className="btn btn-primary btn-block">
+        <button type="submit" className="btn btn-primary btn-block" onClick={handlePasswordAuth}>
           Submit
         </button>
         <p className="forgot-password text-right">
           Forgot <a href="#">password?</a>
         </p>
         <p className="forgot-password text-center">
-          Don't have an account yet ? <a href="/SignUp">Register here</a>
+          Don't have an account yet ? <a href="/signup">Register here</a>
         </p>
       </form>
       <button onClick={handleGoogleAuth}>login with google</button>
