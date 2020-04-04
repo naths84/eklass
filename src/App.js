@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import {Router} from '@reach/router';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
+import logo from 'logo.svg';
 import { useDocumentData, useDocument } from 'react-firebase-hooks/firestore';
 
 import { db, auth } from './config/firebase';
@@ -17,7 +18,8 @@ import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 
-import './App.css';
+import styles from './App.module.css';
+
 
 function App() {
   const [user, loading, error] = useAuthState(auth)
@@ -29,8 +31,9 @@ function App() {
   }, [user, loading, error])
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Header user={user} />
+
       <Router>
         <Homepage path="/" />
         <Subjects path="/class/:classId"/>

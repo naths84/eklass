@@ -5,8 +5,9 @@ import { Navbar, Nav, NavDropdown} from "react-bootstrap";
 
 import { useTranslation } from "react-i18next";
 
-import authSignOut from 'utils/authSignOut';
+import Vector from 'components/Vector/Vector';
 
+import authSignOut from 'utils/authSignOut';
 import styles from "./header.module.css";
 
 const Header = (props) => {
@@ -20,7 +21,10 @@ const Header = (props) => {
     <div style={{ margin: `auto`}}>
       <header style={{ marginBottom: `1.5rem` }}>
         <Navbar bg="dark" expand="lg">
-          <Navbar.Brand href="/">{t("title")}</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <Vector type='logo' className={styles.logo} />
+            {t("title")}
+          </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 
