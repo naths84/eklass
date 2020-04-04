@@ -32,7 +32,7 @@ const SignUp = () => {
 
   const handlePasswordAuth = async (emailValue, passwordValue, displayName) => {
     try {
-      const submission = await createUserWithEmailAndPassword(emailValue, passwordValue)
+      const submission = await createUserWithEmailAndPassword(emailValue, passwordValue, displayName);
       if (submission.type === 'error') {
         setRegistrationError(submission);
       }
