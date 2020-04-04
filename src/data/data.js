@@ -15,9 +15,9 @@ const data = {
   },
 
   subjects: {
-    "id-001": "functions and algebra",
+    "id-001": "functions&algebra",
     "id-002": "numbers",
-    "id-003": "quantities and measurements",
+    "id-003": "quantities&measurements",
   },
 };
 
