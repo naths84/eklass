@@ -3,7 +3,6 @@
     margin: 10%;
     height: 200px;
     width:200px;
-    z-index: 2;
 }
 
 .square a {
@@ -20,6 +19,7 @@
     height:500px;
     margin-top: 75px;
   }
+
 
   @media only screen and (max-width:800px){
     .container{

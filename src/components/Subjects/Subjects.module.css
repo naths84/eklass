@@ -3,8 +3,29 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  background-color: #3f579c;
+  height:500px;
+  margin-top: 75px;
+  width: 800px; 
+}
+
+.container button a {
+  color: white;
+  background-color:white;
+}
+
+.test{
+  display: flex;
+  justify-content:space-around;
+
 }
 
 .container button {
   margin: 1rem 0;
+}
+
+.square {
+  margin: 10%;
+  height: 200px;
+  width:200px;
 }
