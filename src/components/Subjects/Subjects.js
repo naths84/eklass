@@ -24,7 +24,7 @@ const Subjects = ({ classId }) => {
     <div className={styles.container}>
       <h2>{t("subjectPageTitle")}</h2>
       {currentClassLevelData.subjects.map(subject => (
-        <Subject key={`subject-${subject.id}`}>{subject.name}</Subject>
+        <Subject key={`subject-${subject.id}`}>{t(subject.name)}</Subject>
       ))}
     </div>
   );

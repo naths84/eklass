@@ -1,6 +1,11 @@
 {
     "title": "Fr eclass",
     "loginItem": "Se connecter",
+    "about": "A propos",
 
-    "subjectPageTitle": "Matières"
+    "subjectPageTitle": "Matières",
+
+    "functions&algebra": "Fonctions et Algèbre",
+    "numbers": "Nombres",
+    "quantities&measurements": "Quantitées and Mesures"
 }
