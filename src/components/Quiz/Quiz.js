@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
-import MathJax from 'react-mathjax2'
+import React, { Component } from "react";
+//import XMLViewer from './react-xml-viewer';
+//import xmlText from './equations_deuxieme_degre.xml'
+import DataContent from "./DataContent";
 
-const xml = '<hello>World</hello>'
-const tex = `f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi`
+const xml = "<hello>World</hello>";
 
-
-export default function Quiz() {
-    return (
-        <div>
-            <MathJax.Context input='tex'>
-                <div>
-                    This is an inline math formula: <MathJax.Node inline> { `f(x) = \\int_{-\\infty}^\\infty\\hat f(\\xi)\\,e^{2 \\pi i \\xi x}\\,d\\xi` }</MathJax.Node>
-                </div>
-            </MathJax.Context>
-        </div>
-    );
-}
+const Quiz = () => {
+  return (
+    <div>
+      <h1>Quiz</h1>
+      <DataContent />
+    </div>
+  );
+};
+export default Quiz;

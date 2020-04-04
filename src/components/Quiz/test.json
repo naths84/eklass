@@ -1,0 +1,31 @@
+[
+        {
+          "-type": "cloze",
+          "name": { "text": "calculer canonique, delta et nb solutions 1" },
+          "questiontext": {
+            "-format": "html",
+            "text": "<p>Mettre l'équation \\[-37\\cdot  x^2-36\\cdot  x-19=-15\\cdot  x^2+15\\cdot  x\\] sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\], calculer la valeur de \\[\\Delta \\] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de \\[\\Delta\\].)<br><br>Réponses:<br><br>\\[a=\\]{1:NUMERICAL:=-22:0.1}<br>\\[b=\\]{1:NUMERICAL:=-51:0.1}<br>\\[c=\\]{1:NUMERICAL:=-19:0.1}<br>\\[\\Delta=\\]{1:NUMERICAL:=929:0.1}<br>L'équation a {1:MCS:%100%2~1~0} soution(s) réelle(s).<br><br></p>"
+          },
+          "generalfeedback": {
+            "-format": "html",
+            "text": "<p><br>On met l'équation \\[-37\\cdot  x^2-36\\cdot  x-19=-15\\cdot  x^2+15\\cdot  x\\] sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\]. <br><br>\\(-37\\cdot  x^2-36\\cdot  x-19=-15\\cdot  x^2+15\\cdot  x\\).<br>\\(-22\\cdot  x^2-36\\cdot  x-19=15\\cdot  x\\text{ où on a soustrait de chaque côté }-15\\cdot  x^2\\). <br>\\(-22\\cdot  x^2-51\\cdot  x-19=0\\text{ où on a soustrait de chaque côté }15\\cdot  x\\). <br><br> Ainsi, \\[a=-22,b=-51 \\text{ et } c=-19\\].<br><br> On peut maintenant calculer la valeur de \\[\\Delta\\]: <br> \\(\\Delta=b^2-4\\cdot a \\cdot c=(-51)^2-4\\cdot (-22)\\cdot (-19)=929. \\)<br><br> Vu que \\[\\Delta>0\\], l'équation a deux solutions réelles.</p>"
+          },
+          "penalty": "0",
+          "hidden": "0"
+        },
+        {
+          "-type": "cloze",
+          "name": { "text": "calculer canonique, delta et nb solutions 2" },
+          "questiontext": {
+            "-format": "html",
+            "text": "<p>Mettre l'équation \\[-33\\cdot  x^2+9\\cdot  x+48=-24\\cdot  x^2\\] sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\], calculer la valeur de \\[\\Delta \\] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de \\[\\Delta\\].)<br><br>Réponses:<br><br>\\[a=\\]{1:NUMERICAL:=-9:0.1}<br>\\[b=\\]{1:NUMERICAL:=9:0.1}<br>\\[c=\\]{1:NUMERICAL:=48:0.1}<br>\\[\\Delta=\\]{1:NUMERICAL:=1809:0.1}<br>L'équation a {1:MCS:%100%2~1~0} soution(s) réelle(s).<br><br></p>"
+          },
+          "generalfeedback": {
+            "-format": "html",
+            "text": "<p><br>On met l'équation \\[-33\\cdot  x^2+9\\cdot  x+48=-24\\cdot  x^2\\] sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\]. <br><br>\\(-33\\cdot  x^2+9\\cdot  x+48=-24\\cdot  x^2\\).<br>\\(-9\\cdot  x^2+9\\cdot  x+48=0\\text{ où on a soustrait de chaque côté }-24\\cdot  x^2\\). <br><br> Ainsi, \\[a=-9,b=9 \\text{ et } c=48\\].<br><br> On peut maintenant calculer la valeur de \\[\\Delta\\]: <br> \\(\\Delta=b^2-4\\cdot a \\cdot c=9^2-4\\cdot (-9)\\cdot 48=1809. \\)<br><br> Vu que \\[\\Delta>0\\], l'équation a deux solutions réelles.</p>"
+          },
+          "penalty": "0",
+          "hidden": "0"
+        }
+]
+
