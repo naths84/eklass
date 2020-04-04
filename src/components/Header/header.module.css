@@ -1,13 +1,16 @@
 .link {
-  margin: 0 7rem;
-
+    margin-left: 20px;
+    margin-right: 20px;
+    color: red;
 }
 
+  
 .logo {
-  width: 2rem;
-  height: auto;
+    width: 50px;
+
 }
 
+/* 
 button{
-  flex: 1;
-}
+    flex: 1;
+} */

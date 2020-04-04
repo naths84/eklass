@@ -18,42 +18,45 @@ const Header = (props) => {
   };
 
   return (
-    <div style={{ margin: `auto`}}>
-      <header style={{ marginBottom: `1.5rem` }}>
-        <Navbar bg="dark" expand="lg">
-          <Navbar.Brand href="/">
-            <Vector type='logo' className={styles.logo} />
-            {t("title")}
-          </Navbar.Brand>
+    <div className={styles.mynavbar}>
+      <header>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand href="/">
+                <Vector type='logo' className={styles.logo} />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                
+                </Nav>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Nav className="nav-right">
+                    <NavDropdown title="Languages" id="collasible-nav-dropdown" className={styles.link}>
+                        <NavDropdown.Item onClick={() => changeLanguage("en")}>
+                            {t("translation:English")}
+                        </NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => changeLanguage("fr")}>
+                            {t("translation:Français")}
+                        </NavDropdown.Item>
+                    </NavDropdown>
 
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Link className={styles.link} to="/">Quiz</Link>              
-              <Link className={styles.link} to="/login">{t("loginItem")}</Link>              
-              <Link className={styles.link} to={`/class/${Math.ceil(Math.random() * 10)}`}>Class</Link>
-            </Nav>
-            <NavDropdown title="Languages" id="collasible-nav-dropdown">
-              <NavDropdown.Item>
-              <button type="button" onClick={() => changeLanguage("en")}>
-                {t("translation:en")}
-              </button>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <button type="button" onClick={() => changeLanguage("fr")}>
-                  {t("translation:fr")}
-                </button>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/">Know another language ? Help us now </NavDropdown.Item>
-            </NavDropdown>
-          </Navbar.Collapse>
+                    <Nav.Link className={styles.link} > 
+                        <Link to="/login" style={{ textDecoration: 'none' }}>
+                            {t("loginItem")}
+                        </Link>
+                    </Nav.Link>
+                    
+                    <Nav.Link onClick={authSignOut} className={styles.link}>
+                        <Link to="/signout" style={{ textDecoration: 'none' }}>
+                            {t("signoutItem")}
+                        </Link>
+                    </Nav.Link>
 
-          <button onClick={authSignOut}>Sign out</button>
-          
-          <Nav>{props.user && props.user.displayName}</Nav>
+                    <Nav>{props.user && props.user.displayName}</Nav>
+                </Nav>
+            </Navbar.Collapse>
         </Navbar>
+
       </header>
     </div>
   );
