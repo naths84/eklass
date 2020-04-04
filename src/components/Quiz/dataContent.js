@@ -3,25 +3,22 @@ import React, { Component } from "react";
 //import xmlText from './equations_deuxieme_degre.xml'
 import jsonData from "./eq_sec_deg.json";
 import jsonTestData from "./test.json";
-    console.log(jsonData);
+console.log(jsonData);
 
 class DataContent extends Component {
+  constructor() {
+    super()
+    this.questions = jsonData.quiz.question[0];
+  }
   render() {
     return (
       <div>
         <h1>Quiz</h1>
-        {jsonTestData.map((elem, i) => {
-          console.log(elem)
-          return (
-            <div key={`question-element-${i}`}>
-              <h1>{elem['-type']}</h1>
-              <p>{elem.name.text}</p> 
-              <div dangerouslySetInnerHTML={{__html: elem.questiontext.text}} />
-            </div>
-          );
-        })}
+        <h1>{this.question.type}</h1>
+        <p>{this.question.name.text}</p>
+        <div dangerouslySetInnerHTML={{ __html: this.question.questiontext.text }} />
       </div>
-    );
+    )
   }
 }
 
