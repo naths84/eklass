@@ -6,19 +6,20 @@ import mockData from "../../data/data";
 
 import styles from "./homepage.module.css";
 
+
 const Class = (props) => {
   return (
-    <Link to={props.to}>
-      <Button className={styles.square} variant="primary" size="lg">
-        {props.children}
-      </Button>
-    </Link>
+         <Link  to={props.to}>
+         <Button className={styles.square} variant="outline-primary" size="lg">
+          {props.children}
+          </Button>
+          </Link>
   );
 };
 
 const Homepage = (props) => {
   return (
-    <div className="mb-2">
+    <div className="mb-2" className={styles.container}>
       {mockData &&
         Object.values(mockData.classLevels).map((classLevel) => {
           const { name } = classLevel;
