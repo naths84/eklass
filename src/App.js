@@ -18,8 +18,8 @@ import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import Quiz from './components/Quiz/Quiz';
-import styles from './App.module.css';
 
+import styles from './App.module.css';
 
 function App() {
   const [user, loading, error] = useAuthState(auth)
@@ -42,6 +42,7 @@ function App() {
         <Contact path="/contact" />
         <Login path="/login" />
         <SignUp path="/signup" />
+        <Quiz path="/quiz" />
       </Router>
       <Footer />
     </div>
