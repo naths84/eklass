@@ -2,21 +2,20 @@ import React, { useEffect } from 'react';
 import {Router} from '@reach/router';
 import { useDocumentData, useDocument } from 'react-firebase-hooks/firestore';
 
-import firebase, { db } from './config/firebase';
+import { db } from './config/firebase';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 // Pages
-import Class from './components/Class/Class';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Subject from './components/Subjects/Subjects';
+import Homepage from './components/Homepage/Homepage';
+import Subjects from './components/Subjects/Subjects';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 
 import './App.css';
-import Homepage from './components/Homepage/Homepage';
 
 function App() {
   const [value, loading, error] = useDocument(
@@ -42,15 +41,13 @@ function App() {
       <Header />
       <Router>
         <Homepage path="/" />
-        <Subject path="/subject"/>
-        <Class path="/class/:id" />
+        <Subjects path="/class/:classId"/>
         <About path="/about" />
         <Contact path="/contact" />
         <Login path="/login" />
         <SignUp path="/signup" />
       </Router>
       <Footer />
-      {/* {value && <p>{JSON.stringify(value.data())}</p>} */}
     </div>
   );
 }

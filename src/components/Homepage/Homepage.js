@@ -1,28 +1,39 @@
-import React from "react"
+import React from "react";
 import { Link } from "@reach/router";
-
 import { Button } from "react-bootstrap";
 
-import "./homepage.css"
+import mockData from "../../data/data";
+
+import styles from "./homepage.module.css";
 
 const Class = (props) => {
-    return (
-        <Button className="square" href="#Subjects" variant="primary" size="lg">
-            {props.children}
-            <Link to={props.to} >{props.children}</Link>
-        </Button>
-    )
-}
+  return (
+    <Link to={props.to}>
+      <Button className={styles.square} variant="primary" size="lg">
+        {props.children}
+      </Button>
+    </Link>
+  );
+};
 
 const Homepage = (props) => {
-    return (
-        <div className="mb-2">
-            <Class to="/class/9">9e</Class>
-            <Class to="/class/10">10e</Class>
-            <Class to="/class/11">11e</Class>
-        </div>
-        
-    )
-} 
+  return (
+    <div className="mb-2">
+      {mockData &&
+        Object.values(mockData.classLevels).map((classLevel) => {
+          const { name } = classLevel;
+          return (
+            <Class
+              key={`class-${name}`}
+              to={`/class/${name}`}
+              classData={classLevel}
+            >
+              {name}
+            </Class>
+          );
+        })}
+    </div>
+  );
+};
 
 export default Homepage;

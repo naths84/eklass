@@ -1,8 +1,11 @@
 import React from "react";
-
+import { useTranslation } from "react-i18next";
 import { Button } from "react-bootstrap";
 
-import "./subjects.css";
+import getClassLevelData from 'utils/getClassLevelData';
+import mockData from "data/data";
+
+import styles from "./Subjects.module.css";
 
 const Subject = (props) => {
   return (
@@ -12,12 +15,17 @@ const Subject = (props) => {
   );
 };
 
-const Subjects = (props) => {
+const Subjects = ({ classId }) => {
+  const { t } = useTranslation();
+
+  const currentClassLevelData = getClassLevelData(classId, mockData);
+
   return (
-    <div className="mb-2">
-      <Subject>9e</Subject>
-      <Subject>10e</Subject>
-      <Subject>11e</Subject>
+    <div className={styles.container}>
+      <h2>{t("subjectPageTitle")}</h2>
+      {currentClassLevelData.subjects.map(subject => (
+        <Subject key={`subject-${subject.id}`}>{subject.name}</Subject>
+      ))}
     </div>
   );
 };
