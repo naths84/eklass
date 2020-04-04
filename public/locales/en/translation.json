@@ -1,6 +1,12 @@
 {
     "title": "En eclass",
     "loginItem": "Login",
+    "signoutItem": "Sign out",
+    "about": "About",
 
-    "subjectPageTitle": "Subjects"
+    "subjectPageTitle": "Subjects",
+
+    "functions&algebra": "Functions and Algebra",
+    "numbers": "Numbers",
+    "quantities&measurements": "Quantities and Measurements"
 }

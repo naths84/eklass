@@ -21,13 +21,13 @@ const Subjects = ({ classId }) => {
   const currentClassLevelData = getClassLevelData(classId, mockData);
 
   return (
-    <div className={styles.test}>
-      <div className={styles.container}>
-       <h2>{t("subjectPageTitle")}</h2>
-       {currentClassLevelData.subjects.map(subject => (
-        <Subject key={`subject-${subject.id}`}>{subject.name}</Subject>
-       ))}
-       </div>
+<div className={styles.test}>
+<div className={styles.container}>
+      <h2>{t("subjectPageTitle")}</h2>
+      {currentClassLevelData.subjects.map(subject => (
+        <Subject key={`subject-${subject.id}`}>{t(subject.name)}</Subject>
+      ))}
+    </div>
     </div>
   );
 };
