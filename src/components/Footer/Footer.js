@@ -5,7 +5,7 @@ import styles from "./footer.css"
 
 const ColumnLink = props => (
     <li style={{ display: "inline-block", fontSize: "15px", marginInlineStart: "10px", marginInlineEnd: "10px", marginTop: "30px"}}>
-      <Link to={props.to} >{props.children}</Link>
+      <Link  style={{color:"#44A49C"}} to={props.to} >{props.children}</Link>
     </li>
 )
   
@@ -15,8 +15,8 @@ const Footer = (props) => {
         <div >
              <footer>
                 <ul>
-                    <ColumnLink to="/about/">{t("about")}</ColumnLink>
-                    <ColumnLink to="/contact/">Contact</ColumnLink>
+                    <ColumnLink  to="/about/">{t("about")}</ColumnLink>
+                    <ColumnLink   to="/contact/">Contact</ColumnLink>
                 </ul>
             </footer>
         </div>

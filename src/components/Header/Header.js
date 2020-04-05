@@ -30,9 +30,9 @@ const Header = (props) => {
                 
                 </Nav>
 
-                <Nav className="nav-right">
-                    <NavDropdown title="Languages" id="collasible-nav-dropdown" className={styles.link}>
-                        <NavDropdown.Item onClick={() => changeLanguage("en")}>
+                <Nav className="nav-right" >
+                    <NavDropdown  title="Languages" id="collasible-nav-dropdown" className={styles.link}>
+                        <NavDropdown.Item  onClick={() => changeLanguage("en")}>
                             {t("translation:English")}
                         </NavDropdown.Item>
                         <NavDropdown.Item onClick={() => changeLanguage("fr")}>
@@ -40,14 +40,14 @@ const Header = (props) => {
                         </NavDropdown.Item>
                     </NavDropdown>
 
-                    <Nav.Link className={styles.link} > 
-                        <Link to="/login" style={{ textDecoration: 'none' }}>
+                    <Nav.Link > 
+                        <Link  to="/login" style={{ textDecoration: 'none', color:"#44A49C"}}>
                             {t("loginItem")}
                         </Link>
                     </Nav.Link>
                     
                     <Nav.Link onClick={authSignOut} className={styles.link}>
-                        <Link to="/signout" style={{ textDecoration: 'none' }}>
+                        <Link  to="/signout" style={{ textDecoration: 'none', color:"#44A49C"}}>
                             {t("signoutItem")}
                         </Link>
                     </Nav.Link>
