@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from "react";
+import LatexyString from 'components/LatexyString/LatexyString';
 
 const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
   const { label, text, responses, correctResponse } = inputItem;
@@ -19,7 +20,7 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
 
   return (
     <div>
-      <label>{inputItem.label}</label>
+      <label><LatexyString string={inputItem.label} /></label>
       { displayErrors && !isValid && <span>{'useful error message'}</span> }
       <span>
         {splitText[0]}

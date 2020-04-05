@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MathJax from "react-mathjax2";
+import LatexyString from 'components/LatexyString/LatexyString';
 
 const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
   const { correctResponse, decimal } = inputItem;
@@ -18,7 +18,7 @@ const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
 
   return (
     <div>
-      <label>{inputItem.label}</label>
+      <label><LatexyString string={inputItem.label} /></label>
       { displayErrors && !isValid && <span>{'useful error message'}</span> }
       <input
         type="number"

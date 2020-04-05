@@ -1,5 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
 import MathJax from "react-mathjax2";
+import LatexyString from 'components/LatexyString/LatexyString';
 
 import style from "./Question.module.css";
 
@@ -7,8 +8,7 @@ import NumberInput from './Inputs/NumberInput';
 import SelectInput from './Inputs/SelectInput';
 
 import data from "./question-example.json";
-
-const splitLatexStrings = string => string.split(/[|]/);
+import { Spinner } from "react-bootstrap";
 
 const Question = () => {
   const {
@@ -45,10 +45,24 @@ const Question = () => {
     })
   };
 
+  const renderLatexyString = (string) => {
+    const splitText = string.split(/\[|\]/)
+    return (
+      splitText.map(splitTextItem => {
+        if (splitTextItem.includes('startlatex') && splitTextItem.includes('endlatex')) {
+          let latexString = splitTextItem.replace('startlatex', '').replace('endlatex', '');
+           return <MathJax.Node>{latexString}</MathJax.Node>;
+        } else {
+          return <span>{splitTextItem}</span>
+        }
+      })
+    )
+  }
+
   return (
-    <div>
+    <div className={style.container} >
       <h2>{name.text}</h2>
-      <p dangerouslySetInnerHTML={{ __html: questiontext.text }} />
+      <p><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>
       {questionInputs &&
         Object.keys(questionInputs).map((key) => {
