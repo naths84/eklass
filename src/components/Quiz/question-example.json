@@ -1,57 +1,53 @@
-{
-    "type": "cloze",
-    "name": {
-        "text": "calculer canonique, delta et nb solutions 11"
-    },
-    "questiontext": {
-        "format": "text", 
-        "text": "Mettre l'équation [startlatex -21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37 endlatex] sous la forme [startlatex a\\cdot x^2+b\\cdot x+c=0 endlatex], calculer la valeur de [startlatex \\Delta endlatex] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de [startlatex \\Delta endlatex].)"
-    },
-    "responseText": {
-      "text": "Réponses:"
-    }, 
-    "questionInputs": {
-      "input1": {
-        "label": "[startlatex a= endlatex]" ,
-        "type": "number",
-        "value": "{1:NUMERICAL:=-39:0.1}",
-        "correctResponse": "39",
-        "decimal": "0.1"
-      },
-      "input2": {
-        "label": "[startlatex b= endlatex]",
-        "type": "number",
-        "value": "{1:NUMERICAL:=3:0.1}",
-        "correctResponse": "3",
-        "decimal": "0.1"
-      },
-      "input3": {
-        "label": "[startlatex c= endlatex]",
-        "type": "number",
-        "value": "{1:NUMERICAL:=2:0.1}",
-        "correctResponse": "2",
-        "decimal": "0.1"
-      },
-      "input4": {
-        "label": "[startlatex d= endlatex]" ,
-        "type": "number",
-        "value": "{1:NUMERICAL:=321:0.1}",
-        "correctResponse": "2",
-        "decimal": "0.1"
-      },
-      "input5": {
-        "label": "[startlatex e= endlatex]" ,
-        "type": "select",
-        "value": "{1:MCS:%100%2~1~0}",
-        "text": "L'équation a ${input} soution(s) réelle(s).",
-        "responses": ["0", "1", "2"],
-        "correctResponse": "2"
-      }
-    },
-    "generalfeedback": {
-        "format": "html",
-        "text": "<p><br>On met l'équation [startlatex -21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37 endlatex] sous la forme [startlatex a\\cdot x^2+b\\cdot x+c=0 endlatex]. <br><br>[startlatex (-21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37')</MathJax.Node>.<br>[startlatex (-39\\cdot  x^2+7\\cdot  x+39=4\\cdot  x+37\\text{ où on a soustrait de chaque côté }18\\cdot  x^2')</MathJax.Node>. <br>[startlatex (-39\\cdot  x^2+3\\cdot  x+39=37\\text{ où on a soustrait de chaque côté }4\\cdot  x')</MathJax.Node>. <br>[startlatex (-39\\cdot  x^2+3\\cdot  x+2=0\\text{ où on a soustrait de chaque côté }37')</MathJax.Node>.<br><br> Ainsi, [startlatex a=-39,b=3 \\text{ et } c=2 endlatex].<br><br> On peut maintenant calculer la valeur de [startlatex \\Delta endlatex]: <br> [startlatex (\\Delta=b^2-4\\cdot a \\cdot c=3^2-4\\cdot (-39)\\cdot 2=321. ')</MathJax.Node><br><br> Vu que [startlatex \\Delta>0 endlatex], l'équation a deux solutions réelles.</p>"
-    },
-    "penalty": "0",
-    "hidden": "0"
-}
+{ 
+  "type": "cloze ", 
+  "name" :  {"text": "calculer canonique, delta et nb solutions 1 "},
+   "questiontext" : { 
+  "format":"text", 
+  "text":"Mettre l'équation [startlatex -21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37 endlatex] sous la forme [startlatex a\\cdot x^2+b\\cdot x+c=0 endlatex], calculer la valeur de [startlatex \\Delta endlatex] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de [startlatex \\Delta endlatex].)"  
+  }, 
+  "responseText":{ 
+  "text": "Réponses" }, 
+  "questionInputs": { 
+  "input0": { 
+  "label": "[startlatex a= endlatex]", 
+  "type": "number", 
+  "value": "{1:NUMERICAL:=-39:0.1}", 
+  "correctResponse": "39", 
+  "decimal": "0.1" 
+  }, 
+  "input1": { 
+  "label": "[startlatex b= endlatex]", 
+  "type": "number", 
+  "value": "{1:NUMERICAL:=3:0.1}", 
+  "correctResponse": "3", 
+  "decimal": "0.1" 
+  }, 
+  "input2": { 
+  "label": "[startlatex c= endlatex]", 
+  "type": "number", 
+  "value": "{1:NUMERICAL:=2:0.1}", 
+  "correctResponse": "2", 
+  "decimal": "0.1" 
+  }, 
+  "input3": { 
+  "label": "[startlatex d= endlatex]", 
+  "type": "number", 
+  "value": "{1:NUMERICAL:=321:0.1}", 
+  "correctResponse": "2", 
+  "decimal": "0.1" 
+  }, 
+  "input4": { 
+  "label": "[startlatex e= endlatex]", 
+  "type": "select", 
+  "value": "{1:MCS:%100%2~1~0}", 
+  "text": "L'équation a ${input} soution(s) réelle(s).", 
+  "responses": ["0","1","2"], 
+  "correctResponse": "2" 
+  } 
+  }, 
+  "generalfeedback":{ 
+  "format": "html", 
+  "text":"<p><br>On met l'équation [startlatex -21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37 endlatex] sous la forme [startlatex a\\cdot x^2+b\\cdot x+c=0 endlatex]. <br><br>[startlatex (-21\\cdot  x^2+7\\cdot  x+39=18\\cdot  x^2+4\\cdot  x+37')</MathJax.Node>.<br>[startlatex (-39\\cdot  x^2+7\\cdot  x+39=4\\cdot  x+37\\text{ où on a soustrait de chaque côté }18\\cdot  x^2')</MathJax.Node>. <br>[startlatex (-39\\cdot  x^2+3\\cdot  x+39=37\\text{ où on a soustrait de chaque côté }4\\cdot  x')</MathJax.Node>. <br>[startlatex (-39\\cdot  x^2+3\\cdot  x+2=0\\text{ où on a soustrait de chaque côté }37')</MathJax.Node>.<br><br> Ainsi, [startlatex a=-39,b=3 \\text{ et } c=2 endlatex].<br><br> On peut maintenant calculer la valeur de [startlatex \\Delta endlatex]: <br> [startlatex (\\Delta=b^2-4\\cdot a \\cdot c=3^2-4\\cdot (-39)\\cdot 2=321. ')</MathJax.Node><br><br> Vu que [startlatex \\Delta>0 endlatex], l'équation a deux solutions réelles.</p>"},
+  "penality": "0", 
+  "hidden": "0" 
+  }
