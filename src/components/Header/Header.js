@@ -45,12 +45,15 @@ const Header = (props) => {
                 </Nav>
 
                 <Nav className="nav-right" >
-                    <NavDropdown  title="Languages" id="collasible-nav-dropdown" className={styles.link}>
+                    <NavDropdown  title={t("language")} id="collasible-nav-dropdown" className={styles.link}>
                         <NavDropdown.Item  onClick={() => changeLanguage("en")}>
                             {t("translation:English")}
                         </NavDropdown.Item>
                         <NavDropdown.Item onClick={() => changeLanguage("fr")}>
                             {t("translation:Français")}
+                        </NavDropdown.Item>
+                        <NavDropdown.Item onClick={() => changeLanguage("pt")}>
+                            {t("translation:Portuguese")}
                         </NavDropdown.Item>
                     </NavDropdown>
 
