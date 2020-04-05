@@ -172,34 +172,40 @@ class Question extends Component {
     } = this.state;
     return (
       <div className={style.container}>
-				<p>Mettre l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x\ '}</MathJax.Node> sous la forme <MathJax.Node>{ '\a\cdot x^2+b\cdot x+c=0\ '}</MathJax.Node>, calculer la valeur de <MathJax.Node>{'\Delta \ '}</MathJax.Node> et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de <MathJax.Node>{'\Delta\ '}</MathJax.Node>.)</p>
+        <p>
+          Mettre l'équation{" "}
+          <MathJax.Node>
+            {"-37cdot  x^2-36cdot  x-19=-15cdot  x^2+15cdot  x "}
+          </MathJax.Node>{" "}
+          sous la forme <MathJax.Node>{"acdot x^2+bcdot x+c=0 "}</MathJax.Node>,
+          calculer la valeur de <MathJax.Node>{"Delta  "}</MathJax.Node> et
+          déterminer combien de solutions l'équation possède. (Vous pouvez
+          utiliser la calculatrice pour déterminer la valeur de{" "}
+          <MathJax.Node>{"Delta "}</MathJax.Node>.)
+        </p>
         <div>
-          {submitted && (!correctState.a || !emptyState.a) && (
-            <span>error message</span>
-          )}
+          {submitted && !correctState.a && <span>Wrong answer</span>}
+          {submitted && !emptyState.a && <span>Please enter a number</span>}
           <label>a =</label>
           <input type="number" value={a} onChange={this.handleInputAChange} />
         </div>
         <div>
-          {submitted && (!correctState.b || !emptyState.b) && (
-            <span>error message</span>
-          )}
+          {submitted && !correctState.b && <span>Wrong answer</span>}
+          {submitted && !emptyState.b && <span>Please enter a number</span>}
           <label>b =</label>
           <input type="number" value={b} onChange={this.handleInputBChange} />
         </div>
         <div>
-          {submitted && (!correctState.c || !emptyState.c) && (
-            <span>error message</span>
-          )}
+          {submitted && !correctState.c && <span>Wrong answer</span>}
+          {submitted && !emptyState.c && <span>Please enter a number</span>}
           <label>c =</label>
           <input type="number" value={c} onChange={this.handleInputCChange} />
         </div>
 
         <MathJax.Context>
           <div>
-            {submitted && (!correctState.d || !emptyState.d) && (
-              <span>error message</span>
-            )}
+            {submitted && !correctState.d && <span>Wrong answer</span>}
+            {submitted && !emptyState.d && <span>Please enter a number</span>}
             <label>
               <MathJax.Node> {" Delta  "}</MathJax.Node> =
             </label>
@@ -219,16 +225,38 @@ class Question extends Component {
         <button onClick={this.resetForm}>reset</button>
 
         {submitted && (
-					<p>
-						On met l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x'}</MathJax.Node> sous la forme <MathJax.Node>{ 'a\cdot x^2+b\cdot x+c=0'}</MathJax.Node>]. 
-						<MathJax.Node>{ '(-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x)'}</MathJax.Node>.
-						<MathJax.Node>{ '(-22\cdot  x^2-36\cdot  x-19=15\cdot  x\ text{ où on a soustrait de chaque côté }-15\cdot  x^2)'}</MathJax.Node>. 
-						<MathJax.Node>{ '(-22\cdot  x^2-51\cdot  x-19=0\t text{ où on a soustrait de chaque côté }15\cdot  x)'}</MathJax.Node>. 
-						Ainsi, <MathJax.Node>{ 'a=-22,b=-51 \t text{ et } c=-19]'}</MathJax.Node>.
-						On peut maintenant calculer la valeur de <MathJax.Node>{ '[\Delta]'}</MathJax.Node>.: 
-						<MathJax.Node>{ '(\Delta=b^2-4\cdot a \cdot c=(-51)^2-4\cdot (-22)\cdot (-19)=929. )'}</MathJax.Node>
-						Vu que <MathJax.Node>{ '[\Delta>0]'}</MathJax.Node>, l'équation a deux solutions réelles.
-					</p>
+          <p>
+            On met l'équation{" "}
+            <MathJax.Node>
+              {"-37cdot  x^2-36cdot  x-19=-15cdot  x^2+15cdot  x"}
+            </MathJax.Node>{" "}
+            sous la forme <MathJax.Node>{"acdot x^2+bcdot x+c=0"}</MathJax.Node>
+            ].
+            <MathJax.Node>
+              {"(-37cdot  x^2-36cdot  x-19=-15cdot  x^2+15cdot  x)"}
+            </MathJax.Node>
+            .
+            <MathJax.Node>
+              {
+                "(-22cdot  x^2-36cdot  x-19=15cdot  x text{ où on a soustrait de chaque côté }-15cdot  x^2)"
+              }
+            </MathJax.Node>
+            .
+            <MathJax.Node>
+              {
+                "(-22cdot  x^2-51cdot  x-19=0\t text{ où on a soustrait de chaque côté }15cdot  x)"
+              }
+            </MathJax.Node>
+            . Ainsi,{" "}
+            <MathJax.Node>{"a=-22,b=-51 \t text{ et } c=-19]"}</MathJax.Node>.
+            On peut maintenant calculer la valeur de{" "}
+            <MathJax.Node>{"[Delta]"}</MathJax.Node>.:
+            <MathJax.Node>
+              {"(Delta=b^2-4cdot a cdot c=(-51)^2-4cdot (-22)cdot (-19)=929. )"}
+            </MathJax.Node>
+            Vu que <MathJax.Node>{"[Delta>0]"}</MathJax.Node>, l'équation a deux
+            solutions réelles.
+          </p>
         )}
       </div>
     );
