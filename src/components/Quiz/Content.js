@@ -17,14 +17,14 @@ class DataContent extends Component {
       <div>
         <MathJax.Context>
           <div>
-            <h1>Quiz</h1>
+            {/* <h1>Quiz</h1> */}
             
             <Question />
 
-            <h1>{this.question.type}</h1>
+            {/* <h1>{this.question.type}</h1>
             <p>{this.question.name.text}</p>
             <div dangerouslySetInnerHTML={{ __html: this.question.questiontext.text }} />
-            <div dangerouslySetInnerHTML={{ __html: this.question.generalfeedback.text }} />
+            <div dangerouslySetInnerHTML={{ __html: this.question.generalfeedback.text }} /> */}
           </div>
 
 
