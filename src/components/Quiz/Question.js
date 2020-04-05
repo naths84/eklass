@@ -210,7 +210,7 @@ class Question extends Component {
         </MathJax.Context>
 
         <div>
-          <label>How many solutions does the equation has ?</label>
+          <label>Quel est le nombre de solutions de l'équation ?</label>
           <select value={e} onChange={this.handleDropdownChange}>
             <option value="2">2</option>
             <option value="1">1</option>
