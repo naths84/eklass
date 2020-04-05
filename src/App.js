@@ -35,7 +35,7 @@ function App() {
         <Contact path="/contact" />
         <Login path="/login" />
         <SignUp path="/signup" />
-        <Quiz path="/quiz" />
+        <Quiz path="/quiz/:competenceId/:nbOfQuestions" />
         <QuizSetup path="/quizSetup/:subjectId"/>
       </Router>
       {/* <Footer /> */}
