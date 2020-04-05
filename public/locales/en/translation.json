@@ -8,5 +8,24 @@
 
     "functions&algebra": "Functions and Algebra",
     "numbers": "Numbers",
-    "quantities&measurements": "Quantities and Measurements"
+    "quantities&measurements": "Quantities and Measurements",
+
+    "competenceChoice" : "Choose a competence",
+    "nbOfQuestions" : "Choose a number of questions",
+
+    "id-901-c1": "Locating a point in a coordinate plane",
+    "id-902-c1": "Addition and subtraction of whole numbers",
+    "id-902-c2": "Order of operations",
+    "id-902-c3": "Expanding fractions",
+    "id-902-c4": "Simplifying fractions",
+    "id-902-c5": "Obtaining irreducible fractions",
+    "id-902-c6": "Equivalent fractions",
+    "id-902-c7": "A mix of everything!",
+    "id-903-c1": "Conversion of units of measure",
+    "id-1001-c1": "Solving equations of first degree",
+    "id-1002-c1": "Addition of fractions",
+    "id-1003-c1": "Direct application of Pythagoras' Theorem",
+    "id-1101-c1": "Solving quadratic equations",
+    "id-1102-c1": "Simplification of square roots",
+    "id-1103-c1": "Using Pythagoras' Theorem"
 }
