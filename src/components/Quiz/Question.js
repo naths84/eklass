@@ -172,6 +172,7 @@ class Question extends Component {
     } = this.state;
     return (
       <div className={style.container}>
+				<p>Mettre l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x\ '}</MathJax.Node> sous la forme <MathJax.Node>{ '\a\cdot x^2+b\cdot x+c=0\ '}</MathJax.Node>, calculer la valeur de <MathJax.Node>{'\Delta \ '}</MathJax.Node> et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de <MathJax.Node>{'\Delta\ '}</MathJax.Node>.)</p>
         <div>
           {submitted && (!correctState.a || !emptyState.a) && (
             <span>error message</span>
@@ -218,11 +219,16 @@ class Question extends Component {
         <button onClick={this.resetForm}>reset</button>
 
         {submitted && (
-          <div
-            dangerouslySetInnerHTML={{
-              __html: `<![CDATA[<p><br>On met l'équation [-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x] sous la forme [a\cdot x^2+b\cdot x+c=0]. <br><br>(-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x).<br>(-22\cdot  x^2-36\cdot  x-19=15\cdot  x\text{ où on a soustrait de chaque côté }-15\cdot  x^2). <br>(-22\cdot  x^2-51\cdot  x-19=0\text{ où on a soustrait de chaque côté }15\cdot  x). <br><br> Ainsi, [a=-22,b=-51 \text{ et } c=-19].<br><br> On peut maintenant calculer la valeur de [\Delta]: <br> (\Delta=b^2-4\cdot a \cdot c=(-51)^2-4\cdot (-22)\cdot (-19)=929. )<br><br> Vu que [\Delta>0], l'équation a deux solutions réelles.</p>`,
-            }}
-          />
+					<p>
+						On met l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x'}</MathJax.Node> sous la forme <MathJax.Node>{ 'a\cdot x^2+b\cdot x+c=0'}</MathJax.Node>]. 
+						<MathJax.Node>{ '(-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x)'}</MathJax.Node>.
+						<MathJax.Node>{ '(-22\cdot  x^2-36\cdot  x-19=15\cdot  x\ text{ où on a soustrait de chaque côté }-15\cdot  x^2)'}</MathJax.Node>. 
+						<MathJax.Node>{ '(-22\cdot  x^2-51\cdot  x-19=0\t text{ où on a soustrait de chaque côté }15\cdot  x)'}</MathJax.Node>. 
+						Ainsi, <MathJax.Node>{ 'a=-22,b=-51 \t text{ et } c=-19]'}</MathJax.Node>.
+						On peut maintenant calculer la valeur de <MathJax.Node>{ '[\Delta]'}</MathJax.Node>.: 
+						<MathJax.Node>{ '(\Delta=b^2-4\cdot a \cdot c=(-51)^2-4\cdot (-22)\cdot (-19)=929. )'}</MathJax.Node>
+						Vu que <MathJax.Node>{ '[\Delta>0]'}</MathJax.Node>, l'équation a deux solutions réelles.
+					</p>
         )}
       </div>
     );

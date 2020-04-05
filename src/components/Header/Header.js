@@ -22,7 +22,7 @@ const Header = (props) => {
       <header>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">
-                <Vector type='logo' className={styles.logo} />
+                <Vector type='logo-small' className={styles.logo} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
