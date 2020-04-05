@@ -23,6 +23,7 @@
 .subject {
   color: white;
   border-color: white;
+  width: 250px;
 }
 
 .container button {

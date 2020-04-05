@@ -17,13 +17,13 @@ const data = {
   subjects: {
     "id-901": "functions&algebra",
     "id-902": "numbers",
-    "id-903": "quantities&measurements",
+    "id-903": "units&sizes",
     "id-1001": "functions&algebra",
     "id-1002": "numbers",
-    "id-1003": "quantities&measurements",
+    "id-1003": "units&sizes",
     "id-1101": "functions&algebra",
     "id-1102": "numbers",
-    "id-1103": "quantities&measurements",
+    "id-1103": "units&sizes",
   },
 
   subjectCompetences: {

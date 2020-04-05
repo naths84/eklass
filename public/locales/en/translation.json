@@ -6,14 +6,14 @@
     "loginItem": "Login",
     "signoutItem": "Sign out",
     "about": "About",
-    "team": "Out team",
+    "team": "Our team",
     "contact": "Contact",
 
     "subjectPageTitle": "Subjects",
 
     "functions&algebra": "Functions and Algebra",
     "numbers": "Numbers",
-    "quantities&measurements": "Quantities and Measurements",
+    "units&sizes": "Units and Sizes",
 
     "competenceChoice" : "Choose a competence",
     "nbOfQuestions" : "Choose a number of questions",
