@@ -27,7 +27,21 @@ const Header = (props) => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                
+                    <Nav.Link className={styles.leftlink}> 
+                        <Link  to="/about/" style={{ textDecoration: 'none', color:"#44A49C"}}>
+                            {t("about")}
+                        </Link>
+                    </Nav.Link>
+                    <Nav.Link className={styles.leftlink}> 
+                        <Link  to="/login" style={{ textDecoration: 'none', color:"#44A49C"}}>
+                        {t("team")}
+                        </Link>
+                    </Nav.Link>
+                    <Nav.Link className={styles.leftlink}> 
+                        <Link  to="/contact/" style={{ textDecoration: 'none', color:"#44A49C"}}>
+                        {t("contact")}
+                        </Link>
+                    </Nav.Link>
                 </Nav>
 
                 <Nav className="nav-right" >
