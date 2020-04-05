@@ -20,7 +20,6 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
 
   return (
     <div>
-      <label><LatexyString string={inputItem.label} /></label>
       { displayErrors && !isValid && <span>{'useful error message'}</span> }
       <span>
         {splitText[0]}
