@@ -3,15 +3,15 @@
     margin: 10%;
     height: 200px;
     width:200px;
-
-    color: white;
-    border-color: white;
 }
 
-.square a {
-    color: white;
-    background-color:white;
+
+.square:hover{
+    background-color:#44A49C;
+    color:white;
+    opacity:0.6;
 }
+
 
 .container {
     display: flex;
