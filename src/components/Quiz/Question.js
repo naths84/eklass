@@ -36,7 +36,6 @@ class Question extends Component {
   }
 
   resetForm = () => {
-    console.log("here");
     this.setState({
       submitted: false,
       isCorrect: false,
@@ -96,7 +95,6 @@ class Question extends Component {
   };
 
   handleSubmit = (event) => {
-    console.log("handleSubmit");
     event.preventDefault();
 
     this.setState({
@@ -106,7 +104,6 @@ class Question extends Component {
     const placeholderCorrectState = { ...this.state.correctState };
     const placeholderEmptyState = { ...this.state.emptyState };
 
-    // console.log(placeHolderCorrectState);
 
     if (this.state.a.length > 0) {
       // alert("a is empty");

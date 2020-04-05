@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {Router} from '@reach/router';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
@@ -19,13 +19,7 @@ import QuizSetup from './components/QuizSetup/QuizSetup';
 import styles from './App.module.css';
 
 function App() {
-  const [user, loading, error] = useAuthState(auth)
-
-  useEffect(() => {
-    console.log('user', user);
-    // console.log('loading : ', loading);
-    // console.log('error', error);
-  }, [user, loading, error])
+  const [user] = useAuthState(auth)
 
   return (
     <div className={styles.App}>
