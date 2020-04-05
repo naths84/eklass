@@ -136,19 +136,19 @@ class Question extends Component {
     //   `${this.state.a} ${this.state.b} ${this.state.c} ${this.state.d} ${this.state.e}`
     // );
 
-    if (parseInt(this.state.a) != -22) {
+    if (parseInt(this.state.a) !== -22) {
       placeholderCorrectState.a = false;
     }
-    if (parseInt(this.state.b) != -51) {
+    if (parseInt(this.state.b) !== -51) {
       placeholderCorrectState.b = false;
     }
-    if (parseInt(this.state.c) != -19) {
+    if (parseInt(this.state.c) !== -19) {
       placeholderCorrectState.c = false;
     }
-    if (parseInt(this.state.d) != 929) {
+    if (parseInt(this.state.d) !== 929) {
       placeholderCorrectState.d = false;
     }
-    if (parseInt(this.state.e) != 2) {
+    if (parseInt(this.state.e) !== 2) {
       placeholderCorrectState.e = false;
     }
 
@@ -161,7 +161,6 @@ class Question extends Component {
   render() {
     const {
       submitted,
-      isCorrect,
       a,
       b,
       c,

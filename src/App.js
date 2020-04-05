@@ -2,10 +2,7 @@ import React, { useEffect } from 'react';
 import {Router} from '@reach/router';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
-import logo from 'logo.svg';
-import { useDocumentData, useDocument } from 'react-firebase-hooks/firestore';
-
-import { db, auth } from './config/firebase';
+import { auth } from './config/firebase';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
