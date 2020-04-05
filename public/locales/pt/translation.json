@@ -1,0 +1,37 @@
+{
+    "title": "Pt eclass",
+    "welcome": "Bem-vindo ao Quome",
+    "quomeGoal": "Revise a matemática através de um número ilimitado de exercícios",
+    "pickClass": "Escolha seu nível de classe entre os seguintes",
+    "loginItem": "Conecte-se",
+    "signoutItem": "Sair",
+    "about": "Sobre",
+    "team": "Nosso time",
+    "contact": "Contate-nos",
+    "language": "Língua",
+
+    "subjectPageTitle": "Disciplinas",
+
+    "functions&algebra": "Funções e álgebra",
+    "numbers": "Números",
+    "units&sizes": "Grandezas et unidades",
+
+    "competenceChoice" : "Escolha uma habilidade",
+    "nbOfQuestions" : "Escolha uma série de perguntas",
+
+    "id-901-c1": "Colocar um ponto num sistema de eixos graduados",
+    "id-902-c1": "Adição e subtração de números relativos",
+    "id-902-c2": "Prioridade de operações",
+    "id-902-c3": "Amplificação de frações",
+    "id-902-c4": "Simplificação de frações",
+    "id-902-c5": "Por uma fração na sua forma irredutível",
+    "id-902-c6": "Frações equivalentes",
+    "id-902-c7": "Tudo misturado!",
+    "id-903-c1": "Conversão de unidades de medida",
+    "id-1001-c1": "Resolução de equações do primeiro grau",
+    "id-1002-c1": "Adição de frações",
+    "id-1003-c1": "Utilização do teorema de Pitágoras",
+    "id-1101-c1": "Resolução de equações do segundo grau",
+    "id-1102-c1": "Extração de raiz",
+    "id-1103-c1": "Utilização do teorema de Pitágoras (e recíproca)"
+}

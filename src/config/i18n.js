@@ -11,7 +11,7 @@ i18n
     debug: true,
     lng: 'en',
     fallbackLng: 'en',
-    whitelist: ['en', 'fr'],
+    whitelist: ['en', 'fr', 'pt'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     },
