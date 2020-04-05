@@ -111,46 +111,48 @@ class Question extends Component {
     if (this.state.a.length > 0) {
       // alert("a is empty");
       placeholderEmptyState.a = false;
-      return;
     }
 
     if (this.state.b.length > 0) {
       // alert("b is empty");
       placeholderEmptyState.b = false;
-      return;
     }
 
     if (this.state.c.length > 0) {
       // alert("c is empty");
       placeholderEmptyState.c = false;
-      return;
     }
 
     if (this.state.d.length > 0) {
       // alert("d is empty");
       placeholderEmptyState.d = false;
-      return;
+    }
+
+    if(this.state.e.length > 0){
+      placeholderEmptyState.e = false;
     }
 
     // alert(
     //   `${this.state.a} ${this.state.b} ${this.state.c} ${this.state.d} ${this.state.e}`
     // );
 
-    if (parseInt(this.state.a) != -22) {
-      placeholderCorrectState.a = false;
+    if (parseInt(this.state.a) == -22) {
+      placeholderCorrectState.a = true;
     }
-    if (parseInt(this.state.b) != -51) {
-      placeholderCorrectState.b = false;
+    if (parseInt(this.state.b) == -51) {
+      placeholderCorrectState.b = true;
     }
-    if (parseInt(this.state.c) != -19) {
-      placeholderCorrectState.c = false;
+    if (parseInt(this.state.c) == -19) {
+      placeholderCorrectState.c = true;
     }
-    if (parseInt(this.state.d) != 929) {
-      placeholderCorrectState.d = false;
+    if (parseInt(this.state.d) == 929) {
+      placeholderCorrectState.d = true;
     }
-    if (parseInt(this.state.e) != 2) {
-      placeholderCorrectState.e = false;
+    if (parseInt(this.state.e) == 2) {
+      placeholderCorrectState.e = true;
     }
+    
+   
 
     this.setState({
       correctState: placeholderCorrectState,
@@ -184,32 +186,32 @@ class Question extends Component {
           <MathJax.Node>{"Delta "}</MathJax.Node>.)
         </p>
         <div>
-          {submitted && !correctState.a && <span>Wrong answer</span>}
-          {submitted && !emptyState.a && <span>Please enter a number</span>}
           <label>a =</label>
           <input type="number" value={a} onChange={this.handleInputAChange} />
+          {submitted && emptyState.a && <span>Please enter a number</span>}
+          {submitted && !emptyState.a && !correctState.a && <span>Wrong answer</span>}
         </div>
         <div>
-          {submitted && !correctState.b && <span>Wrong answer</span>}
-          {submitted && !emptyState.b && <span>Please enter a number</span>}
           <label>b =</label>
           <input type="number" value={b} onChange={this.handleInputBChange} />
+          {submitted && emptyState.b && <span>Please enter a number</span>}
+          {submitted && !emptyState.b && !correctState.b && <span>Wrong answer</span>}
         </div>
         <div>
-          {submitted && !correctState.c && <span>Wrong answer</span>}
-          {submitted && !emptyState.c && <span>Please enter a number</span>}
           <label>c =</label>
           <input type="number" value={c} onChange={this.handleInputCChange} />
+          {submitted && emptyState.c && <span>Please enter a number</span>}
+          {submitted && !emptyState.c && !correctState.c && <span>Wrong answer</span>}
         </div>
 
         <MathJax.Context>
           <div>
-            {submitted && !correctState.d && <span>Wrong answer</span>}
-            {submitted && !emptyState.d && <span>Please enter a number</span>}
             <label>
-              <MathJax.Node> {" Delta  "}</MathJax.Node> =
+              <MathJax.Node>{"Delta  "}</MathJax.Node> =
             </label>
             <input type="number" value={d} onChange={this.handleInputDChange} />
+            {submitted && emptyState.d && <span>Please enter a number</span>}
+            {submitted && !emptyState.d && !correctState.d && <span>Wrong answer</span>}
           </div>
         </MathJax.Context>
 
@@ -220,6 +222,7 @@ class Question extends Component {
             <option value="1">1</option>
             <option value="0">0</option>
           </select>
+            {submitted && !emptyState.e && !correctState.e && <span>Wrong answer</span>}
         </div>
         <button onClick={this.handleSubmit}>Submit</button>
         <button onClick={this.resetForm}>reset</button>
