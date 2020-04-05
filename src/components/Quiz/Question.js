@@ -113,118 +113,6 @@ class Question extends Component {
       placeholderEmptyState.a = false;
       return;
     }
-<<<<<<< HEAD
-    
-    handleInputCChange = event => {
-		this.setState({
-			c: event.target.value
-		})
-	}
-
-	handleInputDChange = event => {
-		this.setState({
-			d: event.target.value
-		})
-	}
-
-	handleDropdownChange = event => {
-		this.setState({
-			e: event.target.value
-		})
-	}
-
-	handleSubmit = event => {
-        event.preventDefault()
-        if(this.state.a.length < 1){
-            alert("a is empty");
-            return;
-        }
-        if(this.state.b.length < 1){
-            alert("b is empty");
-            return;
-        }
-        if(this.state.c.length < 1){
-            alert("c is empty");
-            return;
-        }
-        if(this.state.d.length < 1){
-            alert("d is empty");
-            return;
-        }
-		alert(`${this.state.a} ${this.state.b} ${this.state.c} ${this.state.d} ${this.state.e}`)
-        
-        if(parseInt(this.state.a) != -22){
-            alert("a is wrong ! ")
-        }
-        if(parseInt(this.state.b) != -51){
-            alert("b is wrong ! ")
-        }
-        if(parseInt(this.state.c) != -19){
-            alert("c is wrong ! ")
-        }
-        if(parseInt(this.state.d) != 929){
-            alert("d is wrong ! ")
-        }
-        if(parseInt(this.state.e) != 2){
-            alert("e is wrong ! ")
-        }
-	}
-
-	render() {
-		const { a, b, c, d, e } = this.state
-		return (
-            <div>
-                <p style={{display:"inline-block"}}>Mettre l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x\ '}</MathJax.Node> sous la forme <MathJax.Node>{ '\a\cdot x^2+b\cdot x+c=0\ '}</MathJax.Node>, calculer la valeur de <MathJax.Node>{'\Delta \ '}</MathJax.Node> et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de <MathJax.Node>{'\Delta\ '}</MathJax.Node>.)</p>
-			<form onSubmit={this.handleSubmit}>
-				<div>
-					<label>a =</label>
-					<input
-                        type="number"
-                        value={a}
-						onChange={this.handleInputAChange}
-					/>
-				</div>
-                <div>
-					<label>b =</label>
-					<input
-                        type="number"
-						value={b}
-						onChange={this.handleInputBChange}
-					/>
-				</div>
-                <div>
-					<label>c =</label>
-					<input
-						type="number"
-						value={c}
-						onChange={this.handleInputCChange}
-					/>
-				</div>
-                <MathJax.Context>
-				<div>
-					<label><MathJax.Node>{' \Delta \ '}</MathJax.Node> =</label>
-					<input
-                        type="number"
-						value={d}
-						onChange={this.handleInputDChange}
-					/>
-				</div>
-                </MathJax.Context>
-				<div>
-					<label>How many solutions does the equation has ?</label>
-					<select value={e} onChange={this.handleDropdownChange}>
-						<option value="2">2</option>
-						<option value="1">1</option>
-						<option value="0">0</option>
-					</select>
-				</div>
-				<button type="submit">Submit</button>
-			</form>
-            </div>
-
-		)
-	}
-=======
 
     if (this.state.b.length > 0) {
       // alert("b is empty");
@@ -339,7 +227,6 @@ class Question extends Component {
       </div>
     );
   }
->>>>>>> bb0f736aec549a22f8d462a641fc82b2f9115653
 }
 
 export default Question;
