@@ -24,7 +24,7 @@ const createUserWithEmailAndPassword = async (email, password, displayName) => {
       user: user,
     }
   } catch (error) {
-    console.log(error);
+    console.error(error);
     return {
       type: 'error',
       code: error.code,

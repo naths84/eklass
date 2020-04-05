@@ -24,8 +24,6 @@ const SignUp = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    console.log(emailValue);
-    console.log(passwordValue);
 
     handlePasswordAuth(emailValue, passwordValue, displayName);
   };
@@ -40,7 +38,6 @@ const SignUp = () => {
       if (submission.type === 'success') {
         navigate('/');
       }
-      console.log(submission.message);
     } catch (error) {
       console.error(error);
     }

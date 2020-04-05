@@ -36,7 +36,6 @@ class Question extends Component {
   }
 
   resetForm = () => {
-    console.log("here");
     this.setState({
       submitted: false,
       isCorrect: false,
@@ -96,7 +95,6 @@ class Question extends Component {
   };
 
   handleSubmit = (event) => {
-    console.log("handleSubmit");
     event.preventDefault();
 
     this.setState({
@@ -106,7 +104,6 @@ class Question extends Component {
     const placeholderCorrectState = { ...this.state.correctState };
     const placeholderEmptyState = { ...this.state.emptyState };
 
-    // console.log(placeHolderCorrectState);
 
     if (this.state.a.length > 0) {
       // alert("a is empty");
@@ -136,6 +133,7 @@ class Question extends Component {
     //   `${this.state.a} ${this.state.b} ${this.state.c} ${this.state.d} ${this.state.e}`
     // );
 
+
     if (parseInt(this.state.a) == -22) {
       placeholderCorrectState.a = true;
     }
@@ -163,7 +161,6 @@ class Question extends Component {
   render() {
     const {
       submitted,
-      isCorrect,
       a,
       b,
       c,
@@ -216,7 +213,7 @@ class Question extends Component {
         </MathJax.Context>
 
         <div>
-          <label>How many solutions does the equation has ?</label>
+          <label>Quel est le nombre de solutions de l'équation ?</label>
           <select value={e} onChange={this.handleDropdownChange}>
             <option value="2">2</option>
             <option value="1">1</option>
