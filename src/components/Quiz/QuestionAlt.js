@@ -9,14 +9,14 @@ import SelectInput from './Inputs/SelectInput';
 
 import data from "./question-example.json";
 
-const Question = () => {
+const Question = (props) => {
   const {
     name,
     questiontext,
     responseText,
     questionInputs,
     generalfeedback,
-  } = data;
+  } = data[props.index];
 
   const [submitted, setSubmitted] = useState(false);
   const [registeredInputs, setRegisteredInputs] = useState(questionInputs);
@@ -82,7 +82,7 @@ const Question = () => {
         <button onClick={submitResponses}>Submit</button>
       </div>
       {submitted && (
-        <div dangerouslySetInnerHTML={{ __html: generalfeedback.text }} />
+        <LatexyString string={generalfeedback.text} />
       )}
     </div>
   );

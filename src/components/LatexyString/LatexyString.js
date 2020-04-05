@@ -8,10 +8,13 @@ const LatexyString = ({string}) => {
   const splitText = string.split(/\[|\]/)
   return (
     splitText.map(splitTextItem => {
-      if (splitTextItem.includes('startlatex') && splitTextItem.includes('endlatex')) {
+      if(splitTextItem.includes('startlatexinline') && splitTextItem.includes('endlatexinline')){
+        let latexString = splitTextItem.replace('startlatexinline', '').replace('endlatexinline', '');
+        return <MathJax.Node inline>{latexString}</MathJax.Node>;
+      }else if (splitTextItem.includes('startlatex') && splitTextItem.includes('endlatex')) {
         let latexString = splitTextItem.replace('startlatex', '').replace('endlatex', '');
          return <MathJax.Node>{latexString}</MathJax.Node>;
-      } else {
+      }else{
         return <span>{splitTextItem}</span>
       }
     })
