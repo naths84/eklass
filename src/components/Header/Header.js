@@ -33,7 +33,7 @@ const Header = (props) => {
                         </Link>
                     </Nav.Link>
                     <Nav.Link className={styles.leftlink}> 
-                        <Link  to="/login" style={{ textDecoration: 'none', color:"#44A49C"}}>
+                        <Link  to="/team" style={{ textDecoration: 'none', color:"#44A49C"}}>
                         {t("team")}
                         </Link>
                     </Nav.Link>
