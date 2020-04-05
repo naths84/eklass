@@ -115,7 +115,7 @@ class Question extends Component {
 				</div>
                 <MathJax.Context>
 				<div>
-					<label><MathJax.Node> {' \Delta \ '}</MathJax.Node> =</label>
+					<label><MathJax.Node>{' \Delta \ '}</MathJax.Node> =</label>
 					<input
                         type="number"
 						value={d}
