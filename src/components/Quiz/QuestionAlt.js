@@ -8,7 +8,6 @@ import NumberInput from './Inputs/NumberInput';
 import SelectInput from './Inputs/SelectInput';
 
 import data from "./question-example.json";
-import { Spinner } from "react-bootstrap";
 
 const Question = () => {
   const {
@@ -45,19 +44,6 @@ const Question = () => {
     })
   };
 
-  const renderLatexyString = (string) => {
-    const splitText = string.split(/\[|\]/)
-    return (
-      splitText.map(splitTextItem => {
-        if (splitTextItem.includes('startlatex') && splitTextItem.includes('endlatex')) {
-          let latexString = splitTextItem.replace('startlatex', '').replace('endlatex', '');
-           return <MathJax.Node>{latexString}</MathJax.Node>;
-        } else {
-          return <span>{splitTextItem}</span>
-        }
-      })
-    )
-  }
 
   return (
     <div className={style.container} >
