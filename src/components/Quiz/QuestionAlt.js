@@ -9,7 +9,8 @@ import SelectInput from './Inputs/SelectInput';
 
 import data from "./question-example.json";
 
-const Question = () => {
+
+const QuestionAlt = (props) => { 
   const {
     name,
     questiontext,
@@ -18,8 +19,10 @@ const Question = () => {
     generalfeedback,
   } = data;
 
+
   const [submitted, setSubmitted] = useState(false);
   const [registeredInputs, setRegisteredInputs] = useState(questionInputs);
+  var validAns = false
 
   useEffect(() => {
     console.log(registeredInputs);
@@ -33,6 +36,8 @@ const Question = () => {
     setSubmitted(true);
 
     // Check here is responses are correct and do something
+    
+
   };
 
   const handleInput = (id, valid) => {
@@ -46,9 +51,9 @@ const Question = () => {
 
 
   return (
-    <div className={style.container} >
+    <div className={style.container} style={(submitted && ((validAns==true && {border: "solid 2px #00FF00"}))) || {border: "solid 2px #CCCCCC"}}>
       <h2>{name.text}</h2>
-      <p><LatexyString string={questiontext.text} /></p>
+      <p  className={style.textLeft} ><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>
       {questionInputs &&
         Object.keys(questionInputs).map((key) => {
@@ -73,19 +78,20 @@ const Question = () => {
                 inputItem={inputItem}
                 callBack={handleInput}
                 displayErrors={submitted}
+                validAnswer={validAns}
               />
             );
           }
         })}
       <div>
         <button onClick={resetResponses}>Reset</button>
-        <button onClick={submitResponses}>Submit</button>
+        {2 ==2 && <button onClick={submitResponses}>Submit</button>}
       </div>
       {submitted && (
-        <div dangerouslySetInnerHTML={{ __html: generalfeedback.text }} />
+        <div  className={style.textLeft} dangerouslySetInnerHTML={{ __html: generalfeedback.text }} />
       )}
     </div>
   );
 };
 
-export default Question;
+export default QuestionAlt;

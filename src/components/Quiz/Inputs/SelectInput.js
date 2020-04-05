@@ -1,11 +1,17 @@
 import React, {useState, useEffect } from "react";
 import LatexyString from 'components/LatexyString/LatexyString';
 
-const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
+const SelectInput = ({ id, inputItem, callBack, displayErrors, validAnswer }) => {
   const { label, text, responses, correctResponse } = inputItem;
-
+  
   const [value, setValue] = useState(responses[0]);
-  const [isValid, setIsValid] = useState(false);
+  var [isValid, setIsValid] = useState(false);
+    var good = false
+
+    console.log(isValid)
+  console.log(isValid)
+  console.log(isValid)
+  var test = 9
 
   useEffect(() => {
     callBack(id, isValid);
@@ -16,6 +22,13 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
   const handleChange = (e) => {
     setValue(e.target.value);
     setIsValid(e.target.value === correctResponse);
+    validAnswer = isValid
+    if (e.target.value === correctResponse) {
+        good= true
+    }
+    console.log(isValid)
+    console.log(isValid)
+    console.log(isValid)
   };
 
   return (
