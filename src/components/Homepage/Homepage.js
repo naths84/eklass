@@ -13,11 +13,9 @@ const Banner = (props) => {
   const { t, i18n } = useTranslation();
   return (
     <div>
-      <h1>{t("welcome")}</h1>
-      <div align="left" className={styles.Vector}>
-        <Vector type="logo" className={styles.logo} />
-      </div>
-      <h5>{t("pickClass")}</h5>
+      <h1 style={{marginTop:"50px"}} class="display-4">{t("welcome")}</h1>
+      <h3 style={{marginTop:"20px"}} className={styles.writing}>{t("quomeGoal")}</h3>
+      <h5 style={{marginTop:"70px"}} className={styles.writing}>{t("pickClass")}</h5>
     </div>
   );
 };

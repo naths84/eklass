@@ -1,6 +1,7 @@
 {
     "title": "En eclass",
     "welcome": "Welcome to Quome",
+    "quomeGoal": "Solve an unlimited number of maths exercises",
     "pickClass": "Pick your class level among the following",
     "loginItem": "Login",
     "signoutItem": "Sign out",

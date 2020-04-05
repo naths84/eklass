@@ -12,7 +12,7 @@ const Subject = (props) => {
   return (
       <Link to={props.to}>
         <Button className={styles.subject} variant="outline-light" size="lg">
-            {props.children}
+          {props.children}
         </Button>
       </Link>
     
@@ -27,7 +27,7 @@ const Subjects = ({ classId }) => {
   return (
 <div className={styles.test}>
 <div className={styles.container}>
-      <h2>{t("subjectPageTitle")}</h2>
+      <h2 className={styles.writing}>{t("subjectPageTitle")}</h2>
       {currentClassLevelData.subjects.map(subject => (
         <Subject to={`/quizSetup/${subject.id}`} key={`subject-${subject.id}`}>{t(subject.name)}</Subject>
       ))}
