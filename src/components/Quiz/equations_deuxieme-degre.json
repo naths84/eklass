@@ -8,7 +8,7 @@
               },
               "questiontext": {
                   "format": "html",
-                  "text": "<p>Mettre l'équation \\[-37\\cdot  x^2-36\\cdot  x-19=-15\\cdot  x^2+15\\cdot  x\\] sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\], calculer la valeur de \\[\\Delta \\] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de \\[\\Delta\\].)<br><br>Réponses:<br><br>\\[a=\\]{1:NUMERICAL:=-22:0.1}<br>\\[b=\\]{1:NUMERICAL:=-51:0.1}<br>\\[c=\\]{1:NUMERICAL:=-19:0.1}<br>\\[\\Delta=\\]{1:NUMERICAL:=929:0.1}<br>L'équation a {1:MCS:%100%2~1~0} soution(s) réelle(s).<br><br></p>"
+                  "text": "<p>Mettre l'équation <MathJax.Node> \\[-37\\cdot  x^2-36\\cdot  x-19=-15\\cdot  x^2+15\\cdot  x\\] </MathJax.Node>  sous la forme \\[a\\cdot x^2+b\\cdot x+c=0\\], calculer la valeur de \\[\\Delta \\] et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de \\[\\Delta\\].)<br><br>Réponses:<br><br>\\[a=\\]{1:NUMERICAL:=-22:0.1}<br>\\[b=\\]{1:NUMERICAL:=-51:0.1}<br>\\[c=\\]{1:NUMERICAL:=-19:0.1}<br>\\[\\Delta=\\]{1:NUMERICAL:=929:0.1}<br>L'équation a {1:MCS:%100%2~1~0} soution(s) réelle(s).<br><br></p>"
               },
               "generalfeedback": {
                   "format": "html",
