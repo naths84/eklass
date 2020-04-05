@@ -1,24 +1,21 @@
 import React, { Component } from "react";
 import jsonData from "./equations_deuxieme-degre.json";
 import MathJax from 'react-mathjax2';
-import Question from "./Question.js";
+// import Question from "./Question.js";
+import QuestionAlt from "./QuestionAlt.js";
 
-class DataContent extends Component {
-  constructor() {
-    super()
-    this.question = jsonData.quiz.question[0];
-  }
-  render() {
-    return (
-      <div>
-        <MathJax.Context>
-          <div>
-            <Question />
-          </div>
-        </MathJax.Context>
-      </div>
-    )
-  }
+const DataContent = () => {
+  const questionData = jsonData.quiz.question[0];
+
+  return (
+    <div>
+      <MathJax.Context>
+        <div>
+          <QuestionAlt question={questionData} />
+        </div>
+      </MathJax.Context>
+    </div>
+  )
 }
 
 export default DataContent;
