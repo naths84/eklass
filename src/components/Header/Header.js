@@ -22,7 +22,7 @@ const Header = (props) => {
       <header>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="/">
-                <Vector type='logo' className={styles.logo} />
+                <Vector type='logo-small' className={styles.logo} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -41,7 +41,7 @@ const Header = (props) => {
                     </NavDropdown>
 
                     <Nav.Link className={styles.link} > 
-                        <Link to="/quiz" style={{ textDecoration: 'none' }}>
+                        <Link to="/login" style={{ textDecoration: 'none' }}>
                             {t("loginItem")}
                         </Link>
                     </Nav.Link>

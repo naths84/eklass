@@ -3,6 +3,9 @@
     margin: 10%;
     height: 200px;
     width:200px;
+
+    color: white;
+    border-color: white;
 }
 
 .square a {
