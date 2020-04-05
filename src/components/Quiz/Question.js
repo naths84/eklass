@@ -86,6 +86,8 @@ class Question extends Component {
 	render() {
 		const { a, b, c, d, e } = this.state
 		return (
+            <div>
+                <p style={{display:"inline-block"}}>Mettre l'équation <MathJax.Node>{ '-37\cdot  x^2-36\cdot  x-19=-15\cdot  x^2+15\cdot  x\ '}</MathJax.Node> sous la forme <MathJax.Node>{ '\a\cdot x^2+b\cdot x+c=0\ '}</MathJax.Node>, calculer la valeur de <MathJax.Node>{'\Delta \ '}</MathJax.Node> et déterminer combien de solutions l'équation possède. (Vous pouvez utiliser la calculatrice pour déterminer la valeur de <MathJax.Node>{'\Delta\ '}</MathJax.Node>.)</p>
 			<form onSubmit={this.handleSubmit}>
 				<div>
 					<label>a =</label>
@@ -131,6 +133,8 @@ class Question extends Component {
 				</div>
 				<button type="submit">Submit</button>
 			</form>
+            </div>
+
 		)
 	}
 }
