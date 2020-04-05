@@ -10,7 +10,7 @@ import styles from "./homepage.module.css";
 const Class = (props) => {
   return (
          <Link  to={props.to}>
-         <Button className={styles.square} variant="outline-primary" size="lg">
+         <Button className={styles.square} variant="outline-light" size="lg">
           {props.children}
           </Button>
           </Link>
