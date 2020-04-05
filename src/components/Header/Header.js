@@ -41,7 +41,7 @@ const Header = (props) => {
                     </NavDropdown>
 
                     <Nav.Link className={styles.link} > 
-                        <Link to="/quiz" style={{ textDecoration: 'none' }}>
+                        <Link to="/login" style={{ textDecoration: 'none' }}>
                             {t("loginItem")}
                         </Link>
                     </Nav.Link>

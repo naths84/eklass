@@ -20,6 +20,11 @@
 
 }
 
+.subject {
+  color: white;
+  border-color: white;
+}
+
 .container button {
   margin: 1rem 0;
 }

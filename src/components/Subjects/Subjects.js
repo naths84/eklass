@@ -11,7 +11,7 @@ import styles from "./Subjects.module.css";
 const Subject = (props) => {
   return (
       <Link to={props.to}>
-        <Button className="subject" variant="outline-primary" size="lg">
+        <Button className={styles.subject} variant="outline-primary" size="lg">
             {props.children}
         </Button>
       </Link>
