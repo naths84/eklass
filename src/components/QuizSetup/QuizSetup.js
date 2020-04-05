@@ -24,7 +24,7 @@ export default function QuizSetup({ subjectId }) {
       <form action={`/quiz/${l1}/${l2}`} class="needs-validation">
         <div class="form-group">
           <select onChange={handleChange} class="custom-select" id="selectQuestion" required>
-            <option value="">{t("competenceChoice")}</option>
+            <option >{t("competenceChoice")}</option>
             {competences.competences.map((competence) => (
               <option value={competence}>{t(competence)}</option>
             ))}
