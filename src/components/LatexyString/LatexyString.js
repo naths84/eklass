@@ -1,0 +1,21 @@
+import React from 'react';
+import MathJax from "react-mathjax2";
+
+/**
+ * If will return a MathJax node for any substring found between [startlatex endlatex]
+ */
+const LatexyString = ({string}) => {
+  const splitText = string.split(/\[|\]/)
+  return (
+    splitText.map(splitTextItem => {
+      if (splitTextItem.includes('startlatex') && splitTextItem.includes('endlatex')) {
+        let latexString = splitTextItem.replace('startlatex', '').replace('endlatex', '');
+         return <MathJax.Node>{latexString}</MathJax.Node>;
+      } else {
+        return <span>{splitTextItem}</span>
+      }
+    })
+  )
+}
+
+export default LatexyString;
