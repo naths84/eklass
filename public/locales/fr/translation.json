@@ -8,5 +8,24 @@
 
     "functions&algebra": "Fonctions et Algèbre",
     "numbers": "Nombres",
-    "quantities&measurements": "Quantitées and Mesures"
+    "quantities&measurements": "Quantitées and Mesures",
+
+    "competenceChoice" : "Choisir une compétence",
+    "nbOfQuestions" : "Choisir un nombre de questions",
+
+    "id-901-c1": "Placer un point sur un système d'axes gradués",
+    "id-902-c1": "Additions et soustractions de nombres relatifs",
+    "id-902-c2": "Priorité des opérations",
+    "id-902-c3": "Amplifications de fractions",
+    "id-902-c4": "Simplifications de fractions",
+    "id-902-c5": "Rendre une fraction irréductibles",
+    "id-902-c6": "Fractions équivalentes",
+    "id-902-c7": "Tout mélangé!",
+    "id-903-c1": "Transformation d'unités de mesure",
+    "id-1001-c1": "Résolutions d'équations du premier degré",
+    "id-1002-c1": "Addition de fractions",
+    "id-1003-c1": "Utilisation du théorème de Pythagore (direct)",
+    "id-1101-c1": "Résolution d'équations du deuxième degré",
+    "id-1102-c1": "Extraction de racine",
+    "id-1103-c1": "Utilisation du théorème de Pythagore (direct et réciproque)"
 }

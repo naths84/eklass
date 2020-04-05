@@ -10,7 +10,7 @@ import styles from "./Subjects.module.css";
 
 const Subject = (props) => {
   return (
-      <Link to="/quizSetup">
+      <Link to={props.to}>
         <Button className="subject" variant="outline-primary" size="lg">
             {props.children}
         </Button>
@@ -29,7 +29,7 @@ const Subjects = ({ classId }) => {
 <div className={styles.container}>
       <h2>{t("subjectPageTitle")}</h2>
       {currentClassLevelData.subjects.map(subject => (
-        <Subject key={`subject-${subject.id}`}>{t(subject.name)}</Subject>
+        <Subject to={`/quizSetup/${subject.id}`} key={`subject-${subject.id}`}>{t(subject.name)}</Subject>
       ))}
     </div>
     </div>

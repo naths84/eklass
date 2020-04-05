@@ -43,7 +43,7 @@ function App() {
         <Login path="/login" />
         <SignUp path="/signup" />
         <Quiz path="/quiz" />
-        <QuizSetup path="/quizSetup"/>
+        <QuizSetup path="/quizSetup/:subjectId"/>
       </Router>
       <Footer />
     </div>

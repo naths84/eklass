@@ -6,22 +6,29 @@ import { Navbar, Nav, NavDropdown} from "react-bootstrap";
 import { Link } from "@reach/router";
 
 import styles from "./QuizSetup.module.css";
+import mockData from "data/data";
 
 const xml = '<hello>World</hello>'
 
-export default function QuizSetup() {
-    var chapter;
+
+export default function QuizSetup({ subjectId }) {
+    const { t } = useTranslation();
+
+    const competences = Object.values(mockData.subjectCompetences).find(
+        (subjectCompetence) => subjectCompetence.subject === subjectId
+      );
     return (
         <div className={styles.form}>
         <form>
             <div class="form-group">
                <select class="form-control form-control-lg" id="selectQuestion" style={{marginBottom : "20px"}}>
-                    <option selected>Choose a chapter</option>
-                    <option>Equations Easy</option>
-                    <option>Equations Hard</option>
+                    <option selected>{t("competenceChoice")}</option>
+                    {competences.competences.map(competence => (
+                        (<option>{t(competence)}</option>)
+                    ))}
                 </select>
                <select class="form-control form-control-lg" id="selectQuestionNb">
-                    <option selected>Choose a number of questions</option>
+                    <option selected>{t("nbOfQuestions")}</option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
