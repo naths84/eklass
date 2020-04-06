@@ -2,20 +2,21 @@ import React, { Component } from "react";
 import MathJax from 'react-mathjax2';
 // import Question from "./Question.js";
 import QuestionAlt from "./QuestionAlt.js";
-import jsonData from "./1101-quadratic.json";
+import data1101 from "./1101-quadratic.json";
+import data1103 from "./Quiz_pythagore_11.json";
+
 
 const DataContent = (props) => {
     var id = 0
     var jsonFile = ""
-    console.log(props.compId)
-    console.log(props.compId)
-    
-    console.log(props.compId)
     
     if (props.compId=="id-1101-c1") {
-        console.log(1101)
         id = 1101
-        jsonFile = jsonData
+        jsonFile = data1101
+    }
+    if (props.compId=="id-1103-c1") {
+        id = 1103
+        jsonFile = data1103
     }
     if (id != 0) {
         const max = jsonFile.length - 1;

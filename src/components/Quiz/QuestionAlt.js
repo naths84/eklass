@@ -8,9 +8,17 @@ import NumberInput from './Inputs/NumberInput';
 import SelectInput from './Inputs/SelectInput';
 
 import data1101 from "./1101-quadratic.json";
+import data1103 from "./Quiz_pythagore_11.json";
 
 const Question = (props) => {
-  var props.dataJson
+    var dataId = props.compId
+    var data = ""
+    if(dataId == "id-1101-c1") {
+        data = data1101
+    } else if (dataId == "id-1103-c1") {
+        data = data1103
+    }
+
   const {
     name,
     questiontext,
