@@ -19,7 +19,6 @@ const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
   return (
     <div>
       <label><LatexyString string={inputItem.label} /></label>
-      { displayErrors && !isValid && <span>{'useful error message'}</span> }
       <input
         type="number"
         value={value}
@@ -27,6 +26,8 @@ const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
         step={decimal}
         disabled={displayErrors}
       />
+      { displayErrors && !isValid && <span>{'useful error message'}</span> }
+
     </div>
   );
 };
