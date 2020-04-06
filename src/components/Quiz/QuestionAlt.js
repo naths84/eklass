@@ -9,7 +9,12 @@ import SelectInput from './Inputs/SelectInput';
 import i18next from 'i18next';
 import data1101fr from "./1101-fr-quadratic.json";
 import data1101en from "./1101-en-quadratic.json";
-import data1103 from "./Quiz_pythagore_11.json";
+import data1101po from "./1101-po-quadratic.json";
+import data1003fr from "./1003-fr-pythagore.json";
+import data1103fr from "./Quiz_pythagore_11.json";
+import data1003en from "./1003-en-pythagore.json";
+import data901fr from "./901-fr-ppmc.json";
+
 
 const Question = (props) => {
     var dataId = props.compId
@@ -22,8 +27,19 @@ const Question = (props) => {
         data = data1101fr
     }else if(dataId == "id-1101-c1" && getLanguage() == "en") {
         data = data1101en
-    } else if (dataId == "id-1103-c1") {
-        data = data1103
+    } else if(dataId == "id-1101-c1" && getLanguage() == "pt") {
+        data = data1101po
+    }
+    else if (dataId == "id-1103-c1") {
+        data = data1103fr
+    }
+    else if (dataId == "id-1003-c1"  && getLanguage() == "fr") {
+        data = data1003fr
+    }
+    else if (dataId == "id-1003-c1"  && getLanguage() == "en") {
+        data = data1003en
+    } else  if (dataId=="id-902-c8") {
+        data = data901fr
     }
 
   const {

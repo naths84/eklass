@@ -1,0 +1,1250 @@
+[ 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 0 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=4 endlatexinline] cm [startlatexinline CA=5 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3:0.1}", 
+ "correctResponse": "3", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+4^2=5^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+16=25, endlatex] [startlatex AB^2=25-16=9, endlatex] [startlatex AB=\\sqrt{9}=3. endlatex] Thus [startlatexinline AB=3 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 1 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=8 endlatexinline] cm [startlatexinline CA=6 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=10:0.1}", 
+ "correctResponse": "10", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+BC^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 6^2+8^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=36+64=100, endlatex] [startlatex AB=\\sqrt{100}=10. endlatex]Thus [startlatexinline AB=10 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 2 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=12 endlatexinline] cm [startlatexinline BC=15 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9:0.1}", 
+ "correctResponse": "9", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex CA^2+12^2=15^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2+144=225, endlatex] [startlatex CA^2=225-144=81, endlatex] [startlatex CA=\\sqrt{81}=9. endlatex] Thus [startlatexinline CA=9 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 3 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=20 endlatexinline] cm [startlatexinline CA=12 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=16:0.1}", 
+ "correctResponse": "16", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+CA^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+12^2=20^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+144=400, endlatex] [startlatex AB^2=400-144=256, endlatex] [startlatex AB=\\sqrt{256}=16. endlatex] Thus [startlatexinline AB=16 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 4 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=15 endlatexinline] cm [startlatexinline CA=25 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=20:0.1}", 
+ "correctResponse": "20", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+15^2=25^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+225=625, endlatex] [startlatex AB^2=625-225=400, endlatex] [startlatex AB=\\sqrt{400}=20. endlatex] Thus [startlatexinline AB=20 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 5 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=18 endlatexinline] cm [startlatexinline CA=24 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=30:0.1}", 
+ "correctResponse": "30", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 18^2+24^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=324+576=900, endlatex] [startlatex AB=\\sqrt{900}=30. endlatex]Thus [startlatexinline AB=30 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 6 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=21 endlatexinline] cm [startlatexinline CA=35 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=28:0.1}", 
+ "correctResponse": "28", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+21^2=35^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+441=1225, endlatex] [startlatex AB^2=1225-441=784, endlatex] [startlatex AB=\\sqrt{784}=28. endlatex] Thus [startlatexinline AB=28 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 7 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=40 endlatexinline] cm [startlatexinline CA=24 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=32:0.1}", 
+ "correctResponse": "32", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+24^2=40^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+576=1600, endlatex] [startlatex BC^2=1600-576=1024, endlatex] [startlatex BC=\\sqrt{1024}=32. endlatex] Thus [startlatexinline BC=32 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 8 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=36 endlatexinline] cm [startlatexinline CA=27 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=45:0.1}", 
+ "correctResponse": "45", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+BC^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 27^2+36^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=729+1296=2025, endlatex] [startlatex AB=\\sqrt{2025}=45. endlatex]Thus [startlatexinline AB=45 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 9 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=30 endlatexinline] cm [startlatexinline CA=50 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=40:0.1}", 
+ "correctResponse": "40", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+30^2=50^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+900=2500, endlatex] [startlatex AB^2=2500-900=1600, endlatex] [startlatex AB=\\sqrt{1600}=40. endlatex] Thus [startlatexinline AB=40 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 10 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=33 endlatexinline] cm [startlatexinline BC=44 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=55:0.1}", 
+ "correctResponse": "55", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 44^2+33^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=1936+1089=3025, endlatex] [startlatex CA=\\sqrt{3025}=55. endlatex]Thus [startlatexinline CA=55 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 11 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=60 endlatexinline] cm [startlatexinline CA=48 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=36:0.1}", 
+ "correctResponse": "36", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+48^2=60^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+2304=3600, endlatex] [startlatex BC^2=3600-2304=1296, endlatex] [startlatex BC=\\sqrt{1296}=36. endlatex] Thus [startlatexinline BC=36 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 12 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=39 endlatexinline] cm [startlatexinline BC=52 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=65:0.1}", 
+ "correctResponse": "65", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 52^2+39^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=2704+1521=4225, endlatex] [startlatex CA=\\sqrt{4225}=65. endlatex]Thus [startlatexinline CA=65 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 13 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=56 endlatexinline] cm [startlatexinline CA=42 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=70:0.1}", 
+ "correctResponse": "70", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+CA^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 56^2+42^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=3136+1764=4900, endlatex] [startlatex BC=\\sqrt{4900}=70. endlatex]Thus [startlatexinline BC=70 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 14 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=75 endlatexinline] cm [startlatexinline CA=60 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=45:0.1}", 
+ "correctResponse": "45", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+CA^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+60^2=75^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+3600=5625, endlatex] [startlatex AB^2=5625-3600=2025, endlatex] [startlatex AB=\\sqrt{2025}=45. endlatex] Thus [startlatexinline AB=45 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 15 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=48 endlatexinline] cm [startlatexinline CA=64 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=80:0.1}", 
+ "correctResponse": "80", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 48^2+64^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=2304+4096=6400, endlatex] [startlatex AB=\\sqrt{6400}=80. endlatex]Thus [startlatexinline AB=80 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 16 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=51 endlatexinline] cm [startlatexinline CA=68 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=85:0.1}", 
+ "correctResponse": "85", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 68^2+51^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=4624+2601=7225, endlatex] [startlatex BC=\\sqrt{7225}=85. endlatex]Thus [startlatexinline BC=85 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 17 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=72 endlatexinline] cm [startlatexinline BC=90 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=54:0.1}", 
+ "correctResponse": "54", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex CA^2+72^2=90^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2+5184=8100, endlatex] [startlatex CA^2=8100-5184=2916, endlatex] [startlatex CA=\\sqrt{2916}=54. endlatex] Thus [startlatexinline CA=54 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 18 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=76 endlatexinline] cm [startlatexinline CA=95 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=57:0.1}", 
+ "correctResponse": "57", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+76^2=95^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+5776=9025, endlatex] [startlatex AB^2=9025-5776=3249, endlatex] [startlatex AB=\\sqrt{3249}=57. endlatex] Thus [startlatexinline AB=57 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 19 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=80 endlatexinline] cm [startlatexinline CA=60 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=100:0.1}", 
+ "correctResponse": "100", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 60^2+80^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=3600+6400=10000, endlatex] [startlatex BC=\\sqrt{10000}=100. endlatex]Thus [startlatexinline BC=100 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 20 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=13 endlatexinline] cm [startlatexinline CA=12 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5:0.1}", 
+ "correctResponse": "5", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+12^2=13^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+144=169, endlatex] [startlatex BC^2=169-144=25, endlatex] [startlatex BC=\\sqrt{25}=5. endlatex] Thus [startlatexinline BC=5 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 21 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=26 endlatexinline] cm [startlatexinline CA=10 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=24:0.1}", 
+ "correctResponse": "24", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+10^2=26^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+100=676, endlatex] [startlatex BC^2=676-100=576, endlatex] [startlatex BC=\\sqrt{576}=24. endlatex] Thus [startlatexinline BC=24 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 22 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=39 endlatexinline] cm [startlatexinline CA=36 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=15:0.1}", 
+ "correctResponse": "15", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+36^2=39^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+1296=1521, endlatex] [startlatex BC^2=1521-1296=225, endlatex] [startlatex BC=\\sqrt{225}=15. endlatex] Thus [startlatexinline BC=15 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 23 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=20 endlatexinline] cm [startlatexinline BC=48 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=52:0.1}", 
+ "correctResponse": "52", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 20^2+48^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=400+2304=2704, endlatex] [startlatex CA=\\sqrt{2704}=52. endlatex]Thus [startlatexinline CA=52 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 24 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=60 endlatexinline] cm [startlatexinline CA=65 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=25:0.1}", 
+ "correctResponse": "25", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+60^2=65^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+3600=4225, endlatex] [startlatex AB^2=4225-3600=625, endlatex] [startlatex AB=\\sqrt{625}=25. endlatex] Thus [startlatexinline AB=25 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 25 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=72 endlatexinline] cm [startlatexinline CA=30 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=78:0.1}", 
+ "correctResponse": "78", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+CA^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 72^2+30^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=5184+900=6084, endlatex] [startlatex BC=\\sqrt{6084}=78. endlatex]Thus [startlatexinline BC=78 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 26 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=84 endlatexinline] cm [startlatexinline CA=35 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=91:0.1}", 
+ "correctResponse": "91", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 84^2+35^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=7056+1225=8281, endlatex] [startlatex AB=\\sqrt{8281}=91. endlatex]Thus [startlatexinline AB=91 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 27 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=21 endlatexinline] cm [startlatexinline CA=29 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=20:0.1}", 
+ "correctResponse": "20", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+21^2=29^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+441=841, endlatex] [startlatex AB^2=841-441=400, endlatex] [startlatex AB=\\sqrt{400}=20. endlatex] Thus [startlatexinline AB=20 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 28 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=42 endlatexinline] cm [startlatexinline BC=40 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=58:0.1}", 
+ "correctResponse": "58", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 42^2+40^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=1764+1600=3364, endlatex] [startlatex CA=\\sqrt{3364}=58. endlatex]Thus [startlatexinline CA=58 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 29 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=60 endlatexinline] cm [startlatexinline CA=63 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=87:0.1}", 
+ "correctResponse": "87", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 60^2+63^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=3600+3969=7569, endlatex] [startlatex AB=\\sqrt{7569}=87. endlatex]Thus [startlatexinline AB=87 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 30 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=15 endlatexinline] cm [startlatexinline BC=8 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17:0.1}", 
+ "correctResponse": "17", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 8^2+15^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=64+225=289, endlatex] [startlatex CA=\\sqrt{289}=17. endlatex]Thus [startlatexinline CA=17 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 31 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=30 endlatexinline] cm [startlatexinline CA=34 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=16:0.1}", 
+ "correctResponse": "16", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+30^2=34^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+900=1156, endlatex] [startlatex AB^2=1156-900=256, endlatex] [startlatex AB=\\sqrt{256}=16. endlatex] Thus [startlatexinline AB=16 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 32 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=24 endlatexinline] cm [startlatexinline CA=45 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=51:0.1}", 
+ "correctResponse": "51", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 24^2+45^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=576+2025=2601, endlatex] [startlatex AB=\\sqrt{2601}=51. endlatex]Thus [startlatexinline AB=51 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 33 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=32 endlatexinline] cm [startlatexinline BC=60 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=68:0.1}", 
+ "correctResponse": "68", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 60^2+32^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=3600+1024=4624, endlatex] [startlatex CA=\\sqrt{4624}=68. endlatex]Thus [startlatexinline CA=68 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 34 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=85 endlatexinline] cm [startlatexinline CA=75 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=40:0.1}", 
+ "correctResponse": "40", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+CA^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+75^2=85^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+5625=7225, endlatex] [startlatex AB^2=7225-5625=1600, endlatex] [startlatex AB=\\sqrt{1600}=40. endlatex] Thus [startlatexinline AB=40 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 35 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=24 endlatexinline] cm [startlatexinline CA=25 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7:0.1}", 
+ "correctResponse": "7", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+24^2=25^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+576=625, endlatex] [startlatex AB^2=625-576=49, endlatex] [startlatex AB=\\sqrt{49}=7. endlatex] Thus [startlatexinline AB=7 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 36 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=48 endlatexinline] cm [startlatexinline CA=14 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=50:0.1}", 
+ "correctResponse": "50", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 48^2+14^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=2304+196=2500, endlatex] [startlatex AB=\\sqrt{2500}=50. endlatex]Thus [startlatexinline AB=50 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 37 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=72 endlatexinline] cm [startlatexinline CA=75 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21:0.1}", 
+ "correctResponse": "21", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+72^2=75^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+5184=5625, endlatex] [startlatex AB^2=5625-5184=441, endlatex] [startlatex AB=\\sqrt{441}=21. endlatex] Thus [startlatexinline AB=21 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 38 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=28 endlatexinline] cm [startlatexinline BC=96 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=100:0.1}", 
+ "correctResponse": "100", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 96^2+28^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=9216+784=10000, endlatex] [startlatex CA=\\sqrt{10000}=100. endlatex]Thus [startlatexinline CA=100 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 39 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=48 endlatexinline] cm [startlatexinline CA=55 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=73:0.1}", 
+ "correctResponse": "73", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 55^2+48^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=3025+2304=5329, endlatex] [startlatex BC=\\sqrt{5329}=73. endlatex]Thus [startlatexinline BC=73 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 40 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=28 endlatexinline] cm [startlatexinline BC=45 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=53:0.1}", 
+ "correctResponse": "53", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 45^2+28^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=2025+784=2809, endlatex] [startlatex CA=\\sqrt{2809}=53. endlatex]Thus [startlatexinline CA=53 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 41 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=39 endlatexinline] cm [startlatexinline CA=80 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=89:0.1}", 
+ "correctResponse": "89", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 39^2+80^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=1521+6400=7921, endlatex] [startlatex AB=\\sqrt{7921}=89. endlatex]Thus [startlatexinline AB=89 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 42 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=77 endlatexinline] cm [startlatexinline BC=85 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=36:0.1}", 
+ "correctResponse": "36", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex CA^2+77^2=85^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2+5929=7225, endlatex] [startlatex CA^2=7225-5929=1296, endlatex] [startlatex CA=\\sqrt{1296}=36. endlatex] Thus [startlatexinline CA=36 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 43 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=56 endlatexinline] cm [startlatexinline BC=33 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=65:0.1}", 
+ "correctResponse": "65", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+AB^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 33^2+56^2=CA^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2=1089+3136=4225, endlatex] [startlatex CA=\\sqrt{4225}=65. endlatex]Thus [startlatexinline CA=65 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 44 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=65 endlatexinline] cm [startlatexinline CA=72 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=97:0.1}", 
+ "correctResponse": "97", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 72^2+65^2=BC^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2=5184+4225=9409, endlatex] [startlatex BC=\\sqrt{9409}=97. endlatex]Thus [startlatexinline BC=97 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 45 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=12 endlatexinline] cm [startlatexinline CA=35 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=37:0.1}", 
+ "correctResponse": "37", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+BC^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 35^2+12^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=1225+144=1369, endlatex] [startlatex AB=\\sqrt{1369}=37. endlatex]Thus [startlatexinline AB=37 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 46 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=74 endlatexinline] cm [startlatexinline CA=70 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=24:0.1}", 
+ "correctResponse": "24", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+70^2=74^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+4900=5476, endlatex] [startlatex BC^2=5476-4900=576, endlatex] [startlatex BC=\\sqrt{576}=24. endlatex] Thus [startlatexinline BC=24 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 47 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline A endlatexinline]. Determine the length of the side [startlatexinline CA endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=40 endlatexinline] cm [startlatexinline BC=41 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex CA= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9:0.1}", 
+ "correctResponse": "9", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline CA endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline BC endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+AB^2=BC^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex CA^2+40^2=41^2. endlatex]  We solve this equation by isolating [startlatexinline CA endlatexinline]:  [startlatex CA^2+1600=1681, endlatex] [startlatex CA^2=1681-1600=81, endlatex] [startlatex CA=\\sqrt{81}=9. endlatex] Thus [startlatexinline CA=9 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 48 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=80 endlatexinline] cm [startlatexinline CA=82 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=18:0.1}", 
+ "correctResponse": "18", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+80^2=82^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+6400=6724, endlatex] [startlatex AB^2=6724-6400=324, endlatex] [startlatex AB=\\sqrt{324}=18. endlatex] Thus [startlatexinline AB=18 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 49 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=16 endlatexinline] cm [startlatexinline CA=63 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=65:0.1}", 
+ "correctResponse": "65", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex CA^2+BC^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex 63^2+16^2=AB^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2=3969+256=4225, endlatex] [startlatex AB=\\sqrt{4225}=65. endlatex]Thus [startlatexinline AB=65 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 50 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline B endlatexinline]. Determine the length of the side [startlatexinline AB endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline BC=60 endlatexinline] cm [startlatexinline CA=61 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex AB= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11:0.1}", 
+ "correctResponse": "11", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline AB endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline CA endlatexinline].  By Pythagoras's theorem, we have [startlatex AB^2+BC^2=CA^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex AB^2+60^2=61^2. endlatex]  We solve this equation by isolating [startlatexinline AB endlatexinline]:  [startlatex AB^2+3600=3721, endlatex] [startlatex AB^2=3721-3600=121, endlatex] [startlatex AB=\\sqrt{121}=11. endlatex] Thus [startlatexinline AB=11 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 10e number 51 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Let [startlatexinline ABC endlatexinline] be a right-angled triangle [startlatexinline C endlatexinline]. Determine the length of the side [startlatexinline BC endlatexinline]. You can use a calculator to solve this exercise. [startlatexinline AB=85 endlatexinline] cm [startlatexinline CA=84 endlatexinline] cm "  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex BC= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=13:0.1}", 
+ "correctResponse": "13", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"We use Pythogoras'theorem to determine the length of the side [startlatexinline BC endlatexinline].  As the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline], the hypotenuse of the triangle corresponds to the side [startlatexinline AB endlatexinline].  By Pythagoras's theorem, we have [startlatex BC^2+CA^2=AB^2. endlatex]  Using the values of the lengths of the known sides, we obtain [startlatex BC^2+84^2=85^2. endlatex]  We solve this equation by isolating [startlatexinline BC endlatexinline]:  [startlatex BC^2+7056=7225, endlatex] [startlatex BC^2=7225-7056=169, endlatex] [startlatex BC=\\sqrt{169}=13. endlatex] Thus [startlatexinline BC=13 endlatexinline] cm "},
+ "penality": "0", 
+ "hidden": "0" 
+ } 
+ ]
