@@ -7,14 +7,24 @@ import style from "./Question.module.css";
 import NumberInput from './Inputs/NumberInput';
 import SelectInput from './Inputs/SelectInput';
 import i18next from 'i18next';
+
 import data1101fr from "./1101-fr-quadratic.json";
 import data1101en from "./1101-en-quadratic.json";
 import data1101po from "./1101-po-quadratic.json";
+
 import data1003fr from "./1003-fr-pythagore.json";
-import data1103fr from "./Quiz_pythagore_11.json";
+import data1003pt from "./1003-pt-pythagore.json";
 import data1003en from "./1003-en-pythagore.json";
+
 import data901fr from "./901-fr-ppmc.json";
 import data901en from "./901-en-ppmc.json";
+
+
+import data1103fr from "./1103-fr-pythagore.json";
+import data1103pt from "./1103-pt-pythagore.json";
+import data1103en from "./1103-en-pythagore.json";
+
+
 
 const Question = (props) => {
     var dataId = props.compId
@@ -30,8 +40,14 @@ const Question = (props) => {
     } else if(dataId == "id-1101-c1" && getLanguage() == "pt") {
         data = data1101po
     }
-    else if (dataId == "id-1103-c1") {
+    else if (dataId == "id-1103-c1" && getLanguage() == "fr") {
         data = data1103fr
+    }
+    else if (dataId == "id-1103-c1" && getLanguage() == "en") {
+        data = data1103en
+    }
+    else if (dataId == "id-1103-c1" && getLanguage() == "pt") {
+        data = data1103pt
     }
     else if (dataId == "id-1003-c1"  && getLanguage() == "fr") {
         data = data1003fr
