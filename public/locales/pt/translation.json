@@ -12,6 +12,26 @@
 
     "subjectPageTitle": "Disciplinas",
 
+    "description_about": "Quome esta aqui para alunas e alunos dos ensinos primários e secundários que querem aprender a matemática praticando em casa. Quome esta também aqui para professoras/professores como uma interface online com suas/seus alunas/alunos para a comunicação com elas/eles e o acompanhamento do progresso delas/deles. A característica principal de Quome é o seu Gerador de Exercícios. Como aluna/aluno, selecionando dentro de uma variedade de matérias e níveis de dificuldade, você poderá gerar o seu número escolhido de exercícios e praticar com eles. Você terá também acesso a comentários detalhados e automáticos para cada solução dos seus exercícios. Da mesma maneira, como professora/professor você poderá gerar uma serie única de exercícios com soluções automáticas para cada aluna/aluno. Ela/Ele poderá então submeter suas soluções independentemente de suas/seus colegas de classe, a serie será automaticamente corrigida, e soluções detalhadas serão vistas depois pela/pelo sua/seu aluna/aluno. Quome tem a sua origem na crise devida ao Covid-19 e ao auto-isolamento das pessoas pelo mundo. Professoras e professores podiam dar aulas por video usando novas tecnologias mas a falta de uma ferramenta para o acompanhamento de alunas e alunos, e a pratica com exercícios numa forma estimulante se tornou obvia. Queremos que Quome seja um serviço gratuito apoiado por doações públicas e privadas. Acreditamos que Quome possa ajudar alunas e alunos a prosperar na matemática não só em tempos de isolamento. Quome esta chegando em casa. ",
+
+    "Contact": "Contate-Nos",
+    "Fist_Name": "Primeiro Nome",
+    "Last_Name": "Ultimo nome",
+    "Email": "Email",
+    "Subject":"Sujeito",
+
+    "Presentation": "Somos uma equipe de matemáticos e desenvolvedores web, professores e alunos:",
+    "L1": "Cedric Jud é um desenvolvedor web autodidata com sede em Oslo.",
+    "L2": "Claude Marion é PhD em matemática pelo Imperial College e leciona em universidades do Reino Unido, Suíça, Israel, Itália e Portugal. Ele projetou inclusive com o Prof. Testerman os três cursos EPFL MOOC em álgebra linear.",
+    "L3": "Nathan Scheinmann é PhD em matemática pela EPFL. Atualmente, ele ensina matemática no CO des Coudriers, em Genebra.",
+    "L4": "Peter Simko é mestre em matemática pela EPFL e atualmente leciona na Gymnase de Renens. Ele gosta de ler, escrever e codificar em seu tempo livre.",
+    "L5": "Clément Petit é um estudante do 3º ano de Bacharel em Ciência da Computação na EPFL.",
+    "L6":"Elia Saquand é uma aluna do 3º ano de Bacharel em Sistemas de Comunicação na EPFL.",
+    "L7":"Pierre Motard é um aluna do 3º ano de Bacharel em Sistemas de Comunicação na EPFL.",
+    "L8":"Yanis Berkani é um estudante do 3º ano de Bacharel em Ciência da Computação na EPFL.",
+
+
+
     "functions&algebra": "Funções e álgebra",
     "numbers": "Números",
     "units&sizes": "Grandezas et unidades",
