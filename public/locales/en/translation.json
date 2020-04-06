@@ -38,6 +38,9 @@
     "competenceChoice" : "Choose a competence",
     "nbOfQuestions" : "Choose a number of questions",
 
+    "rightAnswer" : "Wrong Answer !",
+    "wrongAnswer" : "Right Answer !",
+
     "id-901-c1": "Locating a point in a coordinate plane",
     "id-902-c1": "Addition and subtraction of whole numbers",
     "id-902-c2": "Order of operations",

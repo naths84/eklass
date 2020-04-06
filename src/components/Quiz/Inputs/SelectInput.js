@@ -1,7 +1,11 @@
 import React, {useState, useEffect } from "react";
 import LatexyString from 'components/LatexyString/LatexyString';
 
+import { useTranslation } from "react-i18next";
+
 const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
+  const { t } = useTranslation();
+
   const { label, text, responses, correctResponse } = inputItem;
 
   const [value, setValue] = useState("");
@@ -32,8 +36,8 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
         </select>
         {splitText[1]}
       </span>
-      { displayErrors && !isValid && <span>{'Wrong Answer !'}</span> }
-      { displayErrors && isValid && <span>{'Right Answer !'}</span> }
+      { displayErrors && !isValid && <span>{t("wrongAnswer")}</span> }
+      { displayErrors && isValid && <span>{t("rightAnswer")}</span> }
     </div>
   );
 };

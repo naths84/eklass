@@ -39,6 +39,9 @@
     "competenceChoice" : "Escolha uma habilidade",
     "nbOfQuestions" : "Escolha uma série de perguntas",
 
+    "rightAnswer" : "Resposta correta !",
+    "wrongAnswer" : "Resposta errada !",
+
     "id-901-c1": "Colocar um ponto num sistema de eixos graduados",
     "id-902-c1": "Adição e subtração de números relativos",
     "id-902-c2": "Prioridade de operações",

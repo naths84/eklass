@@ -38,6 +38,9 @@
     "competenceChoice" : "Choisir une compétence",
     "nbOfQuestions" : "Choisir un nombre de questions",
 
+    "rightAnswer" : "Bonne Réponse !",
+    "wrongAnswer" : "Mauvaise Réponse !",
+
     "id-901-c1": "Placer un point sur un système d'axes gradués",
     "id-902-c1": "Additions et soustractions de nombres relatifs",
     "id-902-c2": "Priorité des opérations",
