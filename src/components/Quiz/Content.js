@@ -6,26 +6,26 @@ import QuestionAlt from "./QuestionAlt.js";
 
 const DataContent = () => {
   const max = jsonData.length - 1;
-  const tab = [];
-  while(tab.length < 10){
+  const random_tab = [];
+  while(random_tab.length < 10){
     const rand = Math.round(Math.random() * max);
-    if(tab.indexOf(rand) === -1) tab.push(rand);
+    if(random_tab.indexOf(rand) === -1) random_tab.push(rand);
   }
-  console.log(tab);
+  console.log(random_tab);
   return (
     <div>
       <MathJax.Context>
         <div>
-          <QuestionAlt index={tab[0]}/>
-          <QuestionAlt index={tab[1]}/>
-          <QuestionAlt index={tab[2]}/>
-          <QuestionAlt index={tab[3]}/>
-          <QuestionAlt index={tab[4]}/>
-          <QuestionAlt index={tab[5]}/>
-          <QuestionAlt index={tab[6]}/>
-          <QuestionAlt index={tab[7]}/>
-          <QuestionAlt index={tab[8]}/>
-          <QuestionAlt index={tab[9]}/>
+          <QuestionAlt index={random_tab[0]}/>
+          <QuestionAlt index={random_tab[1]}/>
+          <QuestionAlt index={random_tab[2]}/>
+          <QuestionAlt index={random_tab[3]}/>
+          <QuestionAlt index={random_tab[4]}/>
+          <QuestionAlt index={random_tab[5]}/>
+          <QuestionAlt index={random_tab[6]}/>
+          <QuestionAlt index={random_tab[7]}/>
+          <QuestionAlt index={random_tab[8]}/>
+          <QuestionAlt index={random_tab[9]}/>
         </div>
       </MathJax.Context>
     </div>

@@ -20,7 +20,6 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
 
   return (
     <div>
-      { displayErrors && !isValid && <span>{'useful error message'}</span> }
       <span>
         {splitText[0]}
         <select value={value} onChange={handleChange} disabled={displayErrors}>
@@ -32,6 +31,7 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
         </select>
         {splitText[1]}
       </span>
+      { displayErrors && !isValid && <span>{'useful error message'}</span> }
     </div>
   );
 };
