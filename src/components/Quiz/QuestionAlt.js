@@ -9,6 +9,7 @@ import SelectInput from './Inputs/SelectInput';
 import i18next from 'i18next';
 import data1101fr from "./1101-fr-quadratic.json";
 import data1101en from "./1101-en-quadratic.json";
+import data1101po from "./1101-po-quadratic.json";
 import data1103 from "./Quiz_pythagore_11.json";
 
 const Question = (props) => {
@@ -22,7 +23,10 @@ const Question = (props) => {
         data = data1101fr
     }else if(dataId == "id-1101-c1" && getLanguage() == "en") {
         data = data1101en
-    } else if (dataId == "id-1103-c1") {
+    } else if(dataId == "id-1101-c1" && getLanguage() == "pt") {
+        data = data1101po
+    }
+    else if (dataId == "id-1103-c1") {
         data = data1103
     }
 
