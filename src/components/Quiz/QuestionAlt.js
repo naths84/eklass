@@ -56,6 +56,7 @@ const Question = (props) => {
 
   return (
     <div className={style.container} >
+        <div>
       <h2>{name.text}</h2>
       <p className={style.textToLeft} ><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>
@@ -96,12 +97,15 @@ const Question = (props) => {
         <button className={style.button} onClick={resetResponses}>Reset</button>
         <button className={style.button} onClick={submitResponses}>Submit</button>
       </div>
+      </div>
+      <div className={style.container} style={(submitted && (({border: "solid 2px #00FF00"}))) || {border: "solid 2px #CCCCCC"}}>
       {submitted && (
           <div className={style.textToLeft} >
             <LatexyString string={generalfeedback.text} />
           </div>
         
       )}
+      </div>
     </div>
   );
 };
