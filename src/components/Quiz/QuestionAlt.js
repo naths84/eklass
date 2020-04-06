@@ -48,41 +48,50 @@ const Question = (props) => {
   return (
     <div className={style.container} >
       <h2>{name.text}</h2>
-      <p><LatexyString string={questiontext.text} /></p>
+      <p className={style.textToLeft} ><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>
       {questionInputs &&
         Object.keys(questionInputs).map((key) => {
           const inputItem = questionInputs[key];
           if (inputItem.type === "number") {
             return (
-              <NumberInput
+                <div className={style.nbInput}> 
+                <NumberInput
                 key={`question-input-${key}`}
                 id={key}
                 inputItem={inputItem}
                 callBack={handleInput}
                 displayErrors={submitted}
               />
+                </div>
+
+              
             );
           }
 
           if (inputItem.type === "select") {
             return (
-              <SelectInput
-                key={`question-input-${key}`}
-                id={key}
-                inputItem={inputItem}
-                callBack={handleInput}
-                displayErrors={submitted}
-              />
+                <div className={style.selectInput}>
+                    <SelectInput
+                        key={`question-input-${key}`}
+                        id={key}
+                        inputItem={inputItem}
+                        callBack={handleInput}
+                        displayErrors={submitted}
+                    />
+              </div>
             );
           }
         })}
-      <div>
-        <button onClick={resetResponses}>Reset</button>
-        <button onClick={submitResponses}>Submit</button>
+      <div className={style.resetSubmitButtons} >
+        <button className={style.button} onClick={resetResponses}>Reset</button>
+        <button className={style.button} onClick={submitResponses}>Submit</button>
       </div>
       {submitted && (
-        <LatexyString string={generalfeedback.text} />
+          <div className={style.textToLeft} >
+            <LatexyString string={generalfeedback.text} />
+          </div>
+        
       )}
     </div>
   );
