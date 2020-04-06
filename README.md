@@ -1,4 +1,4 @@
-[logo]: https://github.com/pierremotard/eklass/logo.png "Logo Title"
+[logo]: https://github.com/pierremotard/eklass/blob/master/logo.png "Logo Title"
 
 Our first animated pitch:
 https://youtu.be/9Ccm_r8d-to
