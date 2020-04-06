@@ -92,13 +92,13 @@ const Question = (props) => {
         <button type="submit" className={style.button} onClick={resetResponses} class="btn btn-primary mb-2">Reset</button>
         <button type="submit" className={style.button} onClick={submitResponses} class="btn btn-primary mb-2">Submit</button>
       </div>
-      </form>
       {submitted && (
           <div className={style.textToLeft} >
             <LatexyString string={generalfeedback.text} />
           </div>
         
       )}
+      </form>
     </div>
   );
 };
