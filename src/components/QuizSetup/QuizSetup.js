@@ -1,36 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "@reach/router";
 
 import styles from "./QuizSetup.module.css";
 import mockData from "data/data";
 
-var l1 = "functions&algebra";
-var l2 = 5;
-
 export default function QuizSetup({ subjectId }) {
 
   const { t } = useTranslation();
 
+  const [competence, setCompetence] = useState("");
+  const [nb, setNb] = useState(0);
+
   const competences = Object.values(mockData.subjectCompetences).find(
     (subjectCompetence) => subjectCompetence.subject === subjectId
   );
-  const handleChange = (e) => {
-    //l1 = e.target.value
+
+  const handleChange1 = (e) => {
+    setCompetence(e.target.value);
   };
+
+  const handleChange2 = (e) => {
+    setNb(e.target.value);
+  };
+
   return (
     <div className={styles.form}>
-      <form action={`/quiz/${l1}/${l2}`} class="needs-validation">
+      <form action={`/quiz/${competence}/${nb}`} class="needs-validation">
         <div class="form-group">
-          <select onChange={handleChange} class="custom-select" id="selectQuestion" required>
-            <option >{t("competenceChoice")}</option>
+          <select value={competence} onChange={handleChange1} class="custom-select" id="selectQuestion" required>
+            <option value="">{t("competenceChoice")}</option>
             {competences.competences.map((competence) => (
               <option value={competence}>{t(competence)}</option>
             ))}
           </select>
         </div>
         <div class="form-group">
-          <select class="custom-select" id="selectQuestionNb" required>
+          <select value={nb} onChange={handleChange2} class="custom-select" id="selectQuestionNb" required>
             <option value="">{t("nbOfQuestions")}</option>
             <option value="1">1</option>
             <option value="2">2</option>
