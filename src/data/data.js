@@ -29,23 +29,28 @@ const data = {
   subjectCompetences: {
     "id-901": {
       subject : "id-901",
-      competences : ["id-901-c1"],
+      //competences : ["id-901-c1"],
+      competences : [""],
     },
     "id-902": {
       subject : "id-902",
-      competences : ["id-902-c1", "id-902-c2", "id-902-c3", "id-902-c4", "id-902-c5", "id-902-c6", "id-902-c7"],
+      competences : ["id-902-c8"],
+      //competences : ["id-902-c1", "id-902-c2", "id-902-c3", "id-902-c4", "id-902-c5", "id-902-c6", "id-902-c7"],
     },
     "id-903": {
       subject : "id-903",
-      competences : ["id-903-c1"],
+      //competences : ["id-903-c1"],
+      competences : [""],
     },
     "id-1001": {
       subject : "id-1001",
-      competences : ["id-1001-c1"],
+      //competences : ["id-1001-c1"],
+      competences : [""],
     },
     "id-1002": {
       subject : "id-1002",
-      competences : ["id-1002-c1"],
+      //competences : ["id-1002-c1"],
+      competences : [""],
     },
     "id-1003": {
       subject : "id-1003",
@@ -57,7 +62,8 @@ const data = {
     },
     "id-1102": {
       subject : "id-1102",
-      competences : ["id-1102-c1"],
+      //competences : ["id-1102-c1"],
+      competences : [""],
     },
     "id-1103": {
       subject : "id-1103",

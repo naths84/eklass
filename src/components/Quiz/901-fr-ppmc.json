@@ -1,0 +1,4802 @@
+[ 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 490 et de 2448"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(490,2448)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=599760:0.1}", 
+ "correctResponse": "599760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 490=2^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 2448=2^4\\cdot 3^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(490,2448)=599760=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=599760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 968 et de 1170"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(968,1170)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=566280:0.1}", 
+ "correctResponse": "566280", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 968=2^3\\cdot 11^2 endlatexinline] et [startlatexinline 1170=2^1\\cdot 3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(968,1170)=566280=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^2\\cdot 13^1=566280 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1960 et de 252"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1960,252)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17640:0.1}", 
+ "correctResponse": "17640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1960,252)=17640=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2=17640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 42 et de 7840"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(42,7840)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23520:0.1}", 
+ "correctResponse": "23520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 42=2^1\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 7840=2^5\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(42,7840)=23520=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2=23520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1650 et de 468"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1650,468)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=128700:0.1}", 
+ "correctResponse": "128700", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1650=2^1\\cdot 3^1\\cdot 5^2\\cdot 11^1 endlatexinline] et [startlatexinline 468=2^2\\cdot 3^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1650,468)=128700=2^2\\cdot 3^2\\cdot 5^2\\cdot 11^1\\cdot 13^1=128700 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 680 et de 4840"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(680,4840)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=82280:0.1}", 
+ "correctResponse": "82280", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 4840=2^3\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(680,4840)=82280=2^3\\cdot 5^1\\cdot 11^2\\cdot 17^1=82280 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2904 et de 208"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2904,208)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=75504:0.1}", 
+ "correctResponse": "75504", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 208=2^4\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2904,208)=75504=2^4\\cdot 3^1\\cdot 11^2\\cdot 13^1=75504 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 252 et de 495"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(252,495)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=13860:0.1}", 
+ "correctResponse": "13860", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 495=3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(252,495)=13860=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^1=13860 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 10584 et de 10890"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(10584,10890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6403320:0.1}", 
+ "correctResponse": "6403320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 10584=2^3\\cdot 3^3\\cdot 7^2 endlatexinline] et [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(10584,10890)=6403320=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^2=6403320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 560 et de 5445"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(560,5445)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=609840:0.1}", 
+ "correctResponse": "609840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 5445=3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(560,5445)=609840=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=609840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1680 et de 408"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1680,408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=28560:0.1}", 
+ "correctResponse": "28560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1680=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1680,408)=28560=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 17^1=28560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 980 et de 792"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(980,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=194040:0.1}", 
+ "correctResponse": "194040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(980,792)=194040=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=194040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3510 et de 130"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3510,130)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3510:0.1}", 
+ "correctResponse": "3510", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3510=2^1\\cdot 3^3\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 130=2^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3510,130)=3510=2^1\\cdot 3^3\\cdot 5^1\\cdot 13^1=3510 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1530 et de 2080"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1530,2080)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=318240:0.1}", 
+ "correctResponse": "318240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 2080=2^5\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1530,2080)=318240=2^5\\cdot 3^2\\cdot 5^1\\cdot 13^1\\cdot 17^1=318240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 624 et de 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(624,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=458640:0.1}", 
+ "correctResponse": "458640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(624,4410)=458640=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=458640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 588 et de 3060"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(588,3060)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=149940:0.1}", 
+ "correctResponse": "149940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 588=2^2\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 3060=2^2\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(588,3060)=149940=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=149940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2080 et de 6050"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2080,6050)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1258400:0.1}", 
+ "correctResponse": "1258400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2080=2^5\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 6050=2^1\\cdot 5^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(2080,6050)=1258400=2^5\\cdot 5^2\\cdot 11^2\\cdot 13^1=1258400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 9680 et de 560"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(9680,560)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=67760:0.1}", 
+ "correctResponse": "67760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 9680=2^4\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(9680,560)=67760=2^4\\cdot 5^1\\cdot 7^1\\cdot 11^2=67760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2420 et de 350"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2420,350)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=84700:0.1}", 
+ "correctResponse": "84700", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2420=2^2\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 350=2^1\\cdot 5^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2420,350)=84700=2^2\\cdot 5^2\\cdot 7^1\\cdot 11^2=84700 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8820 et de 1980"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8820,1980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=97020:0.1}", 
+ "correctResponse": "97020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 1980=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(8820,1980)=97020=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=97020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3630 et de 1836"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3630,1836)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1110780:0.1}", 
+ "correctResponse": "1110780", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3630,1836)=1110780=2^2\\cdot 3^3\\cdot 5^1\\cdot 11^2\\cdot 17^1=1110780 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1512 et de 1210"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1512,1210)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=914760:0.1}", 
+ "correctResponse": "914760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1512=2^3\\cdot 3^3\\cdot 7^1 endlatexinline] et [startlatexinline 1210=2^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1512,1210)=914760=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^2=914760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1960 et de 4356"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1960,4356)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2134440:0.1}", 
+ "correctResponse": "2134440", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 4356=2^2\\cdot 3^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1960,4356)=2134440=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=2134440 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 624 et de 816"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(624,816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=10608:0.1}", 
+ "correctResponse": "10608", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(624,816)=10608=2^4\\cdot 3^1\\cdot 13^1\\cdot 17^1=10608 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 84 et de 330"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(84,330)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4620:0.1}", 
+ "correctResponse": "4620", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 84=2^2\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 330=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(84,330)=4620=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^1=4620 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1664 et de 1530"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1664,1530)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1272960:0.1}", 
+ "correctResponse": "1272960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1664=2^7\\cdot 13^1 endlatexinline] et [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1664,1530)=1272960=2^7\\cdot 3^2\\cdot 5^1\\cdot 13^1\\cdot 17^1=1272960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 336 et de 272"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(336,272)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5712:0.1}", 
+ "correctResponse": "5712", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 272=2^4\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(336,272)=5712=2^4\\cdot 3^1\\cdot 7^1\\cdot 17^1=5712 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7744 et de 140"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7744,140)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=271040:0.1}", 
+ "correctResponse": "271040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7744=2^6\\cdot 11^2 endlatexinline] et [startlatexinline 140=2^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(7744,140)=271040=2^6\\cdot 5^1\\cdot 7^1\\cdot 11^2=271040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1568 et de 735"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1568,735)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23520:0.1}", 
+ "correctResponse": "23520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1568=2^5\\cdot 7^2 endlatexinline] et [startlatexinline 735=3^1\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1568,735)=23520=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2=23520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 544 et de 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(544,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=79968:0.1}", 
+ "correctResponse": "79968", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 544=2^5\\cdot 17^1 endlatexinline] et [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(544,2352)=79968=2^5\\cdot 3^1\\cdot 7^2\\cdot 17^1=79968 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 816 et de 1008"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(816,1008)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17136:0.1}", 
+ "correctResponse": "17136", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(816,1008)=17136=2^4\\cdot 3^2\\cdot 7^1\\cdot 17^1=17136 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 378 et de 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(378,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=13230:0.1}", 
+ "correctResponse": "13230", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 378=2^1\\cdot 3^3\\cdot 7^1 endlatexinline] et [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(378,4410)=13230=2^1\\cdot 3^3\\cdot 5^1\\cdot 7^2=13230 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 16335 et de 780"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(16335,780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=849420:0.1}", 
+ "correctResponse": "849420", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 16335=3^3\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 780=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(16335,780)=849420=2^2\\cdot 3^3\\cdot 5^1\\cdot 11^2\\cdot 13^1=849420 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 68 et de 168"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(68,168)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2856:0.1}", 
+ "correctResponse": "2856", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 68=2^2\\cdot 17^1 endlatexinline] et [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(68,168)=2856=2^3\\cdot 3^1\\cdot 7^1\\cdot 17^1=2856 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2940 et de 990"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2940,990)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=97020:0.1}", 
+ "correctResponse": "97020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2940,990)=97020=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=97020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 5880 et de 112"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(5880,112)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11760:0.1}", 
+ "correctResponse": "11760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 5880=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 112=2^4\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(5880,112)=11760=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2=11760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 832 et de 420"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(832,420)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=87360:0.1}", 
+ "correctResponse": "87360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 832=2^6\\cdot 13^1 endlatexinline] et [startlatexinline 420=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(832,420)=87360=2^6\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 13^1=87360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 220 et de 9801"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(220,9801)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=196020:0.1}", 
+ "correctResponse": "196020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 220=2^2\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 9801=3^4\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(220,9801)=196020=2^2\\cdot 3^4\\cdot 5^1\\cdot 11^2=196020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 630 et de 2340"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(630,2340)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=16380:0.1}", 
+ "correctResponse": "16380", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 630=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 2340=2^2\\cdot 3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(630,2340)=16380=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 13^1=16380 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 5292 et de 7938"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(5292,7938)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=15876:0.1}", 
+ "correctResponse": "15876", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline] et [startlatexinline 7938=2^1\\cdot 3^4\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(5292,7938)=15876=2^2\\cdot 3^4\\cdot 7^2=15876 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 448 et de 588"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(448,588)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9408:0.1}", 
+ "correctResponse": "9408", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 448=2^6\\cdot 7^1 endlatexinline] et [startlatexinline 588=2^2\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(448,588)=9408=2^6\\cdot 3^1\\cdot 7^2=9408 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 525 et de 2646"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(525,2646)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=66150:0.1}", 
+ "correctResponse": "66150", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 525=3^1\\cdot 5^2\\cdot 7^1 endlatexinline] et [startlatexinline 2646=2^1\\cdot 3^3\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(525,2646)=66150=2^1\\cdot 3^3\\cdot 5^2\\cdot 7^2=66150 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 330 et de 484"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(330,484)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7260:0.1}", 
+ "correctResponse": "7260", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 330=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 484=2^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(330,484)=7260=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^2=7260 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1008 et de 1053"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1008,1053)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=117936:0.1}", 
+ "correctResponse": "117936", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 1053=3^4\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1008,1053)=117936=2^4\\cdot 3^4\\cdot 7^1\\cdot 13^1=117936 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 612 et de 1320"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(612,1320)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=67320:0.1}", 
+ "correctResponse": "67320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 612=2^2\\cdot 3^2\\cdot 17^1 endlatexinline] et [startlatexinline 1320=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(612,1320)=67320=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=67320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1260 et de 336"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1260,336)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5040:0.1}", 
+ "correctResponse": "5040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1260,336)=5040=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1=5040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7840 et de 10890"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7840,10890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8537760:0.1}", 
+ "correctResponse": "8537760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7840=2^5\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(7840,10890)=8537760=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=8537760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2205 et de 1485"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2205,1485)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=72765:0.1}", 
+ "correctResponse": "72765", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2205=3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2205,1485)=72765=3^3\\cdot 5^1\\cdot 7^2\\cdot 11^1=72765 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2352 et de 1575"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2352,1575)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=176400:0.1}", 
+ "correctResponse": "176400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 1575=3^2\\cdot 5^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2352,1575)=176400=2^4\\cdot 3^2\\cdot 5^2\\cdot 7^2=176400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 21780 et de 672"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(21780,672)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1219680:0.1}", 
+ "correctResponse": "1219680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 21780=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 672=2^5\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(21780,672)=1219680=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=1219680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 880 et de 490"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(880,490)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=43120:0.1}", 
+ "correctResponse": "43120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 490=2^1\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(880,490)=43120=2^4\\cdot 5^1\\cdot 7^2\\cdot 11^1=43120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8712 et de 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8712,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2134440:0.1}", 
+ "correctResponse": "2134440", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline] et [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(8712,4410)=2134440=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=2134440 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 680 et de 4840"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(680,4840)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=82280:0.1}", 
+ "correctResponse": "82280", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 4840=2^3\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(680,4840)=82280=2^3\\cdot 5^1\\cdot 11^2\\cdot 17^1=82280 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 264 et de 765"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(264,765)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=67320:0.1}", 
+ "correctResponse": "67320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 765=3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(264,765)=67320=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=67320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 29040 et de 1260"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(29040,1260)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=609840:0.1}", 
+ "correctResponse": "609840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 29040=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(29040,1260)=609840=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=609840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7260 et de 1088"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7260,1088)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1974720:0.1}", 
+ "correctResponse": "1974720", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7260=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 1088=2^6\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(7260,1088)=1974720=2^6\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 17^1=1974720 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1170 et de 1056"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1170,1056)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=205920:0.1}", 
+ "correctResponse": "205920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1170=2^1\\cdot 3^2\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1170,1056)=205920=2^5\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 13^1=205920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 32670 et de 1872"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(32670,1872)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3397680:0.1}", 
+ "correctResponse": "3397680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 32670=2^1\\cdot 3^3\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 1872=2^4\\cdot 3^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(32670,1872)=3397680=2^4\\cdot 3^3\\cdot 5^1\\cdot 11^2\\cdot 13^1=3397680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1020 et de 5292"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1020,5292)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=449820:0.1}", 
+ "correctResponse": "449820", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1020,5292)=449820=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 17^1=449820 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1530 et de 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1530,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=599760:0.1}", 
+ "correctResponse": "599760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1530,2352)=599760=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=599760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1275 et de 4356"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1275,4356)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1851300:0.1}", 
+ "correctResponse": "1851300", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1275=3^1\\cdot 5^2\\cdot 17^1 endlatexinline] et [startlatexinline 4356=2^2\\cdot 3^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1275,4356)=1851300=2^2\\cdot 3^2\\cdot 5^2\\cdot 11^2\\cdot 17^1=1851300 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 936 et de 264"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(936,264)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=10296:0.1}", 
+ "correctResponse": "10296", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline] et [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(936,264)=10296=2^3\\cdot 3^2\\cdot 11^1\\cdot 13^1=10296 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2450 et de 1755"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2450,1755)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=859950:0.1}", 
+ "correctResponse": "859950", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2450=2^1\\cdot 5^2\\cdot 7^2 endlatexinline] et [startlatexinline 1755=3^3\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2450,1755)=859950=2^1\\cdot 3^3\\cdot 5^2\\cdot 7^2\\cdot 13^1=859950 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 312 et de 68"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(312,68)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5304:0.1}", 
+ "correctResponse": "5304", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 68=2^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(312,68)=5304=2^3\\cdot 3^1\\cdot 13^1\\cdot 17^1=5304 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 594 et de 630"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(594,630)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=20790:0.1}", 
+ "correctResponse": "20790", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline] et [startlatexinline 630=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(594,630)=20790=2^1\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^1=20790 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 5808 et de 3672"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(5808,3672)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=888624:0.1}", 
+ "correctResponse": "888624", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 5808=2^4\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 3672=2^3\\cdot 3^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(5808,3672)=888624=2^4\\cdot 3^3\\cdot 11^2\\cdot 17^1=888624 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2178 et de 4896"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2178,4896)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=592416:0.1}", 
+ "correctResponse": "592416", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2178=2^1\\cdot 3^2\\cdot 11^2 endlatexinline] et [startlatexinline 4896=2^5\\cdot 3^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2178,4896)=592416=2^5\\cdot 3^2\\cdot 11^2\\cdot 17^1=592416 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 280 et de 136"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(280,136)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4760:0.1}", 
+ "correctResponse": "4760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 280=2^3\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 136=2^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(280,136)=4760=2^3\\cdot 5^1\\cdot 7^1\\cdot 17^1=4760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3630 et de 816"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3630,816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=493680:0.1}", 
+ "correctResponse": "493680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3630,816)=493680=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 17^1=493680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 4410 et de 2904"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(4410,2904)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2134440:0.1}", 
+ "correctResponse": "2134440", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(4410,2904)=2134440=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=2134440 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1980 et de 816"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1980,816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=134640:0.1}", 
+ "correctResponse": "134640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1980=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1980,816)=134640=2^4\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=134640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 765 et de 560"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(765,560)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=85680:0.1}", 
+ "correctResponse": "85680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 765=3^2\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(765,560)=85680=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 17^1=85680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 312 et de 792"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(312,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=10296:0.1}", 
+ "correctResponse": "10296", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(312,792)=10296=2^3\\cdot 3^2\\cdot 11^1\\cdot 13^1=10296 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1485 et de 9408"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1485,9408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4656960:0.1}", 
+ "correctResponse": "4656960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 9408=2^6\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1485,9408)=4656960=2^6\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^1=4656960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1836 et de 11616"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1836,11616)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1777248:0.1}", 
+ "correctResponse": "1777248", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline] et [startlatexinline 11616=2^5\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1836,11616)=1777248=2^5\\cdot 3^3\\cdot 11^2\\cdot 17^1=1777248 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 918 et de 312"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(918,312)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=47736:0.1}", 
+ "correctResponse": "47736", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 918=2^1\\cdot 3^3\\cdot 17^1 endlatexinline] et [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(918,312)=47736=2^3\\cdot 3^3\\cdot 13^1\\cdot 17^1=47736 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 840 et de 1680"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(840,1680)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1680:0.1}", 
+ "correctResponse": "1680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 840=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 1680=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(840,1680)=1680=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1=1680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3328 et de 630"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3328,630)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1048320:0.1}", 
+ "correctResponse": "1048320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3328=2^8\\cdot 13^1 endlatexinline] et [startlatexinline 630=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3328,630)=1048320=2^8\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 13^1=1048320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 396 et de 126"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(396,126)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2772:0.1}", 
+ "correctResponse": "2772", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 396=2^2\\cdot 3^2\\cdot 11^1 endlatexinline] et [startlatexinline 126=2^1\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(396,126)=2772=2^2\\cdot 3^2\\cdot 7^1\\cdot 11^1=2772 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 252 et de 170"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(252,170)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21420:0.1}", 
+ "correctResponse": "21420", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 170=2^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(252,170)=21420=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 17^1=21420 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1404 et de 585"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1404,585)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7020:0.1}", 
+ "correctResponse": "7020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1404=2^2\\cdot 3^3\\cdot 13^1 endlatexinline] et [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1404,585)=7020=2^2\\cdot 3^3\\cdot 5^1\\cdot 13^1=7020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 264 et de 4212"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(264,4212)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=92664:0.1}", 
+ "correctResponse": "92664", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 4212=2^2\\cdot 3^4\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(264,4212)=92664=2^3\\cdot 3^4\\cdot 11^1\\cdot 13^1=92664 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 4080 et de 3872"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(4080,3872)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=987360:0.1}", 
+ "correctResponse": "987360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 3872=2^5\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(4080,3872)=987360=2^5\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 17^1=987360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 525 et de 2205"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(525,2205)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11025:0.1}", 
+ "correctResponse": "11025", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 525=3^1\\cdot 5^2\\cdot 7^1 endlatexinline] et [startlatexinline 2205=3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(525,2205)=11025=3^2\\cdot 5^2\\cdot 7^2=11025 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2496 et de 1056"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2496,1056)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=27456:0.1}", 
+ "correctResponse": "27456", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2496=2^6\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2496,1056)=27456=2^6\\cdot 3^1\\cdot 11^1\\cdot 13^1=27456 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2420 et de 1008"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2420,1008)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=609840:0.1}", 
+ "correctResponse": "609840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2420=2^2\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2420,1008)=609840=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=609840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1008 et de 1224"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1008,1224)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17136:0.1}", 
+ "correctResponse": "17136", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1008,1224)=17136=2^4\\cdot 3^2\\cdot 7^1\\cdot 17^1=17136 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3267 et de 650"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3267,650)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2123550:0.1}", 
+ "correctResponse": "2123550", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3267=3^3\\cdot 11^2 endlatexinline] et [startlatexinline 650=2^1\\cdot 5^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3267,650)=2123550=2^1\\cdot 3^3\\cdot 5^2\\cdot 11^2\\cdot 13^1=2123550 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 468 et de 27225"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(468,27225)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1415700:0.1}", 
+ "correctResponse": "1415700", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 468=2^2\\cdot 3^2\\cdot 13^1 endlatexinline] et [startlatexinline 27225=3^2\\cdot 5^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(468,27225)=1415700=2^2\\cdot 3^2\\cdot 5^2\\cdot 11^2\\cdot 13^1=1415700 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8820 et de 208"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8820,208)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=458640:0.1}", 
+ "correctResponse": "458640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 208=2^4\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(8820,208)=458640=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=458640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 9801 et de 56"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(9801,56)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=548856:0.1}", 
+ "correctResponse": "548856", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 9801=3^4\\cdot 11^2 endlatexinline] et [startlatexinline 56=2^3\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(9801,56)=548856=2^3\\cdot 3^4\\cdot 7^1\\cdot 11^2=548856 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1176 et de 408"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1176,408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=19992:0.1}", 
+ "correctResponse": "19992", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1176=2^3\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1176,408)=19992=2^3\\cdot 3^1\\cdot 7^2\\cdot 17^1=19992 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 112 et de 408"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(112,408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5712:0.1}", 
+ "correctResponse": "5712", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 112=2^4\\cdot 7^1 endlatexinline] et [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(112,408)=5712=2^4\\cdot 3^1\\cdot 7^1\\cdot 17^1=5712 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 13230 et de 832"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(13230,832)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5503680:0.1}", 
+ "correctResponse": "5503680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 13230=2^1\\cdot 3^3\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 832=2^6\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(13230,832)=5503680=2^6\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 13^1=5503680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 408 et de 2816"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(408,2816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=143616:0.1}", 
+ "correctResponse": "143616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 2816=2^8\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(408,2816)=143616=2^8\\cdot 3^1\\cdot 11^1\\cdot 17^1=143616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1936 et de 792"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1936,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17424:0.1}", 
+ "correctResponse": "17424", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1936=2^4\\cdot 11^2 endlatexinline] et [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1936,792)=17424=2^4\\cdot 3^2\\cdot 11^2=17424 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 525 et de 3060"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(525,3060)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=107100:0.1}", 
+ "correctResponse": "107100", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 525=3^1\\cdot 5^2\\cdot 7^1 endlatexinline] et [startlatexinline 3060=2^2\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(525,3060)=107100=2^2\\cdot 3^2\\cdot 5^2\\cdot 7^1\\cdot 17^1=107100 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 882 et de 4704"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(882,4704)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=14112:0.1}", 
+ "correctResponse": "14112", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 882=2^1\\cdot 3^2\\cdot 7^2 endlatexinline] et [startlatexinline 4704=2^5\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(882,4704)=14112=2^5\\cdot 3^2\\cdot 7^2=14112 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 612 et de 1452"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(612,1452)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=74052:0.1}", 
+ "correctResponse": "74052", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 612=2^2\\cdot 3^2\\cdot 17^1 endlatexinline] et [startlatexinline 1452=2^2\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(612,1452)=74052=2^2\\cdot 3^2\\cdot 11^2\\cdot 17^1=74052 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1020 et de 176"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1020,176)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=44880:0.1}", 
+ "correctResponse": "44880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 176=2^4\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1020,176)=44880=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^1\\cdot 17^1=44880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 484 et de 56"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(484,56)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6776:0.1}", 
+ "correctResponse": "6776", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 484=2^2\\cdot 11^2 endlatexinline] et [startlatexinline 56=2^3\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(484,56)=6776=2^3\\cdot 7^1\\cdot 11^2=6776 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3675 et de 702"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3675,702)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=859950:0.1}", 
+ "correctResponse": "859950", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3675=3^1\\cdot 5^2\\cdot 7^2 endlatexinline] et [startlatexinline 702=2^1\\cdot 3^3\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3675,702)=859950=2^1\\cdot 3^3\\cdot 5^2\\cdot 7^2\\cdot 13^1=859950 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1764 et de 510"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1764,510)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=149940:0.1}", 
+ "correctResponse": "149940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline] et [startlatexinline 510=2^1\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1764,510)=149940=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=149940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 882 et de 1584"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(882,1584)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=77616:0.1}", 
+ "correctResponse": "77616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 882=2^1\\cdot 3^2\\cdot 7^2 endlatexinline] et [startlatexinline 1584=2^4\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(882,1584)=77616=2^4\\cdot 3^2\\cdot 7^2\\cdot 11^1=77616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 350 et de 459"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(350,459)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=160650:0.1}", 
+ "correctResponse": "160650", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 350=2^1\\cdot 5^2\\cdot 7^1 endlatexinline] et [startlatexinline 459=3^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(350,459)=160650=2^1\\cdot 3^3\\cdot 5^2\\cdot 7^1\\cdot 17^1=160650 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1530 et de 2940"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1530,2940)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=149940:0.1}", 
+ "correctResponse": "149940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1530,2940)=149940=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=149940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1188 et de 660"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1188,660)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5940:0.1}", 
+ "correctResponse": "5940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1188=2^2\\cdot 3^3\\cdot 11^1 endlatexinline] et [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1188,660)=5940=2^2\\cdot 3^3\\cdot 5^1\\cdot 11^1=5940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 560 et de 4704"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(560,4704)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23520:0.1}", 
+ "correctResponse": "23520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 4704=2^5\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(560,4704)=23520=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2=23520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 264 et de 2178"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(264,2178)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8712:0.1}", 
+ "correctResponse": "8712", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 2178=2^1\\cdot 3^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(264,2178)=8712=2^3\\cdot 3^2\\cdot 11^2=8712 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 936 et de 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(936,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=91728:0.1}", 
+ "correctResponse": "91728", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline] et [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(936,2352)=91728=2^4\\cdot 3^2\\cdot 7^2\\cdot 13^1=91728 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1020 et de 1040"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1020,1040)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=53040:0.1}", 
+ "correctResponse": "53040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 1040=2^4\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1020,1040)=53040=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1\\cdot 17^1=53040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1470 et de 7744"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1470,7744)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5691840:0.1}", 
+ "correctResponse": "5691840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1470=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 7744=2^6\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1470,7744)=5691840=2^6\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^2=5691840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 528 et de 234"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(528,234)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=20592:0.1}", 
+ "correctResponse": "20592", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 234=2^1\\cdot 3^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(528,234)=20592=2^4\\cdot 3^2\\cdot 11^1\\cdot 13^1=20592 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 28 et de 168"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(28,168)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=168:0.1}", 
+ "correctResponse": "168", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 28=2^2\\cdot 7^1 endlatexinline] et [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(28,168)=168=2^3\\cdot 3^1\\cdot 7^1=168 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1485 et de 14520"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1485,14520)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=130680:0.1}", 
+ "correctResponse": "130680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 14520=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1485,14520)=130680=2^3\\cdot 3^3\\cdot 5^1\\cdot 11^2=130680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 792 et de 3969"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(792,3969)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=349272:0.1}", 
+ "correctResponse": "349272", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline] et [startlatexinline 3969=3^4\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(792,3969)=349272=2^3\\cdot 3^4\\cdot 7^2\\cdot 11^1=349272 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8820 et de 840"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8820,840)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17640:0.1}", 
+ "correctResponse": "17640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 840=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(8820,840)=17640=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2=17640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1452 et de 1056"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1452,1056)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11616:0.1}", 
+ "correctResponse": "11616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1452=2^2\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1452,1056)=11616=2^5\\cdot 3^1\\cdot 11^2=11616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 168 et de 704"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(168,704)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=14784:0.1}", 
+ "correctResponse": "14784", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 704=2^6\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(168,704)=14784=2^6\\cdot 3^1\\cdot 7^1\\cdot 11^1=14784 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1632 et de 650"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1632,650)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=530400:0.1}", 
+ "correctResponse": "530400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1632=2^5\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 650=2^1\\cdot 5^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1632,650)=530400=2^5\\cdot 3^1\\cdot 5^2\\cdot 13^1\\cdot 17^1=530400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2904 et de 2550"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2904,2550)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1234200:0.1}", 
+ "correctResponse": "1234200", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 2550=2^1\\cdot 3^1\\cdot 5^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2904,2550)=1234200=2^3\\cdot 3^1\\cdot 5^2\\cdot 11^2\\cdot 17^1=1234200 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 156 et de 336"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(156,336)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4368:0.1}", 
+ "correctResponse": "4368", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(156,336)=4368=2^4\\cdot 3^1\\cdot 7^1\\cdot 13^1=4368 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 252 et de 3510"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(252,3510)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=49140:0.1}", 
+ "correctResponse": "49140", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 3510=2^1\\cdot 3^3\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(252,3510)=49140=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 13^1=49140 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 468 et de 560"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(468,560)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=65520:0.1}", 
+ "correctResponse": "65520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 468=2^2\\cdot 3^2\\cdot 13^1 endlatexinline] et [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(468,560)=65520=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 13^1=65520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3672 et de 280"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3672,280)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=128520:0.1}", 
+ "correctResponse": "128520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3672=2^3\\cdot 3^3\\cdot 17^1 endlatexinline] et [startlatexinline 280=2^3\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3672,280)=128520=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 17^1=128520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3528 et de 13068"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3528,13068)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1280664:0.1}", 
+ "correctResponse": "1280664", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3528=2^3\\cdot 3^2\\cdot 7^2 endlatexinline] et [startlatexinline 13068=2^2\\cdot 3^3\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(3528,13068)=1280664=2^3\\cdot 3^3\\cdot 7^2\\cdot 11^2=1280664 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 735 et de 14112"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(735,14112)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=70560:0.1}", 
+ "correctResponse": "70560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 735=3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 14112=2^5\\cdot 3^2\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(735,14112)=70560=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^2=70560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1470 et de 1008"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1470,1008)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=35280:0.1}", 
+ "correctResponse": "35280", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1470=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1470,1008)=35280=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2=35280 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2176 et de 468"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2176,468)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=254592:0.1}", 
+ "correctResponse": "254592", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2176=2^7\\cdot 17^1 endlatexinline] et [startlatexinline 468=2^2\\cdot 3^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2176,468)=254592=2^7\\cdot 3^2\\cdot 13^1\\cdot 17^1=254592 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2496 et de 4356"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2496,4356)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=906048:0.1}", 
+ "correctResponse": "906048", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2496=2^6\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 4356=2^2\\cdot 3^2\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(2496,4356)=906048=2^6\\cdot 3^2\\cdot 11^2\\cdot 13^1=906048 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1485 et de 78"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1485,78)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=38610:0.1}", 
+ "correctResponse": "38610", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 78=2^1\\cdot 3^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1485,78)=38610=2^1\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 13^1=38610 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 132 et de 980"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(132,980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=32340:0.1}", 
+ "correctResponse": "32340", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 132=2^2\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(132,980)=32340=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^1=32340 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 840 et de 1890"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(840,1890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7560:0.1}", 
+ "correctResponse": "7560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 840=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 1890=2^1\\cdot 3^3\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(840,1890)=7560=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^1=7560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 544 et de 880"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(544,880)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29920:0.1}", 
+ "correctResponse": "29920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 544=2^5\\cdot 17^1 endlatexinline] et [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(544,880)=29920=2^5\\cdot 5^1\\cdot 11^1\\cdot 17^1=29920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 352 et de 3920"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(352,3920)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=86240:0.1}", 
+ "correctResponse": "86240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 352=2^5\\cdot 11^1 endlatexinline] et [startlatexinline 3920=2^4\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(352,3920)=86240=2^5\\cdot 5^1\\cdot 7^2\\cdot 11^1=86240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 140 et de 1260"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(140,1260)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1260:0.1}", 
+ "correctResponse": "1260", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 140=2^2\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(140,1260)=1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1=1260 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1248 et de 14520"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1248,14520)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=755040:0.1}", 
+ "correctResponse": "755040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1248=2^5\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 14520=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1248,14520)=755040=2^5\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=755040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 448 et de 1650"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(448,1650)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=369600:0.1}", 
+ "correctResponse": "369600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 448=2^6\\cdot 7^1 endlatexinline] et [startlatexinline 1650=2^1\\cdot 3^1\\cdot 5^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(448,1650)=369600=2^6\\cdot 3^1\\cdot 5^2\\cdot 7^1\\cdot 11^1=369600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1176 et de 1176"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1176,1176)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1176:0.1}", 
+ "correctResponse": "1176", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1176=2^3\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 1176=2^3\\cdot 3^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1176,1176)=1176=2^3\\cdot 3^1\\cdot 7^2=1176 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7260 et de 198"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7260,198)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21780:0.1}", 
+ "correctResponse": "21780", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7260=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 198=2^1\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(7260,198)=21780=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2=21780 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8712 et de 2205"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8712,2205)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2134440:0.1}", 
+ "correctResponse": "2134440", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline] et [startlatexinline 2205=3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(8712,2205)=2134440=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=2134440 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1960 et de 1764"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1960,1764)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17640:0.1}", 
+ "correctResponse": "17640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1960,1764)=17640=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2=17640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 420 et de 544"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(420,544)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=57120:0.1}", 
+ "correctResponse": "57120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 420=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 544=2^5\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(420,544)=57120=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 17^1=57120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 585 et de 594"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(585,594)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=38610:0.1}", 
+ "correctResponse": "38610", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(585,594)=38610=2^1\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 13^1=38610 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 585 et de 585"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(585,585)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=585:0.1}", 
+ "correctResponse": "585", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(585,585)=585=3^2\\cdot 5^1\\cdot 13^1=585 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 408 et de 63"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(408,63)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8568:0.1}", 
+ "correctResponse": "8568", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 63=3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(408,63)=8568=2^3\\cdot 3^2\\cdot 7^1\\cdot 17^1=8568 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 130 et de 1815"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(130,1815)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=47190:0.1}", 
+ "correctResponse": "47190", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 130=2^1\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 1815=3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(130,1815)=47190=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=47190 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1782 et de 2816"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1782,2816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=228096:0.1}", 
+ "correctResponse": "228096", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1782=2^1\\cdot 3^4\\cdot 11^1 endlatexinline] et [startlatexinline 2816=2^8\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1782,2816)=228096=2^8\\cdot 3^4\\cdot 11^1=228096 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1170 et de 3120"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1170,3120)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9360:0.1}", 
+ "correctResponse": "9360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1170=2^1\\cdot 3^2\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1170,3120)=9360=2^4\\cdot 3^2\\cdot 5^1\\cdot 13^1=9360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 204 et de 15488"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(204,15488)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=789888:0.1}", 
+ "correctResponse": "789888", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 204=2^2\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 15488=2^7\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(204,15488)=789888=2^7\\cdot 3^1\\cdot 11^2\\cdot 17^1=789888 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 189 et de 784"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(189,784)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21168:0.1}", 
+ "correctResponse": "21168", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 189=3^3\\cdot 7^1 endlatexinline] et [startlatexinline 784=2^4\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(189,784)=21168=2^4\\cdot 3^3\\cdot 7^2=21168 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1020 et de 660"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1020,660)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11220:0.1}", 
+ "correctResponse": "11220", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1020,660)=11220=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1\\cdot 17^1=11220 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 672 et de 1872"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(672,1872)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=26208:0.1}", 
+ "correctResponse": "26208", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 672=2^5\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 1872=2^4\\cdot 3^2\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(672,1872)=26208=2^5\\cdot 3^2\\cdot 7^1\\cdot 13^1=26208 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1836 et de 2904"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1836,2904)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=444312:0.1}", 
+ "correctResponse": "444312", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline] et [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1836,2904)=444312=2^3\\cdot 3^3\\cdot 11^2\\cdot 17^1=444312 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1530 et de 510"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1530,510)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1530:0.1}", 
+ "correctResponse": "1530", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 510=2^1\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1530,510)=1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1=1530 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3920 et de 702"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3920,702)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1375920:0.1}", 
+ "correctResponse": "1375920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3920=2^4\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 702=2^1\\cdot 3^3\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3920,702)=1375920=2^4\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 13^1=1375920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8820 et de 13068"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8820,13068)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3201660:0.1}", 
+ "correctResponse": "3201660", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 13068=2^2\\cdot 3^3\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(8820,13068)=3201660=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^2=3201660 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1040 et de 1815"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1040,1815)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=377520:0.1}", 
+ "correctResponse": "377520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1040=2^4\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 1815=3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1040,1815)=377520=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=377520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 680 et de 156"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(680,156)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=26520:0.1}", 
+ "correctResponse": "26520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(680,156)=26520=2^3\\cdot 3^1\\cdot 5^1\\cdot 13^1\\cdot 17^1=26520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1053 et de 660"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1053,660)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=231660:0.1}", 
+ "correctResponse": "231660", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1053=3^4\\cdot 13^1 endlatexinline] et [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1053,660)=231660=2^2\\cdot 3^4\\cdot 5^1\\cdot 11^1\\cdot 13^1=231660 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 156 et de 1632"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(156,1632)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21216:0.1}", 
+ "correctResponse": "21216", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 1632=2^5\\cdot 3^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(156,1632)=21216=2^5\\cdot 3^1\\cdot 13^1\\cdot 17^1=21216 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 792 et de 612"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(792,612)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=13464:0.1}", 
+ "correctResponse": "13464", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline] et [startlatexinline 612=2^2\\cdot 3^2\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(792,612)=13464=2^3\\cdot 3^2\\cdot 11^1\\cdot 17^1=13464 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7938 et de 792"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7938,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=349272:0.1}", 
+ "correctResponse": "349272", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7938=2^1\\cdot 3^4\\cdot 7^2 endlatexinline] et [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(7938,792)=349272=2^3\\cdot 3^4\\cdot 7^2\\cdot 11^1=349272 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2376 et de 3630"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2376,3630)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=130680:0.1}", 
+ "correctResponse": "130680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2376=2^3\\cdot 3^3\\cdot 11^1 endlatexinline] et [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(2376,3630)=130680=2^3\\cdot 3^3\\cdot 5^1\\cdot 11^2=130680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1176 et de 832"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1176,832)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=122304:0.1}", 
+ "correctResponse": "122304", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1176=2^3\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 832=2^6\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1176,832)=122304=2^6\\cdot 3^1\\cdot 7^2\\cdot 13^1=122304 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 735 et de 9801"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(735,9801)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2401245:0.1}", 
+ "correctResponse": "2401245", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 735=3^1\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 9801=3^4\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(735,9801)=2401245=3^4\\cdot 5^1\\cdot 7^2\\cdot 11^2=2401245 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2295 et de 1188"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2295,1188)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=100980:0.1}", 
+ "correctResponse": "100980", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2295=3^3\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 1188=2^2\\cdot 3^3\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2295,1188)=100980=2^2\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 17^1=100980 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3630 et de 224"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3630,224)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=406560:0.1}", 
+ "correctResponse": "406560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 224=2^5\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3630,224)=406560=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^2=406560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 7840 et de 7938"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(7840,7938)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=635040:0.1}", 
+ "correctResponse": "635040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 7840=2^5\\cdot 5^1\\cdot 7^2 endlatexinline] et [startlatexinline 7938=2^1\\cdot 3^4\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(7840,7938)=635040=2^5\\cdot 3^4\\cdot 5^1\\cdot 7^2=635040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 23232 et de 945"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(23232,945)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7318080:0.1}", 
+ "correctResponse": "7318080", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 23232=2^6\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 945=3^3\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(23232,945)=7318080=2^6\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^2=7318080 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 3528 et de 272"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(3528,272)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=119952:0.1}", 
+ "correctResponse": "119952", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 3528=2^3\\cdot 3^2\\cdot 7^2 endlatexinline] et [startlatexinline 272=2^4\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(3528,272)=119952=2^4\\cdot 3^2\\cdot 7^2\\cdot 17^1=119952 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1224 et de 10890"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1224,10890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=740520:0.1}", 
+ "correctResponse": "740520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline] et [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1224,10890)=740520=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^2\\cdot 17^1=740520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 390 et de 2040"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(390,2040)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=26520:0.1}", 
+ "correctResponse": "26520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 390=2^1\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 2040=2^3\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(390,2040)=26520=2^3\\cdot 3^1\\cdot 5^1\\cdot 13^1\\cdot 17^1=26520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 528 et de 1664"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(528,1664)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=54912:0.1}", 
+ "correctResponse": "54912", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 1664=2^7\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(528,1664)=54912=2^7\\cdot 3^1\\cdot 11^1\\cdot 13^1=54912 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 420 et de 1056"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(420,1056)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=36960:0.1}", 
+ "correctResponse": "36960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 420=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(420,1056)=36960=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^1=36960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 9408 et de 672"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(9408,672)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9408:0.1}", 
+ "correctResponse": "9408", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 9408=2^6\\cdot 3^1\\cdot 7^2 endlatexinline] et [startlatexinline 672=2^5\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(9408,672)=9408=2^6\\cdot 3^1\\cdot 7^2=9408 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 8712 et de 19602"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(8712,19602)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=78408:0.1}", 
+ "correctResponse": "78408", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline] et [startlatexinline 19602=2^1\\cdot 3^4\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(8712,19602)=78408=2^3\\cdot 3^4\\cdot 11^2=78408 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 816 et de 3672"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(816,3672)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7344:0.1}", 
+ "correctResponse": "7344", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline] et [startlatexinline 3672=2^3\\cdot 3^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(816,3672)=7344=2^4\\cdot 3^3\\cdot 17^1=7344 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 336 et de 136"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(336,136)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5712:0.1}", 
+ "correctResponse": "5712", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 136=2^3\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(336,136)=5712=2^4\\cdot 3^1\\cdot 7^1\\cdot 17^1=5712 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 210 et de 4080"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(210,4080)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=28560:0.1}", 
+ "correctResponse": "28560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 210=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] et [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(210,4080)=28560=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 17^1=28560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1040 et de 23232"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1040,23232)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1510080:0.1}", 
+ "correctResponse": "1510080", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1040=2^4\\cdot 5^1\\cdot 13^1 endlatexinline] et [startlatexinline 23232=2^6\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1040,23232)=1510080=2^6\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=1510080 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2904 et de 525"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2904,525)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=508200:0.1}", 
+ "correctResponse": "508200", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 525=3^1\\cdot 5^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2904,525)=508200=2^3\\cdot 3^1\\cdot 5^2\\cdot 7^1\\cdot 11^2=508200 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1224 et de 21780"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1224,21780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=740520:0.1}", 
+ "correctResponse": "740520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline] et [startlatexinline 21780=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(1224,21780)=740520=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^2\\cdot 17^1=740520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 624 et de 1452"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(624,1452)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=75504:0.1}", 
+ "correctResponse": "75504", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 1452=2^2\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(624,1452)=75504=2^4\\cdot 3^1\\cdot 11^2\\cdot 13^1=75504 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 5292 et de 2106"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(5292,2106)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=206388:0.1}", 
+ "correctResponse": "206388", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline] et [startlatexinline 2106=2^1\\cdot 3^4\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(5292,2106)=206388=2^2\\cdot 3^4\\cdot 7^2\\cdot 13^1=206388 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1344 et de 3060"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1344,3060)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=342720:0.1}", 
+ "correctResponse": "342720", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1344=2^6\\cdot 3^1\\cdot 7^1 endlatexinline] et [startlatexinline 3060=2^2\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1344,3060)=342720=2^6\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 17^1=342720 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 252 et de 126"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(252,126)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=252:0.1}", 
+ "correctResponse": "252", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 126=2^1\\cdot 3^2\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(252,126)=252=2^2\\cdot 3^2\\cdot 7^1=252 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1377 et de 1404"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1377,1404)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=71604:0.1}", 
+ "correctResponse": "71604", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1377=3^4\\cdot 17^1 endlatexinline] et [startlatexinline 1404=2^2\\cdot 3^3\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1377,1404)=71604=2^2\\cdot 3^4\\cdot 13^1\\cdot 17^1=71604 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1224 et de 390"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1224,390)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=79560:0.1}", 
+ "correctResponse": "79560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline] et [startlatexinline 390=2^1\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1224,390)=79560=2^3\\cdot 3^2\\cdot 5^1\\cdot 13^1\\cdot 17^1=79560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 975 et de 495"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(975,495)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=32175:0.1}", 
+ "correctResponse": "32175", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 975=3^1\\cdot 5^2\\cdot 13^1 endlatexinline] et [startlatexinline 495=3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Ainsi, [startlatexinline ppmc(975,495)=32175=3^2\\cdot 5^2\\cdot 11^1\\cdot 13^1=32175 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 14520 et de 189"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(14520,189)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=914760:0.1}", 
+ "correctResponse": "914760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 14520=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] et [startlatexinline 189=3^3\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(14520,189)=914760=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^2=914760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 4080 et de 765"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(4080,765)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=12240:0.1}", 
+ "correctResponse": "12240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 765=3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(4080,765)=12240=2^4\\cdot 3^2\\cdot 5^1\\cdot 17^1=12240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 2904 et de 756"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(2904,756)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=182952:0.1}", 
+ "correctResponse": "182952", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline] et [startlatexinline 756=2^2\\cdot 3^3\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(2904,756)=182952=2^3\\cdot 3^3\\cdot 7^1\\cdot 11^2=182952 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 252 et de 392"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(252,392)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3528:0.1}", 
+ "correctResponse": "3528", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] et [startlatexinline 392=2^3\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(252,392)=3528=2^3\\cdot 3^2\\cdot 7^2=3528 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1056 et de 315"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1056,315)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=110880:0.1}", 
+ "correctResponse": "110880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline] et [startlatexinline 315=3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1056,315)=110880=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^1=110880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 680 et de 1452"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(680,1452)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=246840:0.1}", 
+ "correctResponse": "246840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] et [startlatexinline 1452=2^2\\cdot 3^1\\cdot 11^2 endlatexinline]. Ainsi, [startlatexinline ppmc(680,1452)=246840=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 17^1=246840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 312 et de 3528"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(312,3528)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=45864:0.1}", 
+ "correctResponse": "45864", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline] et [startlatexinline 3528=2^3\\cdot 3^2\\cdot 7^2 endlatexinline]. Ainsi, [startlatexinline ppmc(312,3528)=45864=2^3\\cdot 3^2\\cdot 7^2\\cdot 13^1=45864 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 425 et de 210"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(425,210)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17850:0.1}", 
+ "correctResponse": "17850", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 425=5^2\\cdot 17^1 endlatexinline] et [startlatexinline 210=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(425,210)=17850=2^1\\cdot 3^1\\cdot 5^2\\cdot 7^1\\cdot 17^1=17850 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 990 et de 4080"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(990,4080)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=134640:0.1}", 
+ "correctResponse": "134640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline] et [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Ainsi, [startlatexinline ppmc(990,4080)=134640=2^4\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=134640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_fr "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Calculer le ppmc de 1188 et de 336"  
+ }, 
+ "responseText":{ 
+ "text": "Réponse" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex ppmc(1188,336)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=33264:0.1}", 
+ "correctResponse": "33264", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"La décomposition en produit de nombres premiers est donnée par [startlatexinline 1188=2^2\\cdot 3^3\\cdot 11^1 endlatexinline] et [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline]. Ainsi, [startlatexinline ppmc(1188,336)=33264=2^4\\cdot 3^3\\cdot 7^1\\cdot 11^1=33264 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ } 
+ ]
