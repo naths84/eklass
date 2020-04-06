@@ -4,7 +4,7 @@ import LatexyString from 'components/LatexyString/LatexyString';
 const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
   const { label, text, responses, correctResponse } = inputItem;
 
-  const [value, setValue] = useState(responses[0]);
+  const [value, setValue] = useState("");
   const [isValid, setIsValid] = useState(false);
 
   useEffect(() => {
@@ -23,6 +23,7 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
       <span>
         {splitText[0]}
         <select value={value} onChange={handleChange} disabled={displayErrors}>
+        <option value=""></option>
           {responses.map((response) => (
             <option key={`select-option-${response}`} value={response}>
               {response}
@@ -31,7 +32,8 @@ const SelectInput = ({ id, inputItem, callBack, displayErrors }) => {
         </select>
         {splitText[1]}
       </span>
-      { displayErrors && !isValid && <span>{'useful error message'}</span> }
+      { displayErrors && !isValid && <span>{'Wrong Answer !'}</span> }
+      { displayErrors && isValid && <span>{'Right Answer !'}</span> }
     </div>
   );
 };

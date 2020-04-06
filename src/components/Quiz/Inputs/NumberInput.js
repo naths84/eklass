@@ -25,8 +25,10 @@ const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
         onChange={handleChange}
         step={decimal}
         disabled={displayErrors}
+        //required
       />
-      { displayErrors && !isValid && <span>{'useful error message'}</span> }
+      { displayErrors && !isValid && <span>{'Wrong Answer !'}</span> }
+      { displayErrors && isValid && <span>{'Right Answer !'}</span> }
 
     </div>
   );

@@ -25,11 +25,13 @@ const Question = (props) => {
     console.log(registeredInputs);
   }, [registeredInputs])
 
-  const resetResponses = () => {
+  const resetResponses = (e) => {
+    e.preventDefault();
     setSubmitted(false);
   };
 
-  const submitResponses = () => {
+  const submitResponses = (e) => {
+    e.preventDefault();
     setSubmitted(true);
 
     // Check here is responses are correct and do something
@@ -50,6 +52,7 @@ const Question = (props) => {
       <h2>{name.text}</h2>
       <p className={style.textToLeft} ><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>
+      <form class="needs-validation">
       {questionInputs &&
         Object.keys(questionInputs).map((key) => {
           const inputItem = questionInputs[key];
@@ -62,6 +65,7 @@ const Question = (props) => {
                 inputItem={inputItem}
                 callBack={handleInput}
                 displayErrors={submitted}
+                //required
               />
                 </div>
 
@@ -78,15 +82,17 @@ const Question = (props) => {
                         inputItem={inputItem}
                         callBack={handleInput}
                         displayErrors={submitted}
+                        //required
                     />
               </div>
             );
           }
         })}
       <div className={style.resetSubmitButtons} >
-        <button className={style.button} onClick={resetResponses}>Reset</button>
-        <button className={style.button} onClick={submitResponses}>Submit</button>
+        <button type="submit" className={style.button} onClick={resetResponses} class="btn btn-primary mb-2">Reset</button>
+        <button type="submit" className={style.button} onClick={submitResponses} class="btn btn-primary mb-2">Submit</button>
       </div>
+      </form>
       {submitted && (
           <div className={style.textToLeft} >
             <LatexyString string={generalfeedback.text} />
