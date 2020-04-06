@@ -2,6 +2,7 @@ import React, {useState} from "react";
 
 import handleGoogleAuth from "utils/googleAuth";
 import { auth } from 'config/firebase';
+import  './login.css';
 
 const Login = () => {
   const [emailValue, setEmailValue] = useState('')
@@ -27,7 +28,7 @@ const Login = () => {
 
   return (
     <>
-      <form onSubmit={handleFormSubmit}>
+      <form style={{maxWidth: "420px", margin: "0 auto"}}onSubmit={handleFormSubmit}>
         <h3>Login</h3>
 
         <div className="form-group">
@@ -66,7 +67,8 @@ const Login = () => {
           </div>
         </div>
 
-        <button type="submit" className="btn btn-primary btn-block" onClick={handlePasswordAuth}>
+        <button type="submit" className="btn light"  style ={{backgroundColor: "#44a49c", color: "white",
+     padding: "10px 12px", border: "none", borderRadius: "4px", cursor: "pointer"}} onClick={handlePasswordAuth}>
           Submit
         </button>
         {/* <p className="forgot-password text-right">
