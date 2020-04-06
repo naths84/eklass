@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MathJax_Preview + span, 
+.MathJax_Preview > span {
+  font-size: 1.2em!important;
+}
