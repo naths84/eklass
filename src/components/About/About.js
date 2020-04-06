@@ -17,9 +17,12 @@ const About = (props) => {
       <div class="jumbotron" style={{padding: "30px"}}>
       <h1 style={{ textAlign: "center", marginLeft: "30px", marginBottom: "30px"}}>{t("presentation")}</h1>
        <p class="text-left">{t("description_about")}</p>
-       <iframe width="800" height="400" src="https://www.youtube.com/embed/9Ccm_r8d-to" 
-       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-       </iframe>
+
+       <iframe width="806" height="568" src="https://www.youtube.com/embed/9Ccm_r8d-to" frameborder="0" 
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       <iframe width="806" height="568" src="https://www.youtube.com/embed/kCP5TzE7iPA" frameborder="0" 
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
     </div>

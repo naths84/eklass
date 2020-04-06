@@ -52,6 +52,9 @@ const Question = (props) => {
     else if (dataId == "id-1003-c1"  && getLanguage() == "fr") {
         data = data1003fr
     }
+    else if (dataId == "id-1003-c1"  && getLanguage() == "pt") {
+        data = data1003pt
+    }
     else if (dataId == "id-1003-c1"  && getLanguage() == "en") {
         data = data1003en
     } else if (dataId=="id-902-c8"  && getLanguage() == "en") {
