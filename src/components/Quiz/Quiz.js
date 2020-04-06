@@ -8,7 +8,7 @@ const Quiz = ({ competenceId, nbOfQuestions }) => {
     <div>
       <h1>Quiz : {t(competenceId)}</h1>
       <h5>{nbOfQuestions} questions are needed for this quizz</h5>
-      <Content nbQu={ nbOfQuestions }/>
+      <Content compId= { competenceId } nbQu={ nbOfQuestions }/>
     </div>
   );
 };
