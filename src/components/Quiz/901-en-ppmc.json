@@ -1,0 +1,4802 @@
+[ 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 624 and 2176"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(624,2176)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=84864:0.1}", 
+ "correctResponse": "84864", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 2176=2^7\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(624,2176)=84864=2^7\\cdot 3^1\\cdot 13^1\\cdot 17^1=84864 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1764 and 315"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1764,315)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8820:0.1}", 
+ "correctResponse": "8820", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 315=3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1764,315)=8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2=8820 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1452 and 980"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1452,980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=355740:0.1}", 
+ "correctResponse": "355740", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1452=2^2\\cdot 3^1\\cdot 11^2 endlatexinline] and [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1452,980)=355740=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^2=355740 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 510 and 1008"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(510,1008)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=85680:0.1}", 
+ "correctResponse": "85680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 510=2^1\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(510,1008)=85680=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 17^1=85680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2352 and 780"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2352,780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=152880:0.1}", 
+ "correctResponse": "152880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline] and [startlatexinline 780=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2352,780)=152880=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 13^1=152880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 330 and 980"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(330,980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=32340:0.1}", 
+ "correctResponse": "32340", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 330=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(330,980)=32340=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^1=32340 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2720 and 1170"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2720,1170)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=318240:0.1}", 
+ "correctResponse": "318240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2720=2^5\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1170=2^1\\cdot 3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2720,1170)=318240=2^5\\cdot 3^2\\cdot 5^1\\cdot 13^1\\cdot 17^1=318240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 336 and 1960"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(336,1960)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11760:0.1}", 
+ "correctResponse": "11760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline] and [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(336,1960)=11760=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2=11760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 198 and 9680"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(198,9680)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=87120:0.1}", 
+ "correctResponse": "87120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 198=2^1\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 9680=2^4\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(198,9680)=87120=2^4\\cdot 3^2\\cdot 5^1\\cdot 11^2=87120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 88 and 336"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(88,336)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3696:0.1}", 
+ "correctResponse": "3696", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 88=2^3\\cdot 11^1 endlatexinline] and [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(88,336)=3696=2^4\\cdot 3^1\\cdot 7^1\\cdot 11^1=3696 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 918 and 585"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(918,585)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=59670:0.1}", 
+ "correctResponse": "59670", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 918=2^1\\cdot 3^3\\cdot 17^1 endlatexinline] and [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(918,585)=59670=2^1\\cdot 3^3\\cdot 5^1\\cdot 13^1\\cdot 17^1=59670 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 264 and 672"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(264,672)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7392:0.1}", 
+ "correctResponse": "7392", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 672=2^5\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(264,672)=7392=2^5\\cdot 3^1\\cdot 7^1\\cdot 11^1=7392 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1323 and 560"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1323,560)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=105840:0.1}", 
+ "correctResponse": "105840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1323=3^3\\cdot 7^2 endlatexinline] and [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1323,560)=105840=2^4\\cdot 3^3\\cdot 5^1\\cdot 7^2=105840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1764 and 660"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1764,660)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=97020:0.1}", 
+ "correctResponse": "97020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1764,660)=97020=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=97020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 11760 and 224"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(11760,224)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23520:0.1}", 
+ "correctResponse": "23520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 11760=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 224=2^5\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(11760,224)=23520=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2=23520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4080 and 1120"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4080,1120)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=57120:0.1}", 
+ "correctResponse": "57120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1120=2^5\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4080,1120)=57120=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 17^1=57120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2475 and 132"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2475,132)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9900:0.1}", 
+ "correctResponse": "9900", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2475=3^2\\cdot 5^2\\cdot 11^1 endlatexinline] and [startlatexinline 132=2^2\\cdot 3^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2475,132)=9900=2^2\\cdot 3^2\\cdot 5^2\\cdot 11^1=9900 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 280 and 104"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(280,104)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3640:0.1}", 
+ "correctResponse": "3640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 280=2^3\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 104=2^3\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(280,104)=3640=2^3\\cdot 5^1\\cdot 7^1\\cdot 13^1=3640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1584 and 9408"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1584,9408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=310464:0.1}", 
+ "correctResponse": "310464", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1584=2^4\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 9408=2^6\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1584,9408)=310464=2^6\\cdot 3^2\\cdot 7^2\\cdot 11^1=310464 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 17424 and 84"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(17424,84)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=121968:0.1}", 
+ "correctResponse": "121968", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 17424=2^4\\cdot 3^2\\cdot 11^2 endlatexinline] and [startlatexinline 84=2^2\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(17424,84)=121968=2^4\\cdot 3^2\\cdot 7^1\\cdot 11^2=121968 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2352 and 252"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2352,252)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7056:0.1}", 
+ "correctResponse": "7056", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline] and [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2352,252)=7056=2^4\\cdot 3^2\\cdot 7^2=7056 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 504 and 408"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(504,408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8568:0.1}", 
+ "correctResponse": "8568", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 504=2^3\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(504,408)=8568=2^3\\cdot 3^2\\cdot 7^1\\cdot 17^1=8568 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 105 and 980"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(105,980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2940:0.1}", 
+ "correctResponse": "2940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 105=3^1\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(105,980)=2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2=2940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 5808 and 260"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(5808,260)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=377520:0.1}", 
+ "correctResponse": "377520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 5808=2^4\\cdot 3^1\\cdot 11^2 endlatexinline] and [startlatexinline 260=2^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(5808,260)=377520=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=377520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7938 and 1020"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7938,1020)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1349460:0.1}", 
+ "correctResponse": "1349460", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7938=2^1\\cdot 3^4\\cdot 7^2 endlatexinline] and [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7938,1020)=1349460=2^2\\cdot 3^4\\cdot 5^1\\cdot 7^2\\cdot 17^1=1349460 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 5292 and 2808"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(5292,2808)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=137592:0.1}", 
+ "correctResponse": "137592", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline] and [startlatexinline 2808=2^3\\cdot 3^3\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(5292,2808)=137592=2^3\\cdot 3^3\\cdot 7^2\\cdot 13^1=137592 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 204 and 1323"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(204,1323)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=89964:0.1}", 
+ "correctResponse": "89964", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 204=2^2\\cdot 3^1\\cdot 17^1 endlatexinline] and [startlatexinline 1323=3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(204,1323)=89964=2^2\\cdot 3^3\\cdot 7^2\\cdot 17^1=89964 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4410 and 17424"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4410,17424)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4268880:0.1}", 
+ "correctResponse": "4268880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 17424=2^4\\cdot 3^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(4410,17424)=4268880=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=4268880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 660 and 420"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(660,420)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4620:0.1}", 
+ "correctResponse": "4620", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 420=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(660,420)=4620=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^1=4620 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1890 and 528"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1890,528)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=166320:0.1}", 
+ "correctResponse": "166320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1890=2^1\\cdot 3^3\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1890,528)=166320=2^4\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^1=166320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2376 and 3744"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2376,3744)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=123552:0.1}", 
+ "correctResponse": "123552", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2376=2^3\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 3744=2^5\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2376,3744)=123552=2^5\\cdot 3^3\\cdot 11^1\\cdot 13^1=123552 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3672 and 3744"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3672,3744)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=190944:0.1}", 
+ "correctResponse": "190944", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3672=2^3\\cdot 3^3\\cdot 17^1 endlatexinline] and [startlatexinline 3744=2^5\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3672,3744)=190944=2^5\\cdot 3^3\\cdot 13^1\\cdot 17^1=190944 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 416 and 440"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(416,440)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=22880:0.1}", 
+ "correctResponse": "22880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 416=2^5\\cdot 13^1 endlatexinline] and [startlatexinline 440=2^3\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(416,440)=22880=2^5\\cdot 5^1\\cdot 11^1\\cdot 13^1=22880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 126 and 340"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(126,340)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21420:0.1}", 
+ "correctResponse": "21420", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 126=2^1\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 340=2^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(126,340)=21420=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 17^1=21420 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2940 and 234"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2940,234)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=114660:0.1}", 
+ "correctResponse": "114660", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 234=2^1\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2940,234)=114660=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=114660 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 840 and 117"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(840,117)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=32760:0.1}", 
+ "correctResponse": "32760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 840=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 117=3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(840,117)=32760=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 13^1=32760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 66 and 990"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(66,990)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=990:0.1}", 
+ "correctResponse": "990", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 66=2^1\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(66,990)=990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1=990 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 5808 and 780"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(5808,780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=377520:0.1}", 
+ "correctResponse": "377520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 5808=2^4\\cdot 3^1\\cdot 11^2 endlatexinline] and [startlatexinline 780=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(5808,780)=377520=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2\\cdot 13^1=377520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 735 and 2205"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(735,2205)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2205:0.1}", 
+ "correctResponse": "2205", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 735=3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 2205=3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(735,2205)=2205=3^2\\cdot 5^1\\cdot 7^2=2205 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 416 and 330"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(416,330)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=68640:0.1}", 
+ "correctResponse": "68640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 416=2^5\\cdot 13^1 endlatexinline] and [startlatexinline 330=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(416,330)=68640=2^5\\cdot 3^1\\cdot 5^1\\cdot 11^1\\cdot 13^1=68640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 104 and 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(104,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=229320:0.1}", 
+ "correctResponse": "229320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 104=2^3\\cdot 13^1 endlatexinline] and [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(104,4410)=229320=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=229320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 18150 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(18150,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1887600:0.1}", 
+ "correctResponse": "1887600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 18150=2^1\\cdot 3^1\\cdot 5^2\\cdot 11^2 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(18150,624)=1887600=2^4\\cdot 3^1\\cdot 5^2\\cdot 11^2\\cdot 13^1=1887600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1485 and 14520"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1485,14520)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=130680:0.1}", 
+ "correctResponse": "130680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 14520=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1485,14520)=130680=2^3\\cdot 3^3\\cdot 5^1\\cdot 11^2=130680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 560 and 220"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(560,220)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6160:0.1}", 
+ "correctResponse": "6160", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 560=2^4\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 220=2^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(560,220)=6160=2^4\\cdot 5^1\\cdot 7^1\\cdot 11^1=6160 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 189 and 416"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(189,416)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=78624:0.1}", 
+ "correctResponse": "78624", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 189=3^3\\cdot 7^1 endlatexinline] and [startlatexinline 416=2^5\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(189,416)=78624=2^5\\cdot 3^3\\cdot 7^1\\cdot 13^1=78624 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 19602 and 1560"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(19602,1560)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5096520:0.1}", 
+ "correctResponse": "5096520", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 19602=2^1\\cdot 3^4\\cdot 11^2 endlatexinline] and [startlatexinline 1560=2^3\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(19602,1560)=5096520=2^3\\cdot 3^4\\cdot 5^1\\cdot 11^2\\cdot 13^1=5096520 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7056 and 102"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7056,102)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=119952:0.1}", 
+ "correctResponse": "119952", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7056=2^4\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 102=2^1\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7056,102)=119952=2^4\\cdot 3^2\\cdot 7^2\\cdot 17^1=119952 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 168 and 816"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(168,816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5712:0.1}", 
+ "correctResponse": "5712", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline] and [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(168,816)=5712=2^4\\cdot 3^1\\cdot 7^1\\cdot 17^1=5712 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4840 and 945"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4840,945)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=914760:0.1}", 
+ "correctResponse": "914760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4840=2^3\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 945=3^3\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4840,945)=914760=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^2=914760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1210 and 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1210,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=533610:0.1}", 
+ "correctResponse": "533610", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1210=2^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1210,4410)=533610=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=533610 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 980 and 5292"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(980,5292)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=26460:0.1}", 
+ "correctResponse": "26460", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(980,5292)=26460=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^2=26460 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 70 and 1764"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(70,1764)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8820:0.1}", 
+ "correctResponse": "8820", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 70=2^1\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(70,1764)=8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2=8820 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3630 and 126"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3630,126)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=76230:0.1}", 
+ "correctResponse": "76230", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 126=2^1\\cdot 3^2\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3630,126)=76230=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=76230 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3630 and 2106"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3630,2106)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1274130:0.1}", 
+ "correctResponse": "1274130", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 2106=2^1\\cdot 3^4\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3630,2106)=1274130=2^1\\cdot 3^4\\cdot 5^1\\cdot 11^2\\cdot 13^1=1274130 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 15488 and 8712"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(15488,8712)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=139392:0.1}", 
+ "correctResponse": "139392", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 15488=2^7\\cdot 11^2 endlatexinline] and [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(15488,8712)=139392=2^7\\cdot 3^2\\cdot 11^2=139392 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 390 and 2448"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(390,2448)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=159120:0.1}", 
+ "correctResponse": "159120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 390=2^1\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline] and [startlatexinline 2448=2^4\\cdot 3^2\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(390,2448)=159120=2^4\\cdot 3^2\\cdot 5^1\\cdot 13^1\\cdot 17^1=159120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 15876 and 168"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(15876,168)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=31752:0.1}", 
+ "correctResponse": "31752", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 15876=2^2\\cdot 3^4\\cdot 7^2 endlatexinline] and [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(15876,168)=31752=2^3\\cdot 3^4\\cdot 7^2=31752 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 105 and 416"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(105,416)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=43680:0.1}", 
+ "correctResponse": "43680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 105=3^1\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 416=2^5\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(105,416)=43680=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 13^1=43680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1960 and 2904"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1960,2904)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=711480:0.1}", 
+ "correctResponse": "711480", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 2904=2^3\\cdot 3^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1960,2904)=711480=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^2=711480 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 624 and 336"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(624,336)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4368:0.1}", 
+ "correctResponse": "4368", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(624,336)=4368=2^4\\cdot 3^1\\cdot 7^1\\cdot 13^1=4368 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 18150 and 1323"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(18150,1323)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8004150:0.1}", 
+ "correctResponse": "8004150", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 18150=2^1\\cdot 3^1\\cdot 5^2\\cdot 11^2 endlatexinline] and [startlatexinline 1323=3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(18150,1323)=8004150=2^1\\cdot 3^3\\cdot 5^2\\cdot 7^2\\cdot 11^2=8004150 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1584 and 792"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1584,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1584:0.1}", 
+ "correctResponse": "1584", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1584=2^4\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1584,792)=1584=2^4\\cdot 3^2\\cdot 11^1=1584 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4410 and 440"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4410,440)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=194040:0.1}", 
+ "correctResponse": "194040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 440=2^3\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4410,440)=194040=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=194040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 39204 and 1210"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(39204,1210)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=196020:0.1}", 
+ "correctResponse": "196020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 39204=2^2\\cdot 3^4\\cdot 11^2 endlatexinline] and [startlatexinline 1210=2^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(39204,1210)=196020=2^2\\cdot 3^4\\cdot 5^1\\cdot 11^2=196020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 880 and 594"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(880,594)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23760:0.1}", 
+ "correctResponse": "23760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(880,594)=23760=2^4\\cdot 3^3\\cdot 5^1\\cdot 11^1=23760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 220 and 176"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(220,176)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=880:0.1}", 
+ "correctResponse": "880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 220=2^2\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 176=2^4\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(220,176)=880=2^4\\cdot 5^1\\cdot 11^1=880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 702 and 340"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(702,340)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=119340:0.1}", 
+ "correctResponse": "119340", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 702=2^1\\cdot 3^3\\cdot 13^1 endlatexinline] and [startlatexinline 340=2^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(702,340)=119340=2^2\\cdot 3^3\\cdot 5^1\\cdot 13^1\\cdot 17^1=119340 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3528 and 16335"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3528,16335)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6403320:0.1}", 
+ "correctResponse": "6403320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3528=2^3\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 16335=3^3\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(3528,16335)=6403320=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^2=6403320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1008 and 1936"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1008,1936)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=121968:0.1}", 
+ "correctResponse": "121968", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1008=2^4\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 1936=2^4\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1008,1936)=121968=2^4\\cdot 3^2\\cdot 7^1\\cdot 11^2=121968 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 416 and 8712"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(416,8712)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=453024:0.1}", 
+ "correctResponse": "453024", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 416=2^5\\cdot 13^1 endlatexinline] and [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(416,8712)=453024=2^5\\cdot 3^2\\cdot 11^2\\cdot 13^1=453024 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 264 and 23232"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(264,23232)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=23232:0.1}", 
+ "correctResponse": "23232", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 264=2^3\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 23232=2^6\\cdot 3^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(264,23232)=23232=2^6\\cdot 3^1\\cdot 11^2=23232 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1248 and 594"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1248,594)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=123552:0.1}", 
+ "correctResponse": "123552", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1248=2^5\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1248,594)=123552=2^5\\cdot 3^3\\cdot 11^1\\cdot 13^1=123552 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1260 and 3136"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1260,3136)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=141120:0.1}", 
+ "correctResponse": "141120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 3136=2^6\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1260,3136)=141120=2^6\\cdot 3^2\\cdot 5^1\\cdot 7^2=141120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 936 and 520"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(936,520)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4680:0.1}", 
+ "correctResponse": "4680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline] and [startlatexinline 520=2^3\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(936,520)=4680=2^3\\cdot 3^2\\cdot 5^1\\cdot 13^1=4680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2112 and 104"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2112,104)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=27456:0.1}", 
+ "correctResponse": "27456", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2112=2^6\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 104=2^3\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2112,104)=27456=2^6\\cdot 3^1\\cdot 11^1\\cdot 13^1=27456 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 990 and 792"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(990,792)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3960:0.1}", 
+ "correctResponse": "3960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 792=2^3\\cdot 3^2\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(990,792)=3960=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^1=3960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1960 and 1224"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1960,1224)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=299880:0.1}", 
+ "correctResponse": "299880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1960=2^3\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1960,1224)=299880=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=299880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1188 and 1360"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1188,1360)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=403920:0.1}", 
+ "correctResponse": "403920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1188=2^2\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 1360=2^4\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1188,1360)=403920=2^4\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 17^1=403920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2940 and 1575"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2940,1575)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=44100:0.1}", 
+ "correctResponse": "44100", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 1575=3^2\\cdot 5^2\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2940,1575)=44100=2^2\\cdot 3^2\\cdot 5^2\\cdot 7^2=44100 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 990 and 975"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(990,975)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=64350:0.1}", 
+ "correctResponse": "64350", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 975=3^1\\cdot 5^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(990,975)=64350=2^1\\cdot 3^2\\cdot 5^2\\cdot 11^1\\cdot 13^1=64350 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 14112 and 650"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(14112,650)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4586400:0.1}", 
+ "correctResponse": "4586400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 14112=2^5\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 650=2^1\\cdot 5^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(14112,650)=4586400=2^5\\cdot 3^2\\cdot 5^2\\cdot 7^2\\cdot 13^1=4586400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 153 and 7350"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(153,7350)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=374850:0.1}", 
+ "correctResponse": "374850", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 153=3^2\\cdot 17^1 endlatexinline] and [startlatexinline 7350=2^1\\cdot 3^1\\cdot 5^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(153,7350)=374850=2^1\\cdot 3^2\\cdot 5^2\\cdot 7^2\\cdot 17^1=374850 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1404 and 780"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1404,780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7020:0.1}", 
+ "correctResponse": "7020", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1404=2^2\\cdot 3^3\\cdot 13^1 endlatexinline] and [startlatexinline 780=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1404,780)=7020=2^2\\cdot 3^3\\cdot 5^1\\cdot 13^1=7020 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 27225 and 312"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(27225,312)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2831400:0.1}", 
+ "correctResponse": "2831400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 27225=3^2\\cdot 5^2\\cdot 11^2 endlatexinline] and [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(27225,312)=2831400=2^3\\cdot 3^2\\cdot 5^2\\cdot 11^2\\cdot 13^1=2831400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 189 and 396"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(189,396)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8316:0.1}", 
+ "correctResponse": "8316", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 189=3^3\\cdot 7^1 endlatexinline] and [startlatexinline 396=2^2\\cdot 3^2\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(189,396)=8316=2^2\\cdot 3^3\\cdot 7^1\\cdot 11^1=8316 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 208 and 1470"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(208,1470)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=152880:0.1}", 
+ "correctResponse": "152880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 208=2^4\\cdot 13^1 endlatexinline] and [startlatexinline 1470=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(208,1470)=152880=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 13^1=152880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1980 and 26136"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1980,26136)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=130680:0.1}", 
+ "correctResponse": "130680", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1980=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 26136=2^3\\cdot 3^3\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1980,26136)=130680=2^3\\cdot 3^3\\cdot 5^1\\cdot 11^2=130680 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 882 and 2816"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(882,2816)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1241856:0.1}", 
+ "correctResponse": "1241856", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 882=2^1\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 2816=2^8\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(882,2816)=1241856=2^8\\cdot 3^2\\cdot 7^2\\cdot 11^1=1241856 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 66 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(66,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6864:0.1}", 
+ "correctResponse": "6864", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 66=2^1\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(66,624)=6864=2^4\\cdot 3^1\\cdot 11^1\\cdot 13^1=6864 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 448 and 3630"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(448,3630)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=813120:0.1}", 
+ "correctResponse": "813120", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 448=2^6\\cdot 7^1 endlatexinline] and [startlatexinline 3630=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(448,3630)=813120=2^6\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^2=813120 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 6534 and 936"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(6534,936)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=339768:0.1}", 
+ "correctResponse": "339768", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 6534=2^1\\cdot 3^3\\cdot 11^2 endlatexinline] and [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(6534,936)=339768=2^3\\cdot 3^3\\cdot 11^2\\cdot 13^1=339768 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1632 and 468"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1632,468)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=63648:0.1}", 
+ "correctResponse": "63648", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1632=2^5\\cdot 3^1\\cdot 17^1 endlatexinline] and [startlatexinline 468=2^2\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1632,468)=63648=2^5\\cdot 3^2\\cdot 13^1\\cdot 17^1=63648 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1056 and 1568"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1056,1568)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=51744:0.1}", 
+ "correctResponse": "51744", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1056=2^5\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 1568=2^5\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1056,1568)=51744=2^5\\cdot 3^1\\cdot 7^2\\cdot 11^1=51744 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 8820 and 594"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(8820,594)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=291060:0.1}", 
+ "correctResponse": "291060", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(8820,594)=291060=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^1=291060 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 8712 and 7056"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(8712,7056)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=853776:0.1}", 
+ "correctResponse": "853776", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 8712=2^3\\cdot 3^2\\cdot 11^2 endlatexinline] and [startlatexinline 7056=2^4\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(8712,7056)=853776=2^4\\cdot 3^2\\cdot 7^2\\cdot 11^2=853776 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 704 and 1936"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(704,1936)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7744:0.1}", 
+ "correctResponse": "7744", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 704=2^6\\cdot 11^1 endlatexinline] and [startlatexinline 1936=2^4\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(704,1936)=7744=2^6\\cdot 11^2=7744 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 765 and 1755"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(765,1755)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29835:0.1}", 
+ "correctResponse": "29835", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 765=3^2\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1755=3^3\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(765,1755)=29835=3^3\\cdot 5^1\\cdot 13^1\\cdot 17^1=29835 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3264 and 10584"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3264,10584)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1439424:0.1}", 
+ "correctResponse": "1439424", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3264=2^6\\cdot 3^1\\cdot 17^1 endlatexinline] and [startlatexinline 10584=2^3\\cdot 3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(3264,10584)=1439424=2^6\\cdot 3^3\\cdot 7^2\\cdot 17^1=1439424 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 18150 and 9680"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(18150,9680)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=145200:0.1}", 
+ "correctResponse": "145200", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 18150=2^1\\cdot 3^1\\cdot 5^2\\cdot 11^2 endlatexinline] and [startlatexinline 9680=2^4\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(18150,9680)=145200=2^4\\cdot 3^1\\cdot 5^2\\cdot 11^2=145200 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 110 and 272"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(110,272)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=14960:0.1}", 
+ "correctResponse": "14960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 110=2^1\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 272=2^4\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(110,272)=14960=2^4\\cdot 5^1\\cdot 11^1\\cdot 17^1=14960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 117 and 6272"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(117,6272)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=733824:0.1}", 
+ "correctResponse": "733824", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 117=3^2\\cdot 13^1 endlatexinline] and [startlatexinline 6272=2^7\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(117,6272)=733824=2^7\\cdot 3^2\\cdot 7^2\\cdot 13^1=733824 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2925 and 1760"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2925,1760)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1029600:0.1}", 
+ "correctResponse": "1029600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2925=3^2\\cdot 5^2\\cdot 13^1 endlatexinline] and [startlatexinline 1760=2^5\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2925,1760)=1029600=2^5\\cdot 3^2\\cdot 5^2\\cdot 11^1\\cdot 13^1=1029600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 21780 and 504"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(21780,504)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=304920:0.1}", 
+ "correctResponse": "304920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 21780=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 504=2^3\\cdot 3^2\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(21780,504)=304920=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=304920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1275 and 1764"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1275,1764)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=749700:0.1}", 
+ "correctResponse": "749700", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1275=3^1\\cdot 5^2\\cdot 17^1 endlatexinline] and [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1275,1764)=749700=2^2\\cdot 3^2\\cdot 5^2\\cdot 7^2\\cdot 17^1=749700 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 832 and 156"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(832,156)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2496:0.1}", 
+ "correctResponse": "2496", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 832=2^6\\cdot 13^1 endlatexinline] and [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(832,156)=2496=2^6\\cdot 3^1\\cdot 13^1=2496 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 510 and 4704"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(510,4704)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=399840:0.1}", 
+ "correctResponse": "399840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 510=2^1\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 4704=2^5\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(510,4704)=399840=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 17^1=399840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 14112 and 980"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(14112,980)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=70560:0.1}", 
+ "correctResponse": "70560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 14112=2^5\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 980=2^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(14112,980)=70560=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^2=70560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 126 and 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(126,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=7056:0.1}", 
+ "correctResponse": "7056", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 126=2^1\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(126,2352)=7056=2^4\\cdot 3^2\\cdot 7^2=7056 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1360 and 9075"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1360,9075)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2468400:0.1}", 
+ "correctResponse": "2468400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1360=2^4\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 9075=3^1\\cdot 5^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1360,9075)=2468400=2^4\\cdot 3^1\\cdot 5^2\\cdot 11^2\\cdot 17^1=2468400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 272 and 14112"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(272,14112)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=239904:0.1}", 
+ "correctResponse": "239904", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 272=2^4\\cdot 17^1 endlatexinline] and [startlatexinline 14112=2^5\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(272,14112)=239904=2^5\\cdot 3^2\\cdot 7^2\\cdot 17^1=239904 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2496 and 1836"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2496,1836)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=381888:0.1}", 
+ "correctResponse": "381888", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2496=2^6\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2496,1836)=381888=2^6\\cdot 3^3\\cdot 13^1\\cdot 17^1=381888 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 168 and 1764"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(168,1764)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3528:0.1}", 
+ "correctResponse": "3528", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline] and [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(168,1764)=3528=2^3\\cdot 3^2\\cdot 7^2=3528 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1275 and 3920"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1275,3920)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=999600:0.1}", 
+ "correctResponse": "999600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1275=3^1\\cdot 5^2\\cdot 17^1 endlatexinline] and [startlatexinline 3920=2^4\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1275,3920)=999600=2^4\\cdot 3^1\\cdot 5^2\\cdot 7^2\\cdot 17^1=999600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1020 and 260"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1020,260)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=13260:0.1}", 
+ "correctResponse": "13260", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1020=2^2\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 260=2^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1020,260)=13260=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1\\cdot 17^1=13260 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 816 and 3120"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(816,3120)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=53040:0.1}", 
+ "correctResponse": "53040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 816=2^4\\cdot 3^1\\cdot 17^1 endlatexinline] and [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(816,3120)=53040=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1\\cdot 17^1=53040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4212 and 21780"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4212,21780)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2548260:0.1}", 
+ "correctResponse": "2548260", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4212=2^2\\cdot 3^4\\cdot 13^1 endlatexinline] and [startlatexinline 21780=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(4212,21780)=2548260=2^2\\cdot 3^4\\cdot 5^1\\cdot 11^2\\cdot 13^1=2548260 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4410 and 325"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4410,325)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=286650:0.1}", 
+ "correctResponse": "286650", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 325=5^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4410,325)=286650=2^1\\cdot 3^2\\cdot 5^2\\cdot 7^2\\cdot 13^1=286650 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 220 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(220,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=34320:0.1}", 
+ "correctResponse": "34320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 220=2^2\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(220,624)=34320=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^1\\cdot 13^1=34320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 8820 and 630"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(8820,630)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=8820:0.1}", 
+ "correctResponse": "8820", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 630=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(8820,630)=8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2=8820 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3025 and 612"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3025,612)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1851300:0.1}", 
+ "correctResponse": "1851300", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3025=5^2\\cdot 11^2 endlatexinline] and [startlatexinline 612=2^2\\cdot 3^2\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3025,612)=1851300=2^2\\cdot 3^2\\cdot 5^2\\cdot 11^2\\cdot 17^1=1851300 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1275 and 315"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1275,315)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=26775:0.1}", 
+ "correctResponse": "26775", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1275=3^1\\cdot 5^2\\cdot 17^1 endlatexinline] and [startlatexinline 315=3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1275,315)=26775=3^2\\cdot 5^2\\cdot 7^1\\cdot 17^1=26775 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 6534 and 7744"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(6534,7744)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=209088:0.1}", 
+ "correctResponse": "209088", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 6534=2^1\\cdot 3^3\\cdot 11^2 endlatexinline] and [startlatexinline 7744=2^6\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(6534,7744)=209088=2^6\\cdot 3^3\\cdot 11^2=209088 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3672 and 3264"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3672,3264)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29376:0.1}", 
+ "correctResponse": "29376", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3672=2^3\\cdot 3^3\\cdot 17^1 endlatexinline] and [startlatexinline 3264=2^6\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3672,3264)=29376=2^6\\cdot 3^3\\cdot 17^1=29376 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 140 and 10890"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(140,10890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=152460:0.1}", 
+ "correctResponse": "152460", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 140=2^2\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(140,10890)=152460=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 11^2=152460 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 396 and 3120"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(396,3120)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=102960:0.1}", 
+ "correctResponse": "102960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 396=2^2\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(396,3120)=102960=2^4\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 13^1=102960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 510 and 1836"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(510,1836)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=9180:0.1}", 
+ "correctResponse": "9180", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 510=2^1\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(510,1836)=9180=2^2\\cdot 3^3\\cdot 5^1\\cdot 17^1=9180 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 330 and 784"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(330,784)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=129360:0.1}", 
+ "correctResponse": "129360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 330=2^1\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 784=2^4\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(330,784)=129360=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^1=129360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 352 and 6050"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(352,6050)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=96800:0.1}", 
+ "correctResponse": "96800", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 352=2^5\\cdot 11^1 endlatexinline] and [startlatexinline 6050=2^1\\cdot 5^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(352,6050)=96800=2^5\\cdot 5^2\\cdot 11^2=96800 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1584 and 1176"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1584,1176)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=77616:0.1}", 
+ "correctResponse": "77616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1584=2^4\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 1176=2^3\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1584,1176)=77616=2^4\\cdot 3^2\\cdot 7^2\\cdot 11^1=77616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1320 and 1936"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1320,1936)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29040:0.1}", 
+ "correctResponse": "29040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1320=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 1936=2^4\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1320,1936)=29040=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2=29040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1530 and 990"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1530,990)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=16830:0.1}", 
+ "correctResponse": "16830", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 990=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1530,990)=16830=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=16830 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 13068 and 130"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(13068,130)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=849420:0.1}", 
+ "correctResponse": "849420", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 13068=2^2\\cdot 3^3\\cdot 11^2 endlatexinline] and [startlatexinline 130=2^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(13068,130)=849420=2^2\\cdot 3^3\\cdot 5^1\\cdot 11^2\\cdot 13^1=849420 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3120 and 5292"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3120,5292)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1375920:0.1}", 
+ "correctResponse": "1375920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline] and [startlatexinline 5292=2^2\\cdot 3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(3120,5292)=1375920=2^4\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 13^1=1375920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1764 and 2420"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1764,2420)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1067220:0.1}", 
+ "correctResponse": "1067220", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 2420=2^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1764,2420)=1067220=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^2=1067220 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 312 and 1320"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(312,1320)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=17160:0.1}", 
+ "correctResponse": "17160", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 312=2^3\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 1320=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(312,1320)=17160=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^1\\cdot 13^1=17160 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 78 and 2646"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(78,2646)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=34398:0.1}", 
+ "correctResponse": "34398", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 78=2^1\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 2646=2^1\\cdot 3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(78,2646)=34398=2^1\\cdot 3^3\\cdot 7^2\\cdot 13^1=34398 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3825 and 32670"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3825,32670)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2776950:0.1}", 
+ "correctResponse": "2776950", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3825=3^2\\cdot 5^2\\cdot 17^1 endlatexinline] and [startlatexinline 32670=2^1\\cdot 3^3\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(3825,32670)=2776950=2^1\\cdot 3^3\\cdot 5^2\\cdot 11^2\\cdot 17^1=2776950 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7938 and 168"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7938,168)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=31752:0.1}", 
+ "correctResponse": "31752", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7938=2^1\\cdot 3^4\\cdot 7^2 endlatexinline] and [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7938,168)=31752=2^3\\cdot 3^4\\cdot 7^2=31752 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2040 and 4410"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2040,4410)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=299880:0.1}", 
+ "correctResponse": "299880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2040=2^3\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(2040,4410)=299880=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=299880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 168 and 3120"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(168,3120)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21840:0.1}", 
+ "correctResponse": "21840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 168=2^3\\cdot 3^1\\cdot 7^1 endlatexinline] and [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(168,3120)=21840=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 13^1=21840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3136 and 11025"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3136,11025)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=705600:0.1}", 
+ "correctResponse": "705600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3136=2^6\\cdot 7^2 endlatexinline] and [startlatexinline 11025=3^2\\cdot 5^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(3136,11025)=705600=2^6\\cdot 3^2\\cdot 5^2\\cdot 7^2=705600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 156 and 10890"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(156,10890)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=283140:0.1}", 
+ "correctResponse": "283140", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(156,10890)=283140=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2\\cdot 13^1=283140 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4410 and 585"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4410,585)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=57330:0.1}", 
+ "correctResponse": "57330", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 585=3^2\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4410,585)=57330=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=57330 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 520 and 3675"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(520,3675)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=382200:0.1}", 
+ "correctResponse": "382200", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 520=2^3\\cdot 5^1\\cdot 13^1 endlatexinline] and [startlatexinline 3675=3^1\\cdot 5^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(520,3675)=382200=2^3\\cdot 3^1\\cdot 5^2\\cdot 7^2\\cdot 13^1=382200 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 336 and 195"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(336,195)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21840:0.1}", 
+ "correctResponse": "21840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 336=2^4\\cdot 3^1\\cdot 7^1 endlatexinline] and [startlatexinline 195=3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(336,195)=21840=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 13^1=21840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4840 and 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4840,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1422960:0.1}", 
+ "correctResponse": "1422960", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4840=2^3\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(4840,2352)=1422960=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^2=1422960 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7260 and 880"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7260,880)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29040:0.1}", 
+ "correctResponse": "29040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7260=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7260,880)=29040=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2=29040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3120 and 1950"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3120,1950)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=15600:0.1}", 
+ "correctResponse": "15600", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3120=2^4\\cdot 3^1\\cdot 5^1\\cdot 13^1 endlatexinline] and [startlatexinline 1950=2^1\\cdot 3^1\\cdot 5^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3120,1950)=15600=2^4\\cdot 3^1\\cdot 5^2\\cdot 13^1=15600 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 840 and 14520"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(840,14520)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=101640:0.1}", 
+ "correctResponse": "101640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 840=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline] and [startlatexinline 14520=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(840,14520)=101640=2^3\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 11^2=101640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1470 and 2352"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1470,2352)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11760:0.1}", 
+ "correctResponse": "11760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1470=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 2352=2^4\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1470,2352)=11760=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2=11760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1764 and 1485"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1764,1485)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=291060:0.1}", 
+ "correctResponse": "291060", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline] and [startlatexinline 1485=3^3\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1764,1485)=291060=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 11^1=291060 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 5808 and 3872"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(5808,3872)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11616:0.1}", 
+ "correctResponse": "11616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 5808=2^4\\cdot 3^1\\cdot 11^2 endlatexinline] and [startlatexinline 3872=2^5\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(5808,3872)=11616=2^5\\cdot 3^1\\cdot 11^2=11616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1760 and 17424"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1760,17424)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=174240:0.1}", 
+ "correctResponse": "174240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1760=2^5\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 17424=2^4\\cdot 3^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1760,17424)=174240=2^5\\cdot 3^2\\cdot 5^1\\cdot 11^2=174240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 594 and 4080"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(594,4080)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=403920:0.1}", 
+ "correctResponse": "403920", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 4080=2^4\\cdot 3^1\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(594,4080)=403920=2^4\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 17^1=403920 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 624 and 210"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(624,210)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=21840:0.1}", 
+ "correctResponse": "21840", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline] and [startlatexinline 210=2^1\\cdot 3^1\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(624,210)=21840=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^1\\cdot 13^1=21840 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2550 and 528"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2550,528)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=224400:0.1}", 
+ "correctResponse": "224400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2550=2^1\\cdot 3^1\\cdot 5^2\\cdot 17^1 endlatexinline] and [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2550,528)=224400=2^4\\cdot 3^1\\cdot 5^2\\cdot 11^1\\cdot 17^1=224400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2940 and 3168"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2940,3168)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=776160:0.1}", 
+ "correctResponse": "776160", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 3168=2^5\\cdot 3^2\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2940,3168)=776160=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 11^1=776160 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1836 and 7744"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1836,7744)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3554496:0.1}", 
+ "correctResponse": "3554496", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline] and [startlatexinline 7744=2^6\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1836,7744)=3554496=2^6\\cdot 3^3\\cdot 11^2\\cdot 17^1=3554496 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1836 and 408"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1836,408)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=3672:0.1}", 
+ "correctResponse": "3672", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline] and [startlatexinline 408=2^3\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1836,408)=3672=2^3\\cdot 3^3\\cdot 17^1=3672 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7260 and 528"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7260,528)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=29040:0.1}", 
+ "correctResponse": "29040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7260=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7260,528)=29040=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2=29040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4352 and 495"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4352,495)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2154240:0.1}", 
+ "correctResponse": "2154240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4352=2^8\\cdot 17^1 endlatexinline] and [startlatexinline 495=3^2\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4352,495)=2154240=2^8\\cdot 3^2\\cdot 5^1\\cdot 11^1\\cdot 17^1=2154240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 396 and 196"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(396,196)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=19404:0.1}", 
+ "correctResponse": "19404", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 396=2^2\\cdot 3^2\\cdot 11^1 endlatexinline] and [startlatexinline 196=2^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(396,196)=19404=2^2\\cdot 3^2\\cdot 7^2\\cdot 11^1=19404 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 325 and 52"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(325,52)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=1300:0.1}", 
+ "correctResponse": "1300", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 325=5^2\\cdot 13^1 endlatexinline] and [startlatexinline 52=2^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(325,52)=1300=2^2\\cdot 5^2\\cdot 13^1=1300 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2376 and 660"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2376,660)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=11880:0.1}", 
+ "correctResponse": "11880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2376=2^3\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 660=2^2\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2376,660)=11880=2^3\\cdot 3^3\\cdot 5^1\\cdot 11^1=11880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1530 and 8820"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1530,8820)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=149940:0.1}", 
+ "correctResponse": "149940", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1530=2^1\\cdot 3^2\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 8820=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1530,8820)=149940=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=149940 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 968 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(968,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=75504:0.1}", 
+ "correctResponse": "75504", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 968=2^3\\cdot 11^2 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(968,624)=75504=2^4\\cdot 3^1\\cdot 11^2\\cdot 13^1=75504 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 252 and 2080"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(252,2080)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=131040:0.1}", 
+ "correctResponse": "131040", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 2080=2^5\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(252,2080)=131040=2^5\\cdot 3^2\\cdot 5^1\\cdot 7^1\\cdot 13^1=131040 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2376 and 42"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2376,42)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=16632:0.1}", 
+ "correctResponse": "16632", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2376=2^3\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 42=2^1\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2376,42)=16632=2^3\\cdot 3^3\\cdot 7^1\\cdot 11^1=16632 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 3920 and 612"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(3920,612)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=599760:0.1}", 
+ "correctResponse": "599760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 3920=2^4\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 612=2^2\\cdot 3^2\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(3920,612)=599760=2^4\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 17^1=599760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 234 and 544"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(234,544)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=63648:0.1}", 
+ "correctResponse": "63648", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 234=2^1\\cdot 3^2\\cdot 13^1 endlatexinline] and [startlatexinline 544=2^5\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(234,544)=63648=2^5\\cdot 3^2\\cdot 13^1\\cdot 17^1=63648 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 16335 and 1260"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(16335,1260)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=457380:0.1}", 
+ "correctResponse": "457380", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 16335=3^3\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 1260=2^2\\cdot 3^2\\cdot 5^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(16335,1260)=457380=2^2\\cdot 3^3\\cdot 5^1\\cdot 7^1\\cdot 11^2=457380 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 968 and 56"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(968,56)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=6776:0.1}", 
+ "correctResponse": "6776", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 968=2^3\\cdot 11^2 endlatexinline] and [startlatexinline 56=2^3\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(968,56)=6776=2^3\\cdot 7^1\\cdot 11^2=6776 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 588 and 880"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(588,880)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=129360:0.1}", 
+ "correctResponse": "129360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 588=2^2\\cdot 3^1\\cdot 7^2 endlatexinline] and [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(588,880)=129360=2^4\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 11^1=129360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4410 and 882"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4410,882)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4410:0.1}", 
+ "correctResponse": "4410", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 882=2^1\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(4410,882)=4410=2^1\\cdot 3^2\\cdot 5^1\\cdot 7^2=4410 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 588 and 1584"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(588,1584)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=77616:0.1}", 
+ "correctResponse": "77616", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 588=2^2\\cdot 3^1\\cdot 7^2 endlatexinline] and [startlatexinline 1584=2^4\\cdot 3^2\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(588,1584)=77616=2^4\\cdot 3^2\\cdot 7^2\\cdot 11^1=77616 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 112 and 78"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(112,78)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4368:0.1}", 
+ "correctResponse": "4368", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 112=2^4\\cdot 7^1 endlatexinline] and [startlatexinline 78=2^1\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(112,78)=4368=2^4\\cdot 3^1\\cdot 7^1\\cdot 13^1=4368 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 896 and 3528"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(896,3528)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=56448:0.1}", 
+ "correctResponse": "56448", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 896=2^7\\cdot 7^1 endlatexinline] and [startlatexinline 3528=2^3\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(896,3528)=56448=2^7\\cdot 3^2\\cdot 7^2=56448 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 29040 and 850"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(29040,850)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2468400:0.1}", 
+ "correctResponse": "2468400", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 29040=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 850=2^1\\cdot 5^2\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(29040,850)=2468400=2^4\\cdot 3^1\\cdot 5^2\\cdot 11^2\\cdot 17^1=2468400 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1872 and 1300"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1872,1300)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=46800:0.1}", 
+ "correctResponse": "46800", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1872=2^4\\cdot 3^2\\cdot 13^1 endlatexinline] and [startlatexinline 1300=2^2\\cdot 5^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(1872,1300)=46800=2^4\\cdot 3^2\\cdot 5^2\\cdot 13^1=46800 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 936 and 1764"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(936,1764)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=45864:0.1}", 
+ "correctResponse": "45864", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline] and [startlatexinline 1764=2^2\\cdot 3^2\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(936,1764)=45864=2^3\\cdot 3^2\\cdot 7^2\\cdot 13^1=45864 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 5445 and 968"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(5445,968)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=43560:0.1}", 
+ "correctResponse": "43560", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 5445=3^2\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 968=2^3\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(5445,968)=43560=2^3\\cdot 3^2\\cdot 5^1\\cdot 11^2=43560 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 880 and 702"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(880,702)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=308880:0.1}", 
+ "correctResponse": "308880", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 702=2^1\\cdot 3^3\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(880,702)=308880=2^4\\cdot 3^3\\cdot 5^1\\cdot 11^1\\cdot 13^1=308880 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 34848 and 1320"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(34848,1320)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=174240:0.1}", 
+ "correctResponse": "174240", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 34848=2^5\\cdot 3^2\\cdot 11^2 endlatexinline] and [startlatexinline 1320=2^3\\cdot 3^1\\cdot 5^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(34848,1320)=174240=2^5\\cdot 3^2\\cdot 5^1\\cdot 11^2=174240 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 252 and 204"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(252,204)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=4284:0.1}", 
+ "correctResponse": "4284", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 204=2^2\\cdot 3^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(252,204)=4284=2^2\\cdot 3^2\\cdot 7^1\\cdot 17^1=4284 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 378 and 4356"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(378,4356)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=91476:0.1}", 
+ "correctResponse": "91476", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 378=2^1\\cdot 3^3\\cdot 7^1 endlatexinline] and [startlatexinline 4356=2^2\\cdot 3^2\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(378,4356)=91476=2^2\\cdot 3^3\\cdot 7^1\\cdot 11^2=91476 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 4356 and 765"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(4356,765)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=370260:0.1}", 
+ "correctResponse": "370260", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 4356=2^2\\cdot 3^2\\cdot 11^2 endlatexinline] and [startlatexinline 765=3^2\\cdot 5^1\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(4356,765)=370260=2^2\\cdot 3^2\\cdot 5^1\\cdot 11^2\\cdot 17^1=370260 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 6534 and 195"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(6534,195)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=424710:0.1}", 
+ "correctResponse": "424710", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 6534=2^1\\cdot 3^3\\cdot 11^2 endlatexinline] and [startlatexinline 195=3^1\\cdot 5^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(6534,195)=424710=2^1\\cdot 3^3\\cdot 5^1\\cdot 11^2\\cdot 13^1=424710 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1936 and 294"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1936,294)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=284592:0.1}", 
+ "correctResponse": "284592", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1936=2^4\\cdot 11^2 endlatexinline] and [startlatexinline 294=2^1\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1936,294)=284592=2^4\\cdot 3^1\\cdot 7^2\\cdot 11^2=284592 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 7840 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(7840,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=305760:0.1}", 
+ "correctResponse": "305760", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 7840=2^5\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(7840,624)=305760=2^5\\cdot 3^1\\cdot 5^1\\cdot 7^2\\cdot 13^1=305760 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 528 and 5808"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(528,5808)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=5808:0.1}", 
+ "correctResponse": "5808", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 528=2^4\\cdot 3^1\\cdot 11^1 endlatexinline] and [startlatexinline 5808=2^4\\cdot 3^1\\cdot 11^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(528,5808)=5808=2^4\\cdot 3^1\\cdot 11^2=5808 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 680 and 1836"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(680,1836)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=18360:0.1}", 
+ "correctResponse": "18360", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 1836=2^2\\cdot 3^3\\cdot 17^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(680,1836)=18360=2^3\\cdot 3^3\\cdot 5^1\\cdot 17^1=18360 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 10890 and 704"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(10890,704)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=348480:0.1}", 
+ "correctResponse": "348480", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 10890=2^1\\cdot 3^2\\cdot 5^1\\cdot 11^2 endlatexinline] and [startlatexinline 704=2^6\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(10890,704)=348480=2^6\\cdot 3^2\\cdot 5^1\\cdot 11^2=348480 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 680 and 2646"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(680,2646)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=899640:0.1}", 
+ "correctResponse": "899640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 680=2^3\\cdot 5^1\\cdot 17^1 endlatexinline] and [startlatexinline 2646=2^1\\cdot 3^3\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(680,2646)=899640=2^3\\cdot 3^3\\cdot 5^1\\cdot 7^2\\cdot 17^1=899640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 252 and 84"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(252,84)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=252:0.1}", 
+ "correctResponse": "252", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 252=2^2\\cdot 3^2\\cdot 7^1 endlatexinline] and [startlatexinline 84=2^2\\cdot 3^1\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(252,84)=252=2^2\\cdot 3^2\\cdot 7^1=252 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 2940 and 936"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(2940,936)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=229320:0.1}", 
+ "correctResponse": "229320", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 2940=2^2\\cdot 3^1\\cdot 5^1\\cdot 7^2 endlatexinline] and [startlatexinline 936=2^3\\cdot 3^2\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(2940,936)=229320=2^3\\cdot 3^2\\cdot 5^1\\cdot 7^2\\cdot 13^1=229320 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 195 and 156"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(195,156)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=780:0.1}", 
+ "correctResponse": "780", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 195=3^1\\cdot 5^1\\cdot 13^1 endlatexinline] and [startlatexinline 156=2^2\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(195,156)=780=2^2\\cdot 3^1\\cdot 5^1\\cdot 13^1=780 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 1224 and 294"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(1224,294)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=59976:0.1}", 
+ "correctResponse": "59976", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 1224=2^3\\cdot 3^2\\cdot 17^1 endlatexinline] and [startlatexinline 294=2^1\\cdot 3^1\\cdot 7^2 endlatexinline]. Hence [startlatexinline \\text{lcm}(1224,294)=59976=2^3\\cdot 3^2\\cdot 7^2\\cdot 17^1=59976 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 594 and 1134"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(594,1134)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=12474:0.1}", 
+ "correctResponse": "12474", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 594=2^1\\cdot 3^3\\cdot 11^1 endlatexinline] and [startlatexinline 1134=2^1\\cdot 3^4\\cdot 7^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(594,1134)=12474=2^1\\cdot 3^4\\cdot 7^1\\cdot 11^1=12474 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 880 and 66"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(880,66)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=2640:0.1}", 
+ "correctResponse": "2640", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 880=2^4\\cdot 5^1\\cdot 11^1 endlatexinline] and [startlatexinline 66=2^1\\cdot 3^1\\cdot 11^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(880,66)=2640=2^4\\cdot 3^1\\cdot 5^1\\cdot 11^1=2640 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Calcul_du_ppmc_eng "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Compute the lcm of 17424 and 624"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "[startlatex \\text{lcm}(17424,624)= endlatex]", 
+ "type": "number", 
+ "value": "{1:NUMERICAL:=226512:0.1}", 
+ "correctResponse": "226512", 
+ "decimal": "0.1" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The prime decompositions are given by [startlatexinline 17424=2^4\\cdot 3^2\\cdot 11^2 endlatexinline] and [startlatexinline 624=2^4\\cdot 3^1\\cdot 13^1 endlatexinline]. Hence [startlatexinline \\text{lcm}(17424,624)=226512=2^4\\cdot 3^2\\cdot 11^2\\cdot 13^1=226512 endlatexinline]"},
+ "penality": "0", 
+ "hidden": "0" 
+ } 
+ ]

@@ -14,7 +14,7 @@ import data1003fr from "./1003-fr-pythagore.json";
 import data1103fr from "./Quiz_pythagore_11.json";
 import data1003en from "./1003-en-pythagore.json";
 import data901fr from "./901-fr-ppmc.json";
-
+import data901en from "./901-en-ppmc.json";
 
 const Question = (props) => {
     var dataId = props.compId
@@ -38,7 +38,9 @@ const Question = (props) => {
     }
     else if (dataId == "id-1003-c1"  && getLanguage() == "en") {
         data = data1003en
-    } else  if (dataId=="id-902-c8") {
+    } else if (dataId=="id-902-c8"  && getLanguage() == "en") {
+        data = data901en
+    } else if (dataId=="id-902-c8"  && getLanguage() == "fr") {
         data = data901fr
     }
 

@@ -2,15 +2,18 @@ const data = {
   classLevels: {
     "9": {
       name: "9e",
-      subjects: ["id-901", "id-902", "id-903"],
+      //subjects: ["id-901", "id-902", "id-903"],
+      subjects: ["id-902"],
     },
     "10": {
       name: "10e",
-      subjects: ["id-1001", "id-1002", "id-1003"],
+      //subjects: ["id-1001", "id-1002", "id-1003"],
+      subjects: ["id-1003"],
     },
     "11": {
       name: "11e",
-      subjects: ["id-1101", "id-1102", "id-1103"],
+      //subjects: ["id-1101", "id-1102", "id-1103"],
+      subjects: ["id-1101","id-1103"],
     },
   },
 
