@@ -21,8 +21,10 @@ const Header = (props) => {
     <div className={styles.mynavbar}>
       <header>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">
-                <Vector type='logo-small' className={styles.logo} />
+            <Navbar.Brand>
+                <Link to="/">
+                    <Vector type='logo-small' className={styles.logo} />
+                </Link> 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
