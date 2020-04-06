@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import MathJax from 'react-mathjax2';
 // import Question from "./Question.js";
 import QuestionAlt from "./QuestionAlt.js";
-import data1101fr from "./1101-fr-quadratic.json";
-import data1101en from "./1101-en-quadratic.json";
-import data1101po from "./1101-po-quadratic.json";
-import data1003fr from "./1003-fr-pythagore.json";
-import data1103fr from "./Quiz_pythagore_11.json";
+
 import data901fr from "./901-fr-ppmc.json";
+import data1003fr from "./1003-fr-pythagore.json";
+import data1101fr from "./1101-fr-quadratic.json";
+import data1103fr from "./1103-pt-pythagore.json";
 
 const DataContent = (props) => {
     var id = 0

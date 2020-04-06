@@ -1,0 +1,1302 @@
+[ 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 0 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=5 cm endlatexinline]  [startlatexinline  BC=3 cm endlatexinline]  [startlatexinline CA=4 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=3^2+4^2=9+16=25, endlatex]  and  [startlatex AB^2=5^2=25. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 1 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=6 cm endlatexinline]  [startlatexinline  BC=8 cm endlatexinline]  [startlatexinline CA=10 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=6^2+8^2=36+64=100, endlatex]  and  [startlatex CA^2=10^2=100. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 2 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=9 cm endlatexinline]  [startlatexinline  BC=18 cm endlatexinline]  [startlatexinline CA=8 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=8^2+9^2=64+81=145, endlatex]  and  [startlatex BC^2=18^2=324. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 3 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=16 cm endlatexinline]  [startlatexinline  BC=20 cm endlatexinline]  [startlatexinline CA=12 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~%100%Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=16^2+12^2=256+144=400, endlatex]  and  [startlatex BC^2=20^2=400. endlatex] Given that [startlatex AB^2+CA^2=BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 4 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=25 cm endlatexinline]  [startlatexinline  BC=20 cm endlatexinline]  [startlatexinline CA=15 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=15^2+20^2=225+400=625, endlatex]  and  [startlatex AB^2=25^2=625. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 5 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=30 cm endlatexinline]  [startlatexinline  BC=18 cm endlatexinline]  [startlatexinline CA=24 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=18^2+24^2=324+576=900, endlatex]  and  [startlatex AB^2=30^2=900. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 6 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=29 cm endlatexinline]  [startlatexinline  BC=32 cm endlatexinline]  [startlatexinline CA=19 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=29^2+19^2=841+361=1202, endlatex]  and  [startlatex BC^2=32^2=1024. endlatex] Given that [startlatex AB^2+CA^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 7 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=40 cm endlatexinline]  [startlatexinline  BC=24 cm endlatexinline]  [startlatexinline CA=32 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=24^2+32^2=576+1024=1600, endlatex]  and  [startlatex AB^2=40^2=1600. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 8 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=45 cm endlatexinline]  [startlatexinline  BC=36 cm endlatexinline]  [startlatexinline CA=27 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=36^2+27^2=1296+729=2025, endlatex]  and  [startlatex AB^2=45^2=2025. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 9 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=43 cm endlatexinline]  [startlatexinline  BC=30 cm endlatexinline]  [startlatexinline CA=51 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=30^2+43^2=900+1849=2749, endlatex]  and  [startlatex CA^2=51^2=2601. endlatex] Given that [startlatex BC^2+AB^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 10 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=58 cm endlatexinline]  [startlatexinline  BC=30 cm endlatexinline]  [startlatexinline CA=41 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=30^2+41^2=900+1681=2581, endlatex]  and  [startlatex AB^2=58^2=3364. endlatex] Given that [startlatex BC^2+CA^2 \\neq AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 11 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=48 cm endlatexinline]  [startlatexinline  BC=60 cm endlatexinline]  [startlatexinline CA=36 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~%100%Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=48^2+36^2=2304+1296=3600, endlatex]  and  [startlatex BC^2=60^2=3600. endlatex] Given that [startlatex AB^2+CA^2=BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 12 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=49 cm endlatexinline]  [startlatexinline  BC=65 cm endlatexinline]  [startlatexinline CA=38 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=49^2+38^2=2401+1444=3845, endlatex]  and  [startlatex BC^2=65^2=4225. endlatex] Given that [startlatex AB^2+CA^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 13 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=68 cm endlatexinline]  [startlatexinline  BC=56 cm endlatexinline]  [startlatexinline CA=40 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=56^2+40^2=3136+1600=4736, endlatex]  and  [startlatex AB^2=68^2=4624. endlatex] Given that [startlatex BC^2+CA^2 \\neq AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 14 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=60 cm endlatexinline]  [startlatexinline  BC=77 cm endlatexinline]  [startlatexinline CA=44 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=44^2+60^2=1936+3600=5536, endlatex]  and  [startlatex BC^2=77^2=5929. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 15 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=64 cm endlatexinline]  [startlatexinline  BC=48 cm endlatexinline]  [startlatexinline CA=80 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=48^2+64^2=2304+4096=6400, endlatex]  and  [startlatex CA^2=80^2=6400. endlatex] Given that [startlatex BC^2+AB^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 16 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=86 cm endlatexinline]  [startlatexinline  BC=68 cm endlatexinline]  [startlatexinline CA=49 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=49^2+68^2=2401+4624=7025, endlatex]  and  [startlatex AB^2=86^2=7396. endlatex] Given that [startlatex CA^2+BC^2 \\neq AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 17 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=72 cm endlatexinline]  [startlatexinline  BC=54 cm endlatexinline]  [startlatexinline CA=90 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=54^2+72^2=2916+5184=8100, endlatex]  and  [startlatex CA^2=90^2=8100. endlatex] Given that [startlatex BC^2+AB^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 18 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=79 cm endlatexinline]  [startlatexinline  BC=59 cm endlatexinline]  [startlatexinline CA=94 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=79^2+59^2=6241+3481=9722, endlatex]  and  [startlatex CA^2=94^2=8836. endlatex] Given that [startlatex AB^2+BC^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 19 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=100 cm endlatexinline]  [startlatexinline  BC=60 cm endlatexinline]  [startlatexinline CA=80 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=80^2+60^2=6400+3600=10000, endlatex]  and  [startlatex AB^2=100^2=10000. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 20 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=12 cm endlatexinline]  [startlatexinline  BC=4 cm endlatexinline]  [startlatexinline CA=14 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=4^2+12^2=16+144=160, endlatex]  and  [startlatex CA^2=14^2=196. endlatex] Given that [startlatex BC^2+AB^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 21 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=24 cm endlatexinline]  [startlatexinline  BC=10 cm endlatexinline]  [startlatexinline CA=26 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=24^2+10^2=576+100=676, endlatex]  and  [startlatex CA^2=26^2=676. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 22 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=15 cm endlatexinline]  [startlatexinline  BC=36 cm endlatexinline]  [startlatexinline CA=39 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=15^2+36^2=225+1296=1521, endlatex]  and  [startlatex CA^2=39^2=1521. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 23 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=47 cm endlatexinline]  [startlatexinline  BC=53 cm endlatexinline]  [startlatexinline CA=17 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=17^2+47^2=289+2209=2498, endlatex]  and  [startlatex BC^2=53^2=2809. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 24 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=25 cm endlatexinline]  [startlatexinline  BC=59 cm endlatexinline]  [startlatexinline CA=66 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=25^2+59^2=625+3481=4106, endlatex]  and  [startlatex CA^2=66^2=4356. endlatex] Given that [startlatex AB^2+BC^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 25 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=72 cm endlatexinline]  [startlatexinline  BC=30 cm endlatexinline]  [startlatexinline CA=78 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=72^2+30^2=5184+900=6084, endlatex]  and  [startlatex CA^2=78^2=6084. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 26 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=84 cm endlatexinline]  [startlatexinline  BC=35 cm endlatexinline]  [startlatexinline CA=91 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=35^2+84^2=1225+7056=8281, endlatex]  and  [startlatex CA^2=91^2=8281. endlatex] Given that [startlatex BC^2+AB^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 27 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=21 cm endlatexinline]  [startlatexinline  BC=20 cm endlatexinline]  [startlatexinline CA=29 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+AB^2=CA^2. endlatex]  Let us calculate:  [startlatex BC^2+AB^2=20^2+21^2=400+441=841, endlatex]  and  [startlatex CA^2=29^2=841. endlatex] Given that [startlatex BC^2+AB^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 28 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=45 cm endlatexinline]  [startlatexinline  BC=61 cm endlatexinline]  [startlatexinline CA=41 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=41^2+45^2=1681+2025=3706, endlatex]  and  [startlatex BC^2=61^2=3721. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 29 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=63 cm endlatexinline]  [startlatexinline  BC=87 cm endlatexinline]  [startlatexinline CA=60 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~%100%Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=63^2+60^2=3969+3600=7569, endlatex]  and  [startlatex BC^2=87^2=7569. endlatex] Given that [startlatex AB^2+CA^2=BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 30 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=13 cm endlatexinline]  [startlatexinline  BC=16 cm endlatexinline]  [startlatexinline CA=10 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=10^2+13^2=100+169=269, endlatex]  and  [startlatex BC^2=16^2=256. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 31 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=28 cm endlatexinline]  [startlatexinline  BC=35 cm endlatexinline]  [startlatexinline CA=13 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=13^2+28^2=169+784=953, endlatex]  and  [startlatex BC^2=35^2=1225. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 32 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=42 cm endlatexinline]  [startlatexinline  BC=52 cm endlatexinline]  [startlatexinline CA=23 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=23^2+42^2=529+1764=2293, endlatex]  and  [startlatex BC^2=52^2=2704. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 33 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=68 cm endlatexinline]  [startlatexinline  BC=32 cm endlatexinline]  [startlatexinline CA=60 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=32^2+60^2=1024+3600=4624, endlatex]  and  [startlatex AB^2=68^2=4624. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 34 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=40 cm endlatexinline]  [startlatexinline  BC=75 cm endlatexinline]  [startlatexinline CA=85 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=40^2+75^2=1600+5625=7225, endlatex]  and  [startlatex CA^2=85^2=7225. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 35 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=5 cm endlatexinline]  [startlatexinline  BC=28 cm endlatexinline]  [startlatexinline CA=21 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=5^2+21^2=25+441=466, endlatex]  and  [startlatex BC^2=28^2=784. endlatex] Given that [startlatex AB^2+CA^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 36 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=50 cm endlatexinline]  [startlatexinline  BC=48 cm endlatexinline]  [startlatexinline CA=14 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=48^2+14^2=2304+196=2500, endlatex]  and  [startlatex AB^2=50^2=2500. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 37 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=69 cm endlatexinline]  [startlatexinline  BC=19 cm endlatexinline]  [startlatexinline CA=74 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=69^2+19^2=4761+361=5122, endlatex]  and  [startlatex CA^2=74^2=5476. endlatex] Given that [startlatex AB^2+BC^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 38 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=96 cm endlatexinline]  [startlatexinline  BC=99 cm endlatexinline]  [startlatexinline CA=31 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=31^2+96^2=961+9216=10177, endlatex]  and  [startlatex BC^2=99^2=9801. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 39 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=46 cm endlatexinline]  [startlatexinline  BC=53 cm endlatexinline]  [startlatexinline CA=71 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=46^2+53^2=2116+2809=4925, endlatex]  and  [startlatex CA^2=71^2=5041. endlatex] Given that [startlatex AB^2+BC^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 40 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=53 cm endlatexinline]  [startlatexinline  BC=28 cm endlatexinline]  [startlatexinline CA=45 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=28^2+45^2=784+2025=2809, endlatex]  and  [startlatex AB^2=53^2=2809. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 41 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=89 cm endlatexinline]  [startlatexinline  BC=39 cm endlatexinline]  [startlatexinline CA=80 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=80^2+39^2=6400+1521=7921, endlatex]  and  [startlatex AB^2=89^2=7921. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 42 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=85 cm endlatexinline]  [startlatexinline  BC=77 cm endlatexinline]  [startlatexinline CA=36 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex BC^2+CA^2=AB^2. endlatex]  Let us calculate:  [startlatex BC^2+CA^2=77^2+36^2=5929+1296=7225, endlatex]  and  [startlatex AB^2=85^2=7225. endlatex] Given that [startlatex BC^2+CA^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 43 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=33 cm endlatexinline]  [startlatexinline  BC=65 cm endlatexinline]  [startlatexinline CA=56 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~%100%Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=56^2+33^2=3136+1089=4225, endlatex]  and  [startlatex BC^2=65^2=4225. endlatex] Given that [startlatex CA^2+AB^2=BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 44 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=97 cm endlatexinline]  [startlatexinline  BC=72 cm endlatexinline]  [startlatexinline CA=65 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=65^2+72^2=4225+5184=9409, endlatex]  and  [startlatex AB^2=97^2=9409. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 45 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=37 cm endlatexinline]  [startlatexinline  BC=35 cm endlatexinline]  [startlatexinline CA=12 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=12^2+35^2=144+1225=1369, endlatex]  and  [startlatex AB^2=37^2=1369. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 46 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=70 cm endlatexinline]  [startlatexinline  BC=74 cm endlatexinline]  [startlatexinline CA=24 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~%100%Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=70^2+24^2=4900+576=5476, endlatex]  and  [startlatex BC^2=74^2=5476. endlatex] Given that [startlatex AB^2+CA^2=BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 47 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=6 cm endlatexinline]  [startlatexinline  BC=43 cm endlatexinline]  [startlatexinline CA=39 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+AB^2=BC^2. endlatex]  Let us calculate:  [startlatex CA^2+AB^2=39^2+6^2=1521+36=1557, endlatex]  and  [startlatex BC^2=43^2=1849. endlatex] Given that [startlatex CA^2+AB^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 48 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=78 cm endlatexinline]  [startlatexinline  BC=20 cm endlatexinline]  [startlatexinline CA=84 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=78^2+20^2=6084+400=6484, endlatex]  and  [startlatex CA^2=84^2=7056. endlatex] Given that [startlatex AB^2+BC^2 \\neq CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 49 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=16 cm endlatexinline]  [startlatexinline  BC=64 cm endlatexinline]  [startlatexinline CA=62 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Not right-angled~Right-angled in A~Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Not right-angled" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline BC endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+CA^2=BC^2. endlatex]  Let us calculate:  [startlatex AB^2+CA^2=16^2+62^2=256+3844=4100, endlatex]  and  [startlatex BC^2=64^2=4096. endlatex] Given that [startlatex AB^2+CA^2 \\neq BC^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is not right-angled."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 50 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=11 cm endlatexinline]  [startlatexinline  BC=60 cm endlatexinline]  [startlatexinline CA=61 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~%100%Right-angled in B~Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline CA endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex AB^2+BC^2=CA^2. endlatex]  Let us calculate:  [startlatex AB^2+BC^2=11^2+60^2=121+3600=3721, endlatex]  and  [startlatex CA^2=61^2=3721. endlatex] Given that [startlatex AB^2+BC^2=CA^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pythagoras's question 11e number 51 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"Is the triangle [startlatexinline ABC endlatexinline] with lengths as follows, right-angled? If so, determine its right angle.  [startlatexinline AB=85 cm endlatexinline]  [startlatexinline  BC=84 cm endlatexinline]  [startlatexinline CA=13 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Answer" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Not right-angled~Right-angled in A~Right-angled in B~%100%Right-angled in C}", 
+ "text": "${input}", 
+ "responses": ["Not right-angled","Right-angled in A","Right-angled in B","Right-angled in C"], 
+ "correctResponse": "Right-angled in C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"The candidate for the hypotenuse is the longuest side of the triangle, hence, in our case, the side [startlatexinline AB endlatexinline]. By the converse of Pythagoras's theorem, if the triangle [startlatexinline ABC endlatexinline] were right-angled, it would satisfy:  [startlatex CA^2+BC^2=AB^2. endlatex]  Let us calculate:  [startlatex CA^2+BC^2=13^2+84^2=169+7056=7225, endlatex]  and  [startlatex AB^2=85^2=7225. endlatex] Given that [startlatex CA^2+BC^2=AB^2 endlatex], the triangle [startlatexinline ABC endlatexinline] is right-angled in [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ } 
+ ]
