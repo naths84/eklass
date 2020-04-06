@@ -7,9 +7,10 @@ import style from "./Question.module.css";
 import NumberInput from './Inputs/NumberInput';
 import SelectInput from './Inputs/SelectInput';
 
-import data from "./question-example.json";
+import data1101 from "./1101-quadratic.json";
 
 const Question = (props) => {
+  var props.dataJson
   const {
     name,
     questiontext,
