@@ -29,6 +29,7 @@ const Question = (props) => {
 
   const [submitted, setSubmitted] = useState(false);
   const [registeredInputs, setRegisteredInputs] = useState(questionInputs);
+    const [allValid, setAllValid] = useState(true)
 
   useEffect(() => {
     console.log(registeredInputs);
@@ -42,7 +43,27 @@ const Question = (props) => {
     setSubmitted(true);
 
     // Check here is responses are correct and do something
+    // Check here is responses are correct and do something
+    Object.keys(registeredInputs).forEach((registeredInputId) => {
+        if (registeredInputs[registeredInputId].valid == false) {
+            setAllValid(false)
+        }
+      console.log(
+        `${registeredInputId} is valid: ${registeredInputs[registeredInputId].valid}`
+      )}
+    );
+    console.log(allValid)
+
   };
+
+  var classNames = require('classnames');
+
+  const classes = classNames (
+        {[style.valid]: allValid},
+        {[style.notValid]: !allValid},
+        style.defaultStyle,
+    "nonCssModule-className"
+    );
 
   const handleInput = (id, valid) => {
     const newInputs = {...registeredInputs};
@@ -55,7 +76,7 @@ const Question = (props) => {
 
 
   return (
-    <div className={style.container} >
+    <div className={style.container} classNames={classes}>
       <h2>{name.text}</h2>
       <p className={style.textToLeft} ><LatexyString string={questiontext.text} /></p>
       <h3>{responseText.text}</h3>

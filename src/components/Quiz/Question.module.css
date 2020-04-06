@@ -35,3 +35,16 @@ button {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+.valid {
+    margin-top: 1000px;
+}
+
+.notValid {
+    margin-top: 1000px;
+}
+
+.defaultStyle {
+    margin-top: 1000px;
+}
