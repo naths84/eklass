@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import MathJax from 'react-mathjax2';
 // import Question from "./Question.js";
 import QuestionAlt from "./QuestionAlt.js";
-import data1101 from "./1101-quadratic.json";
+import data1101 from "./1101-fr-quadratic.json";
 import data1103 from "./Quiz_pythagore_11.json";
 
 
