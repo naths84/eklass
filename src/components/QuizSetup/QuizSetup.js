@@ -5,11 +5,10 @@ import { Link } from "@reach/router";
 import styles from "./QuizSetup.module.css";
 import mockData from "data/data";
 
-var l1 = "id-901";
+var l1 = "functions&algebra";
 var l2 = 5;
 
 export default function QuizSetup({ subjectId }) {
-  var state = { value: '' }
 
   const { t } = useTranslation();
 
