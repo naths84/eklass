@@ -25,6 +25,8 @@ import testFile from 'data/TestForParser.json';
 
 import style from './QuizQuestion.module.css';
 
+import ReactHtmlParser from 'react-html-parser';
+
 const QuizQuestion = ({ index, competenceId }) => {
   let data = {};
   const getLanguage = () => i18next.language;
@@ -60,7 +62,7 @@ data = testFile;
     questionInputs,
     generalfeedback,
   } = data[index];
-
+  
   const [submitted, setSubmitted] = useState(false);
   const [registeredInputs, setRegisteredInputs] = useState(questionInputs);
 
@@ -83,11 +85,14 @@ data = testFile;
     });
   };
 
+  const questionLines = questiontext.text.split(/\<br\/\>|\<br\>/);
+  const feedbackLines = generalfeedback.text.split(/\<br\/\>|\<br\>/);
+
   return (
     <div className={style.container}>
       <h2>{name.text}</h2>
       <p className={style.textToLeft}>
-        <LatexyString string={questiontext.text} />
+      {questionLines.map((line) => {return <p><LatexyString string={line} /></p>})}
       </p>
       <h3>{responseText.text}</h3>
       {questionInputs &&
@@ -131,7 +136,7 @@ data = testFile;
       </div>
       {submitted && (
         <div className={style.textToLeft}>
-          <LatexyString string={generalfeedback.text} />
+          {feedbackLines.map((line) => {return <p><LatexyString string={line} /></p>})}
         </div>
       )}
     </div>

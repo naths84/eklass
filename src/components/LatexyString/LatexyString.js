@@ -1,6 +1,6 @@
 import React from 'react';
 import MathJax from "react-mathjax2";
-import ReactHtmlParser from 'react-html-parser';
+//import ReactHtmlParser from 'react-html-parser';
 
 /**
  * If will return a MathJax node for any substring found between [startlatex endlatex]
@@ -16,7 +16,7 @@ const LatexyString = ({string}) => {
         let latexString = splitTextItem.replace('startlatex', '').replace('endlatex', '');
          return <MathJax.Node>{latexString}</MathJax.Node>;
       }else{
-        return <span>{ReactHtmlParser(splitTextItem)}</span>
+        return <span>{splitTextItem}</span>
       }
     })
   )
