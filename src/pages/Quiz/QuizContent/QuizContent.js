@@ -13,6 +13,7 @@ import data901fr from 'data/901-fr-ppmc.json';
 import data1003fr from 'data/1003-fr-pythagore.json';
 import data1101fr from 'data/1101-fr-quadratic.json';
 import data1103fr from 'data/1103-pt-pythagore.json';
+import testFile from 'data/TestForParser.json';
 
 const QuizContent = ({ classId, subjectId, competenceId, nbOfQuestions }) => {
   const { t } = useTranslation();
@@ -42,6 +43,7 @@ const QuizContent = ({ classId, subjectId, competenceId, nbOfQuestions }) => {
     jsonFile = data901fr;
   }
 
+  jsonFile = testFile;
   const max = jsonFile.length - 1;
   const random_tab = [];
 

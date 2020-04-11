@@ -21,6 +21,8 @@ import data1103fr from 'data/1103-fr-pythagore.json';
 import data1103pt from 'data/1103-pt-pythagore.json';
 import data1103en from 'data/1103-en-pythagore.json';
 
+import testFile from 'data/TestForParser.json';
+
 import style from './QuizQuestion.module.css';
 
 const QuizQuestion = ({ index, competenceId }) => {
@@ -50,7 +52,7 @@ const QuizQuestion = ({ index, competenceId }) => {
   } else if (competenceId === 'id-902-c8' && getLanguage() == 'fr') {
     data = data901fr;
   }
-
+data = testFile;
   const {
     name,
     questiontext,

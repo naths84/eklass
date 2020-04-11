@@ -1,0 +1,52 @@
+[ 
+    { 
+    "type": "cloze ", 
+    "name" :  {"text": "Question pythagore 11e numéro 0 "},
+     "questiontext" : { 
+    "format":"text", 
+    "text":"Le triangle [startlatexinline ABC endlatexinline] dont les mesures sont les suivantes, est-il rectangle?<br/>Si c'est le cas, déterminer son angle droit.<br/>  [startlatexinline AB=6 cm endlatexinline]  [startlatexinline  BC=6 cm endlatexinline]  [startlatexinline CA=7 cm endlatexinline]"  
+    }, 
+    "responseText":{ 
+    "text": "Réponse" }, 
+    "questionInputs": { 
+    "input1": { 
+    "label": "questionQCMlabel", 
+    "type": "select", 
+    "value": "{1:MCS:%100%Pas rectangle~Rectangle en A~Rectangle en B~Rectangle en C}", 
+    "text": "${input}", 
+    "responses": ["Pas rectangle","Rectangle en A","Rectangle en B","Rectangle en C"], 
+    "correctResponse": "Pas rectangle" 
+    } 
+    }, 
+    "generalfeedback":{ 
+    "format": "text", 
+    "text":"Le candidat pour l'hypothénuse est le côté le plus long du triangle, donc dans notre cas le côté [startlatexinline CA endlatexinline].<br/> Par la réciproque du théorème de Pythagore, si le triangle [startlatexinline ABC endlatexinline] était rectangle, il devrait vérifier:<br/>  [startlatex BC^2+AB^2=CA^2. endlatex]<br/>  Calculons:<br/>  [startlatex BC^2+AB^2=6^2+6^2=36+36=72, endlatex]  et  [startlatex CA^2=7^2=49. endlatex]<br/> Vu que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], le triangle [startlatexinline ABC endlatexinline] n'est pas un triangle rectangle."},
+    "penality": "0", 
+    "hidden": "0" 
+    }, 
+    { 
+    "type": "cloze ", 
+    "name" :  {"text": "Question pythagore 11e numéro 1 "},
+     "questiontext" : { 
+    "format":"text", 
+    "text":"<div>Le triangle [startlatexinline ABC endlatexinline] dont les mesures sont les suivantes, est-il rectangle?<br/> Si c'est le cas, déterminer son angle droit.<br/>  [startlatexinline AB=8 cm endlatexinline]  [startlatexinline  BC=5 cm endlatexinline]  [startlatexinline CA=8 cm endlatexinline]</div>"  
+    }, 
+    "responseText":{ 
+    "text": "Réponse" }, 
+    "questionInputs": { 
+    "input1": { 
+    "label": "questionQCMlabel", 
+    "type": "select", 
+    "value": "{1:MCS:%100%Pas rectangle~Rectangle en A~Rectangle en B~Rectangle en C}", 
+    "text": "${input}", 
+    "responses": ["Pas rectangle","Rectangle en A","Rectangle en B","Rectangle en C"], 
+    "correctResponse": "Pas rectangle" 
+    } 
+    }, 
+    "generalfeedback":{ 
+    "format": "text", 
+    "text":"<div>Le candidat pour l'hypothénuse est le côté le plus long du triangle, donc dans notre cas le côté [startlatexinline CA endlatexinline].<br/> Par la réciproque du théorème de Pythagore, si le triangle [startlatexinline ABC endlatexinline] était rectangle, il devrait vérifier:<br/>  [startlatex AB^2+BC^2=CA^2. endlatex]<br/>  Calculons:<br/>  [startlatex AB^2+BC^2=8^2+5^2=64+25=89, endlatex]  et  [startlatex CA^2=8^2=64. endlatex]<br/> Vu que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], le triangle [startlatexinline ABC endlatexinline] n'est pas un triangle rectangle.</div>"},
+    "penality": "0", 
+    "hidden": "0" 
+    }
+]
