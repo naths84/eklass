@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState  } from 'react';
 import i18next from 'i18next';
 
 import LatexyString from 'components/LatexyString/LatexyString';
 import NumberInput from '../QuizInputs/NumberInput';
 import SelectInput from '../QuizInputs/SelectInput';
 
-import data from 'data/question-example.json';
 
 import data1101fr from 'data/1101-fr-quadratic.json';
 import data1101en from 'data/1101-en-quadratic.json';
@@ -62,10 +61,6 @@ const QuizQuestion = ({ index, competenceId }) => {
 
   const [submitted, setSubmitted] = useState(false);
   const [registeredInputs, setRegisteredInputs] = useState(questionInputs);
-
-  useEffect(() => {
-    console.log(registeredInputs);
-  }, [registeredInputs]);
 
   const resetResponses = () => {
     setSubmitted(false);
