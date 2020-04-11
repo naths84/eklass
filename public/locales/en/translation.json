@@ -10,6 +10,10 @@
     "contact": "Contact",
     "language": "Language",
 
+    "en": "English",
+    "fr": "Francais",
+    "pt": "Português",
+
     "subjectPageTitle": "Subjects",
 
     "functions&algebra": "Functions and Algebra",

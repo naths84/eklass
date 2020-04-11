@@ -1,0 +1,11 @@
+.page-wrapper {
+  min-height: calc(100% - 4.5rem);
+}
+
+.page-container {
+  margin: 0 auto;
+  padding: 1rem;  max-width: 66rem;
+  height: calc(100% - 4.5rem);
+
+  text-align: left;
+}

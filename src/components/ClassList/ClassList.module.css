@@ -1,0 +1,61 @@
+.intro {
+  margin-top: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.square {
+  display: flex;
+  flex: 0 1 6.5rem;  justify-content: center;
+  align-items: center;
+
+  margin: 1rem;
+  padding: 1rem;
+  width: 6.5rem;
+  height: 80px; font-size: 2rem;
+
+  color: white;
+  text-decoration: none;
+
+  border: 1px solid white;
+
+  background-color: #44a49c;
+  }
+
+.square:hover {
+  color: white;
+
+  opacity: 0.6;
+
+  background-color: #44a49c;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    margin-top: 30px;
+  }
+
+  .square:last-of-type {
+    margin-right: initial;
+  }
+
+  .square {
+    flex: 0 0 12rem;
+
+    width: 12rem;
+    height: 12rem;
+
+    font-size: 3rem;
+  }
+}

@@ -10,6 +10,10 @@
     "contact": "Nous contacter",
     "language": "Langue",
 
+    "en": "English",
+    "fr": "Francais",
+    "pt": "Português",
+
     "subjectPageTitle": "Matières",
 
     "functions&algebra": "Fonctions et Algèbre",

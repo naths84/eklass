@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+}
+
+.container input {
+  flex: 1;
+}

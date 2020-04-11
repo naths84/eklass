@@ -1,6 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-xhr-backend';
+
 i18n
   // learn more: https://github.com/i18next/i18next-xhr-backend
   .use(Backend)
@@ -10,7 +11,7 @@ i18n
   .init({
     debug: true,
     lng: 'en',
-    fallbackLng: 'en',
+    fallbackLng: ['en', 'fr', 'pt'],
     whitelist: ['en', 'fr', 'pt'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
@@ -20,4 +21,5 @@ i18n
         loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
   });
+
 export default i18n;

@@ -1,4 +1,3 @@
-.App {
-  text-align: center;
+.wrapper {
+  height: calc(100% - 4.5rem);
 }
-

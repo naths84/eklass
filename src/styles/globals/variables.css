@@ -1,0 +1,9 @@
+:root {
+  --color-values-primay: 68, 164, 156; 
+  --color-values-white: 255, 255, 255;
+
+  --color-primary: rgba(var(--color-values-primay), 1);
+  --color-white: rgba(var(--color-values-white), 1);
+  
+  --color-contrast: #343a40;
+}

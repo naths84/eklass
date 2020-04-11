@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.container:after {
+  position: absolute;
+  right: .75em;
+  bottom: calc(.5rem + .2em);
+
+  display: block;    width: 1em;  height: 1em;
+
+  content: '▼';
+  pointer-events: none;
+
+  font-size: .8em;
+
+  color: currentColor;
+  line-height: 1;
+
+  /* transform: translate3d(0%, 50%, 0); */
+  }
+
+.container select {
+  width: 100%;
+
+  font-size: 1em;
+}

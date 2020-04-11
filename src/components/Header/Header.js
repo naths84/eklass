@@ -1,80 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import classNames from "classnames";
 import { Link } from "@reach/router";
 
-import { Navbar, Nav, NavDropdown} from "react-bootstrap";
+import Hamburger from './Hamburger/Hamburger';
+import Nav from './Nav/Nav';
+import Vector from "components/Vector/Vector";
 
-import { useTranslation } from "react-i18next";
+import styles from "./Header.module.css";
 
-import Vector from 'components/Vector/Vector';
+const Header = () => {
+  const [sideNavToggled, setSideNavToggled] = useState(false);
 
-import authSignOut from 'utils/authSignOut';
-import styles from "./header.module.css";
-
-const Header = (props) => {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (code) => {
-    i18n.changeLanguage(code);
-  };
+  const wrapperClasses = classNames(styles.wrapper, {
+    [styles.sideNavToggled]: sideNavToggled,
+  });
 
   return (
-    <div className={styles.mynavbar}>
-      <header>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/">
-                <Vector type='logo-small' className={styles.logo} />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link className={styles.leftlink}> 
-                        <Link  to="/about/" style={{ textDecoration: 'none', color:"#44A49C"}}>
-                            {t("about")}
-                        </Link>
-                    </Nav.Link>
-                    <Nav.Link className={styles.leftlink}> 
-                        <Link  to="/team" style={{ textDecoration: 'none', color:"#44A49C"}}>
-                        {t("team")}
-                        </Link>
-                    </Nav.Link>
-                    <Nav.Link className={styles.leftlink}> 
-                        <Link  to="/contact/" style={{ textDecoration: 'none', color:"#44A49C"}}>
-                        {t("contact")}
-                        </Link>
-                    </Nav.Link>
-                </Nav>
+    <div className={wrapperClasses}>
+      <div className={styles.container}>
 
-                <Nav className="nav-right" >
-                    <NavDropdown  title={t("language")} id="collasible-nav-dropdown" className={styles.link}>
-                        <NavDropdown.Item  onClick={() => changeLanguage("en")}>
-                            {t("translation:English")}
-                        </NavDropdown.Item>
-                        <NavDropdown.Item onClick={() => changeLanguage("fr")}>
-                            {t("translation:Français")}
-                        </NavDropdown.Item>
-                        <NavDropdown.Item onClick={() => changeLanguage("pt")}>
-                            {t("translation:Portuguese")}
-                        </NavDropdown.Item>
-                    </NavDropdown>
+        <Link to="/" className={styles.brand}>
+          <Vector type="logo-small" className={styles.logo} />
+          <h2 className="screen-reader-only">Quome</h2>
+        </Link>
 
-                    <Nav.Link > 
-                        <Link  to="/login" style={{ textDecoration: 'none', color:"#44A49C"}}>
-                            {t("loginItem")}
-                        </Link>
-                    </Nav.Link>
-                    
-                    <Nav.Link onClick={authSignOut} className={styles.link}>
-                        <Link  to="/signout" style={{ textDecoration: 'none', color:"#44A49C"}}>
-                            {t("signoutItem")}
-                        </Link>
-                    </Nav.Link>
+        <Nav toggled={sideNavToggled} />
 
-                    <Nav>{props.user && props.user.displayName}</Nav>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-
-      </header>
+        <Hamburger 
+          collapsed={sideNavToggled}
+          toggleFunction={() => setSideNavToggled(!sideNavToggled)}
+          className={styles.hamburger}
+        />
+      </div>
     </div>
   );
 };

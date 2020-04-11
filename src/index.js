@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import './config/i18n';
+import 'config/i18n';
 
 ReactDOM.render(
     <Suspense fallback={null}>

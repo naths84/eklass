@@ -2,44 +2,42 @@ import React from 'react';
 import {Router} from '@reach/router';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
-import { auth } from './config/firebase';
+import { auth } from 'config/firebase';
 
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Header from 'components/Header/Header';
+// import Footer from './components/Footer/Footer';
 
 // Pages
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Homepage from './components/Homepage/Homepage';
-import Subjects from './components/Subjects/Subjects';
-import Login from './components/Login/Login';
-import SignUp from './components/SignUp/SignUp';
-import Quiz from './components/Quiz/Quiz';
-import Team from './components/Team/Team';
-import QuizSetup from './components/QuizSetup/QuizSetup';
+import About from 'pages/About/About';
+import Contact from 'pages/Contact/Contact';
+import Homepage from 'pages/Homepage/Homepage';
+import Login from 'pages/Login/Login';
+import SignUp from 'pages/SignUp/SignUp';
+import Quiz from 'pages/Quiz/Quiz';
+import Team from 'pages/Team/Team';
+
 import styles from './App.module.css';
 
 function App() {
   const [user] = useAuthState(auth)
 
   return (
-    <div className={styles.App}>
+    <>
       <Header user={user} />
 
-      <Router>
-        <Homepage path="/" />
-        <Subjects path="/class/:classId"/>
-        <Quiz path="/quiz"/>
-        <Team path="/team"/>
+      <Router className={styles.wrapper}>
+        <Homepage path="/*" />
         <About path="/about" />
+        <Team path="/team"/>
         <Contact path="/contact" />
+
+        <Quiz path="/quiz/*" />
+
         <Login path="/login" />
         <SignUp path="/signup" />
-        <Quiz path="/quiz/:competenceId/:nbOfQuestions" />
-        <QuizSetup path="/quizSetup/:subjectId"/>
       </Router>
       {/* <Footer /> */}
-    </div>
+    </>
   );
 }
 

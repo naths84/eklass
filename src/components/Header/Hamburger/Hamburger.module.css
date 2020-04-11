@@ -1,0 +1,58 @@
+.button {
+  position: relative;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: auto;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+
+  color: currentColor;
+
+  border: none;
+  border-color: currentColor;
+}
+
+.bar {
+  position: relative;
+
+  width: 2rem;
+}
+
+.bar:before,
+.bar:after,
+.bar {
+  display: inline-block;
+
+  height: .125rem;
+
+  background-color: currentColor;
+}
+
+/* .bar:before, */
+.bar:after {
+  position: absolute;
+
+  width: 100%;
+
+  content: '';
+
+  transition: transform .15s ease;
+}
+
+.bar::before {
+  /* transform: translate3d(-50%, -.75rem, 0); */
+}
+
+.bar:after {
+  /* transform: translate3d(-50%, .75rem, 0); */
+  transform: translate3d(-50%, 0, 0) rotate3d(0, 0, 1, 90deg);
+}
+
+.button.collapsed .bar:before,
+.button.collapsed .bar:after {
+  transform: translate3d(-50%, 0rem, 0);
+}

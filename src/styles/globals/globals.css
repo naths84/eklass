@@ -1,0 +1,6 @@
+/* Import variables before anything else */
+@import './variables.css';
+
+@import './document.css';
+@import './typography.css';
+@import './ui.css';

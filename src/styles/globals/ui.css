@@ -1,0 +1,65 @@
+button,
+.button {
+  display: inline-block;
+
+  margin: 0;
+  padding: 0;
+  padding: .5rem .75rem;
+
+  font-size: 1rem;
+
+  color: currentColor;
+
+  border: 1px solid currentColor;
+  border-radius: 8px;
+
+  background: none;
+  box-shadow: 0 0 0px 0px currentColor;
+}
+
+
+select {
+  position: relative;
+
+  display: inline-block;
+
+  margin: 0;
+  padding: .5rem 2rem .5rem 1rem;
+
+  font-size: 1rem;
+
+  color: currentColor;
+
+  border: 1px solid currentColor;
+  border-radius: 0;
+
+  background: none;
+
+  appearance: none;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='tel'] {
+  margin: 0;
+  padding: .5rem 1rem;
+
+  font-size: 1rem;
+
+  color: currentColor;
+
+  border: 1px solid currentColor;
+  border-radius: 0;
+
+  background: none;
+
+  appearance: none; 
+}
+
+button:hover,
+select:hover,
+input:hover {
+  background-color: rgba(127, 127, 125, 0.1)
+} 

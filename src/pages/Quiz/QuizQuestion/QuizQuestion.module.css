@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+
+  border: solid 2px #CCCCCC;
+}
+
+.textToLeft {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-align: left;
+}
+
+.resetSubmitButtons {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    text-align: right;
+}
+
+.nbInput  {
+    margin-top: 20px;
+}
+
+.selectInput {
+    margin-top: 20px;
+}
+
+.button {
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
