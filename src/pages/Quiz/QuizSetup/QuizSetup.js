@@ -13,18 +13,11 @@ import generateNumberArray from 'utils/generateNumberArray';
 export default function QuizSetup({ classId, subjectId }) {
   const { t } = useTranslation();
 
-  const [competence, setCompetence] = useState('');
+  const {subjects, subjectCompetences} = mockData;
+  const competences = subjectCompetences[subjectId].competences;
+
+  const [competence, setCompetence] = useState(competences[0]);
   const [nb, setNb] = useState(0);
-
-  useEffect(() => {
-    console.log('competence', competence);
-  }, [competence])
-
-  const {subjects, subjectCompetences} = mockData
-
-  const competences = Object.values(subjectCompetences).find(
-    (subjectCompetence) => subjectCompetence.subject === subjectId
-  );
 
   const handleSubmit = () => {
     console.log('submit competence value:', competence)
@@ -44,7 +37,7 @@ export default function QuizSetup({ classId, subjectId }) {
         <Select
           className={styles.input}
           onChangeHandler={setCompetence}
-          options={competences.competences.map((competence) => ({
+          options={competences.map((competence) => ({
             value: competence,
             label: t(competence),
           }))}

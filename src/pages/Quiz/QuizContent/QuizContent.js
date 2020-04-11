@@ -44,7 +44,8 @@ const QuizContent = ({ classId, subjectId, competenceId, nbOfQuestions }) => {
 
   const max = jsonFile.length - 1;
   const random_tab = [];
-  while (random_tab.length < nbOfQuestions) {
+
+  while (random_tab.length < parseInt(nbOfQuestions)) {
     const rand = Math.round(Math.random() * max);
     if (random_tab.indexOf(rand) === -1) random_tab.push(rand);
   }
