@@ -2,13 +2,14 @@
     "title": "Fr eclass",
     "welcome": "Bienvenue sur Quome",
     "quomeGoal": "Révisez les maths à travers un nombre illimité d'exercices",
-    "pickClass": "Choisis ton niveau parmi les suivants",
+    "pickClass": "Choisis parmi les niveaux suivants",
     "loginItem": "Se connecter",
     "signoutItem": "Se déconnecter",
     "about": "A propos",
     "team": "Notre équipe",
     "contact": "Nous contacter",
     "language": "Langue",
+    "presentation": "Presentation",
 
     "en": "English",
     "fr": "Francais",
@@ -16,12 +17,34 @@
 
     "subjectPageTitle": "Matières",
 
+    
+    "description_about": "Quome est ici pour les élèves du primaire et du secondaire pour apprendre les mathématiques en s’exerçant à la maison. Pour les enseignant-e-s, elle est une interface en ligne avec leurs élèves destinée à la communication et au suivi de leurs progrès. La caractéristique principale de Quome est son Générateur d’Exercices. Comme élève, en sélectionnant parmi une variété de sujets et niveaux de difficulté, tu pourras générer ton nombre choisi d’exercices uniques et t’entrainer. Tu auras ensuite accès à un compte-rendu automatique et détaillé pour chacune de tes solutions. De même, en tant que professeur-e vous pourrez générer une série unique d’exercices avec des solutions automatiques pour chacun-e de vos élèves. Il-Elle pourra ensuite soumettre ses solutions indépendamment de ses camarades de classe, la série sera automatiquement corrigée, et les solutions détaillés pourront ensuite être visualisées par votre élève. Quome est née lors de la crise due au Covid-19 et à l’isolation de la population humaine à travers le monde . Grâce aux nouvelles technologies, les enseignant-e-s ont pu donner des cours vidéos à leurs élèves, mais le manque d’un outil stimulant destiné au progrès des élèves, à leur accompagnement et à la pratique des exercices est devenu évident. Nous voulons que Quome soit un service gratuit supporté par des donations publiques et privées. Nous croyons fermement que Quome peut aider les élèves à prospérer en mathématiques et cela aussi en dehors des périodes d’isolation. Quome arrive à la maison.",
+    
+    "Contact": "Contactez nous",
+    "Fist_Name": "Prénom",
+    "Last_Name": "Nom",
+    "Email": "Email",
+    "Subject":"Message",
+
+    "Presentation": "Nous sommes une équipe de mathématiciens et développeurs web, enseignants et étudiants:",
+    "L1": "Cedric Jud est un développeur web autodidacte basé à Oslo.",
+    "L2": "Claude Marion a obtenu un doctorat en mathématiques de l'Imperial College et a enseigné dans des universités au Royaume-Uni, en Suisse, en Israël, en Italie et au Portugal. Il a conçu de manière inclusive avec le professeur Testerman les trois cours MOOC de l'EPFL sur l'algèbre linéaire.",
+    "L3": "Nathan Scheinmann est titulaire d'un doctorat en mathématiques de l'EPFL. Il enseigne actuellement les mathématiques au CO des Coudriers à Genève.",
+    "L4": "Peter Simko est titulaire d'un Master en mathématiques de l'EPFL et enseigne actuellement au Gymnase de Renens. Il aime lire, écrire et coder pendant son temps libre.",
+    "L5": "Clément Petit est actuellement étudiant en 3e année de Bachelor of Computer Science à l'EPFL.",
+    "L6":"Elia Saquand est étudiante en 3e année de Bachelor of Communication Systems à l'EPFL.",
+    "L7":"Piere Motard est étudiant en 3e année de Bachelor of Communication Systems à l'EPFL.",
+    "L8":"Yanis Berkani est étudiant en 3e année de Bachelor of Computer Science à l'EPFL.",
+
     "functions&algebra": "Fonctions et Algèbre",
     "numbers": "Nombres",
     "units&sizes": "Grandeurs et Mesures",
 
     "competenceChoice" : "Choisir une compétence",
     "nbOfQuestions" : "Choisir un nombre de questions",
+
+    "rightAnswer" : "Bonne Réponse !",
+    "wrongAnswer" : "Mauvaise Réponse !",
 
     "id-901-c1": "Placer un point sur un système d'axes gradués",
     "id-902-c1": "Additions et soustractions de nombres relatifs",
@@ -31,6 +54,7 @@
     "id-902-c5": "Rendre une fraction irréductibles",
     "id-902-c6": "Fractions équivalentes",
     "id-902-c7": "Tout mélangé!",
+    "id-902-c8": "PPMC",
     "id-903-c1": "Transformation d'unités de mesure",
     "id-1001-c1": "Résolutions d'équations du premier degré",
     "id-1002-c1": "Addition de fractions",
@@ -38,4 +62,5 @@
     "id-1101-c1": "Résolution d'équations du deuxième degré",
     "id-1102-c1": "Extraction de racine",
     "id-1103-c1": "Utilisation du théorème de Pythagore (direct et réciproque)"
+
 }

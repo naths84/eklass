@@ -9,6 +9,7 @@
     "team": "Our team",
     "contact": "Contact",
     "language": "Language",
+    "presentation": "About our project",
 
     "en": "English",
     "fr": "Francais",
@@ -16,12 +17,34 @@
 
     "subjectPageTitle": "Subjects",
 
+    "description_about":"The worldwide coronavirus crisis is a unique opportunity to propose a global platform for school girls and boys, students and teachers across the world to communicate and learn. Our idea is to propose a platform focused on the learning of mathematics through practice. We want to provide an extensive program arranged by topics going through all school levels before university. Given a selection of chosen topics and range of levels, the student will be able to randomly generate a chosen number of unique exercises and practice on them. She/he will then have access to detailed automated feedback about each exercise's resolution. On the other hand, given a selection of chosen topics, a teacher will be able to generate a unique set of exercises for each of her/his students with automated solutions. In this way, a student can submit her/his solutions independently of her/his classmates, the set is automatically corrected, and the detailed solutions can be consulted afterwards by the student. We are planning to first propose the platform in English, French, Italian, Portuguese, Spanish, and possibly Asian languages. The subject is restricted to mathematics at a primary and secondary level, but could possibly be adapted to other subjects and higher levels.",
+
+    "Contact": "Contact Us",
+    "Fist_Name": "First Name",
+    "Last_Name": "Last Name",
+    "Email": "Email",
+    "Subject":"Subject",
+
+    "Presentation": "We are team of mathematicians and web developers, teachers and students:",
+    "L1": "Cedric Jud is a self-taught web developer based in Oslo.",
+    "L2": "Claude Marion got a PhD in Mathematics from Imperial College and has been teaching at universities in UK, Switzerland, Israel, Italy and Portugal. He inclusively designed with Prof. Testerman the three EPFL MOOC courses on linear algebra.",
+    "L3": "Nathan Scheinmann has a PhD in Mathematics from EPFL. He is currently teaching mathematics at CO des Coudriers in Geneva.",
+    "L4": "Peter Simko has a Masters degree in Mathematics from EPFL and currently teaches at Gymnase de Renens. He likes to read, write and code in his free time.",
+    "L5": "Clément Petit is a 3rd year student in Bachelor of Computer Science at EPFL.",
+    "L6":"Elia Saquand is a 3rd year student in Bachelor of Communication Systems at EPFL.",
+    "L7":"Pierre Motard is a 3rd year student in Bachelor of Communication Systems at EPFL.",
+    "L8":"Yanis Berkani is a 3rd year student in Bachelor of Computer Science at EPFL.",
+
+
     "functions&algebra": "Functions and Algebra",
     "numbers": "Numbers",
     "units&sizes": "Units and Sizes",
 
     "competenceChoice" : "Choose a competence",
     "nbOfQuestions" : "Choose a number of questions",
+
+    "rightAnswer" : "Right Answer !",
+    "wrongAnswer" : "Wrong Answer !",
 
     "id-901-c1": "Locating a point in a coordinate plane",
     "id-902-c1": "Addition and subtraction of whole numbers",
@@ -31,6 +54,7 @@
     "id-902-c5": "Obtaining irreducible fractions",
     "id-902-c6": "Equivalent fractions",
     "id-902-c7": "A mix of everything!",
+    "id-902-c8": "LCM",
     "id-903-c1": "Conversion of units of measure",
     "id-1001-c1": "Solving equations of first degree",
     "id-1002-c1": "Addition of fractions",

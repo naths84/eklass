@@ -1,0 +1,1302 @@
+[ 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 0 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=5 cm endlatexinline]  [startlatexinline  BC=4 cm endlatexinline]  [startlatexinline CA=3 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=3^2+4^2=9+16=25, endlatex]  e  [startlatex AB^2=5^2=25. endlatex] Dado que [startlatex CA^2+BC^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 1 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=10 cm endlatexinline]  [startlatexinline  BC=6 cm endlatexinline]  [startlatexinline CA=8 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=6^2+8^2=36+64=100, endlatex]  e  [startlatex AB^2=10^2=100. endlatex] Dado que [startlatex BC^2+CA^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 2 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=15 cm endlatexinline]  [startlatexinline  BC=12 cm endlatexinline]  [startlatexinline CA=9 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=9^2+12^2=81+144=225, endlatex]  e  [startlatex AB^2=15^2=225. endlatex] Dado que [startlatex CA^2+BC^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 3 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=22 cm endlatexinline]  [startlatexinline  BC=12 cm endlatexinline]  [startlatexinline CA=13 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=12^2+13^2=144+169=313, endlatex]  e  [startlatex AB^2=22^2=484. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 4 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=15 cm endlatexinline]  [startlatexinline  BC=20 cm endlatexinline]  [startlatexinline CA=27 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=20^2+15^2=400+225=625, endlatex]  e  [startlatex CA^2=27^2=729. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 5 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=18 cm endlatexinline]  [startlatexinline  BC=30 cm endlatexinline]  [startlatexinline CA=24 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+CA^2=BC^2. endlatex]  Calculamos:  [startlatex AB^2+CA^2=18^2+24^2=324+576=900, endlatex]  e  [startlatex BC^2=30^2=900. endlatex] Dado que [startlatex AB^2+CA^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 6 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=34 cm endlatexinline]  [startlatexinline  BC=31 cm endlatexinline]  [startlatexinline CA=22 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=22^2+31^2=484+961=1445, endlatex]  e  [startlatex AB^2=34^2=1156. endlatex] Dado que [startlatex CA^2+BC^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 7 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=30 cm endlatexinline]  [startlatexinline  BC=27 cm endlatexinline]  [startlatexinline CA=38 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=27^2+30^2=729+900=1629, endlatex]  e  [startlatex CA^2=38^2=1444. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 8 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=24 cm endlatexinline]  [startlatexinline  BC=43 cm endlatexinline]  [startlatexinline CA=36 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=36^2+24^2=1296+576=1872, endlatex]  e  [startlatex BC^2=43^2=1849. endlatex] Dado que [startlatex CA^2+AB^2 \\neq BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 9 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=51 cm endlatexinline]  [startlatexinline  BC=27 cm endlatexinline]  [startlatexinline CA=37 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=37^2+27^2=1369+729=2098, endlatex]  e  [startlatex AB^2=51^2=2601. endlatex] Dado que [startlatex CA^2+BC^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 10 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=44 cm endlatexinline]  [startlatexinline  BC=55 cm endlatexinline]  [startlatexinline CA=33 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=33^2+44^2=1089+1936=3025, endlatex]  e  [startlatex BC^2=55^2=3025. endlatex] Dado que [startlatex CA^2+AB^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 11 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=47 cm endlatexinline]  [startlatexinline  BC=60 cm endlatexinline]  [startlatexinline CA=35 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=35^2+47^2=1225+2209=3434, endlatex]  e  [startlatex BC^2=60^2=3600. endlatex] Dado que [startlatex CA^2+AB^2 \\neq BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 12 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=42 cm endlatexinline]  [startlatexinline  BC=53 cm endlatexinline]  [startlatexinline CA=66 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=42^2+53^2=1764+2809=4573, endlatex]  e  [startlatex CA^2=66^2=4356. endlatex] Dado que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 13 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=70 cm endlatexinline]  [startlatexinline  BC=56 cm endlatexinline]  [startlatexinline CA=42 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=56^2+42^2=3136+1764=4900, endlatex]  e  [startlatex AB^2=70^2=4900. endlatex] Dado que [startlatex BC^2+CA^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 14 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=73 cm endlatexinline]  [startlatexinline  BC=46 cm endlatexinline]  [startlatexinline CA=57 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=46^2+57^2=2116+3249=5365, endlatex]  e  [startlatex AB^2=73^2=5329. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 15 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=48 cm endlatexinline]  [startlatexinline  BC=64 cm endlatexinline]  [startlatexinline CA=80 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=64^2+48^2=4096+2304=6400, endlatex]  e  [startlatex CA^2=80^2=6400. endlatex] Dado que [startlatex BC^2+AB^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 16 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=87 cm endlatexinline]  [startlatexinline  BC=48 cm endlatexinline]  [startlatexinline CA=69 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=48^2+69^2=2304+4761=7065, endlatex]  e  [startlatex AB^2=87^2=7569. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 17 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=88 cm endlatexinline]  [startlatexinline  BC=51 cm endlatexinline]  [startlatexinline CA=69 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=51^2+69^2=2601+4761=7362, endlatex]  e  [startlatex AB^2=88^2=7744. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 18 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=96 cm endlatexinline]  [startlatexinline  BC=55 cm endlatexinline]  [startlatexinline CA=75 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=55^2+75^2=3025+5625=8650, endlatex]  e  [startlatex AB^2=96^2=9216. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 19 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=60 cm endlatexinline]  [startlatexinline  BC=80 cm endlatexinline]  [startlatexinline CA=100 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=80^2+60^2=6400+3600=10000, endlatex]  e  [startlatex CA^2=100^2=10000. endlatex] Dado que [startlatex BC^2+AB^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 20 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=13 cm endlatexinline]  [startlatexinline  BC=13 cm endlatexinline]  [startlatexinline CA=2 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+CA^2=BC^2. endlatex]  Calculamos:  [startlatex AB^2+CA^2=13^2+2^2=169+4=173, endlatex]  e  [startlatex BC^2=13^2=169. endlatex] Dado que [startlatex AB^2+CA^2 \\neq BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 21 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=24 cm endlatexinline]  [startlatexinline  BC=9 cm endlatexinline]  [startlatexinline CA=26 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=9^2+24^2=81+576=657, endlatex]  e  [startlatex CA^2=26^2=676. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 22 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=36 cm endlatexinline]  [startlatexinline  BC=39 cm endlatexinline]  [startlatexinline CA=15 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=15^2+36^2=225+1296=1521, endlatex]  e  [startlatex BC^2=39^2=1521. endlatex] Dado que [startlatex CA^2+AB^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 23 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=20 cm endlatexinline]  [startlatexinline  BC=48 cm endlatexinline]  [startlatexinline CA=52 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=48^2+20^2=2304+400=2704, endlatex]  e  [startlatex CA^2=52^2=2704. endlatex] Dado que [startlatex BC^2+AB^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 24 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=63 cm endlatexinline]  [startlatexinline  BC=62 cm endlatexinline]  [startlatexinline CA=28 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=62^2+28^2=3844+784=4628, endlatex]  e  [startlatex AB^2=63^2=3969. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 25 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=27 cm endlatexinline]  [startlatexinline  BC=69 cm endlatexinline]  [startlatexinline CA=81 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=69^2+27^2=4761+729=5490, endlatex]  e  [startlatex CA^2=81^2=6561. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 26 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=91 cm endlatexinline]  [startlatexinline  BC=84 cm endlatexinline]  [startlatexinline CA=35 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=35^2+84^2=1225+7056=8281, endlatex]  e  [startlatex AB^2=91^2=8281. endlatex] Dado que [startlatex CA^2+BC^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 27 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=24 cm endlatexinline]  [startlatexinline  BC=18 cm endlatexinline]  [startlatexinline CA=29 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=18^2+24^2=324+576=900, endlatex]  e  [startlatex CA^2=29^2=841. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 28 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=58 cm endlatexinline]  [startlatexinline  BC=40 cm endlatexinline]  [startlatexinline CA=42 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=40^2+42^2=1600+1764=3364, endlatex]  e  [startlatex AB^2=58^2=3364. endlatex] Dado que [startlatex BC^2+CA^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 29 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=62 cm endlatexinline]  [startlatexinline  BC=59 cm endlatexinline]  [startlatexinline CA=85 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=59^2+62^2=3481+3844=7325, endlatex]  e  [startlatex CA^2=85^2=7225. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 30 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=16 cm endlatexinline]  [startlatexinline  BC=16 cm endlatexinline]  [startlatexinline CA=9 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=9^2+16^2=81+256=337, endlatex]  e  [startlatex BC^2=16^2=256. endlatex] Dado que [startlatex CA^2+AB^2 \\neq BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 31 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=30 cm endlatexinline]  [startlatexinline  BC=16 cm endlatexinline]  [startlatexinline CA=34 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=30^2+16^2=900+256=1156, endlatex]  e  [startlatex CA^2=34^2=1156. endlatex] Dado que [startlatex AB^2+BC^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 32 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=24 cm endlatexinline]  [startlatexinline  BC=51 cm endlatexinline]  [startlatexinline CA=45 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+CA^2=BC^2. endlatex]  Calculamos:  [startlatex AB^2+CA^2=24^2+45^2=576+2025=2601, endlatex]  e  [startlatex BC^2=51^2=2601. endlatex] Dado que [startlatex AB^2+CA^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 33 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=68 cm endlatexinline]  [startlatexinline  BC=60 cm endlatexinline]  [startlatexinline CA=32 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=32^2+60^2=1024+3600=4624, endlatex]  e  [startlatex AB^2=68^2=4624. endlatex] Dado que [startlatex CA^2+BC^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 34 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=88 cm endlatexinline]  [startlatexinline  BC=73 cm endlatexinline]  [startlatexinline CA=41 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=73^2+41^2=5329+1681=7010, endlatex]  e  [startlatex AB^2=88^2=7744. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 35 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=27 cm endlatexinline]  [startlatexinline  BC=8 cm endlatexinline]  [startlatexinline CA=27 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=27^2+8^2=729+64=793, endlatex]  e  [startlatex CA^2=27^2=729. endlatex] Dado que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 36 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=50 cm endlatexinline]  [startlatexinline  BC=48 cm endlatexinline]  [startlatexinline CA=14 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+BC^2=AB^2. endlatex]  Calculamos:  [startlatex CA^2+BC^2=14^2+48^2=196+2304=2500, endlatex]  e  [startlatex AB^2=50^2=2500. endlatex] Dado que [startlatex CA^2+BC^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 37 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=21 cm endlatexinline]  [startlatexinline  BC=75 cm endlatexinline]  [startlatexinline CA=72 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+CA^2=BC^2. endlatex]  Calculamos:  [startlatex AB^2+CA^2=21^2+72^2=441+5184=5625, endlatex]  e  [startlatex BC^2=75^2=5625. endlatex] Dado que [startlatex AB^2+CA^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 38 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=97 cm endlatexinline]  [startlatexinline  BC=25 cm endlatexinline]  [startlatexinline CA=97 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=97^2+25^2=9409+625=10034, endlatex]  e  [startlatex CA^2=97^2=9409. endlatex] Dado que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 39 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=48 cm endlatexinline]  [startlatexinline  BC=55 cm endlatexinline]  [startlatexinline CA=73 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=48^2+55^2=2304+3025=5329, endlatex]  e  [startlatex CA^2=73^2=5329. endlatex] Dado que [startlatex AB^2+BC^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 40 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=28 cm endlatexinline]  [startlatexinline  BC=53 cm endlatexinline]  [startlatexinline CA=45 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~%100%Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em A" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex CA^2+AB^2=BC^2. endlatex]  Calculamos:  [startlatex CA^2+AB^2=45^2+28^2=2025+784=2809, endlatex]  e  [startlatex BC^2=53^2=2809. endlatex] Dado que [startlatex CA^2+AB^2=BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline A endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 41 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=37 cm endlatexinline]  [startlatexinline  BC=79 cm endlatexinline]  [startlatexinline CA=87 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=79^2+37^2=6241+1369=7610, endlatex]  e  [startlatex CA^2=87^2=7569. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 42 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=77 cm endlatexinline]  [startlatexinline  BC=38 cm endlatexinline]  [startlatexinline CA=85 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=38^2+77^2=1444+5929=7373, endlatex]  e  [startlatex CA^2=85^2=7225. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 43 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=53 cm endlatexinline]  [startlatexinline  BC=36 cm endlatexinline]  [startlatexinline CA=65 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=53^2+36^2=2809+1296=4105, endlatex]  e  [startlatex CA^2=65^2=4225. endlatex] Dado que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 44 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=72 cm endlatexinline]  [startlatexinline  BC=65 cm endlatexinline]  [startlatexinline CA=97 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=65^2+72^2=4225+5184=9409, endlatex]  e  [startlatex CA^2=97^2=9409. endlatex] Dado que [startlatex BC^2+AB^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 45 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=13 cm endlatexinline]  [startlatexinline  BC=35 cm endlatexinline]  [startlatexinline CA=39 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=35^2+13^2=1225+169=1394, endlatex]  e  [startlatex CA^2=39^2=1521. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 46 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=74 cm endlatexinline]  [startlatexinline  BC=70 cm endlatexinline]  [startlatexinline CA=24 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~Rectângulo em B~%100%Rectângulo em C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em C" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=70^2+24^2=4900+576=5476, endlatex]  e  [startlatex AB^2=74^2=5476. endlatex] Dado que [startlatex BC^2+CA^2=AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline C endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 47 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=8 cm endlatexinline]  [startlatexinline  BC=44 cm endlatexinline]  [startlatexinline CA=37 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline BC endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+CA^2=BC^2. endlatex]  Calculamos:  [startlatex AB^2+CA^2=8^2+37^2=64+1369=1433, endlatex]  e  [startlatex BC^2=44^2=1936. endlatex] Dado que [startlatex AB^2+CA^2 \\neq BC^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 48 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=80 cm endlatexinline]  [startlatexinline  BC=18 cm endlatexinline]  [startlatexinline CA=82 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:Não rectângulo~Rectângulo em A~%100%Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Rectângulo em B" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=18^2+80^2=324+6400=6724, endlatex]  e  [startlatex CA^2=82^2=6724. endlatex] Dado que [startlatex BC^2+AB^2=CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] é rectângulo em [startlatexinline B endlatexinline]."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 49 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=61 cm endlatexinline]  [startlatexinline  BC=14 cm endlatexinline]  [startlatexinline CA=67 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex AB^2+BC^2=CA^2. endlatex]  Calculamos:  [startlatex AB^2+BC^2=61^2+14^2=3721+196=3917, endlatex]  e  [startlatex CA^2=67^2=4489. endlatex] Dado que [startlatex AB^2+BC^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 50 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=63 cm endlatexinline]  [startlatexinline  BC=14 cm endlatexinline]  [startlatexinline CA=61 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline AB endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+CA^2=AB^2. endlatex]  Calculamos:  [startlatex BC^2+CA^2=14^2+61^2=196+3721=3917, endlatex]  e  [startlatex AB^2=63^2=3969. endlatex] Dado que [startlatex BC^2+CA^2 \\neq AB^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ }, 
+ { 
+ "type": "cloze ", 
+ "name" :  {"text": "Pergunta pitágoras 11e número 51 "},
+  "questiontext" : { 
+ "format":"text", 
+ "text":"O triângulo [startlatexinline ABC endlatexinline] com os comprimentos seguintes, é rectângulo? Se for o caso, determine o ângulo reto.  [startlatexinline AB=84 cm endlatexinline]  [startlatexinline  BC=11 cm endlatexinline]  [startlatexinline CA=86 cm endlatexinline]"  
+ }, 
+ "responseText":{ 
+ "text": "Resposta" }, 
+ "questionInputs": { 
+ "input1": { 
+ "label": "questionQCMlabel", 
+ "type": "select", 
+ "value": "{1:MCS:%100%Não rectângulo~Rectângulo em A~Rectângulo em B~Rectângulo en C}", 
+ "text": "${input}", 
+ "responses": ["Não rectângulo","Rectângulo em A","Rectângulo em B","Rectângulo en C"], 
+ "correctResponse": "Não rectângulo" 
+ } 
+ }, 
+ "generalfeedback":{ 
+ "format": "text", 
+ "text":"O candidato para a hipotenusa é o lado mais  comprido do triângulo, portanto no nosso caso o lado [startlatexinline CA endlatexinline]. Pela recíproca do teorema de Pitágoras, se o triângulo [startlatexinline ABC endlatexinline] fosse rectângulo, ele deveria verificar:  [startlatex BC^2+AB^2=CA^2. endlatex]  Calculamos:  [startlatex BC^2+AB^2=11^2+84^2=121+7056=7177, endlatex]  e  [startlatex CA^2=86^2=7396. endlatex] Dado que [startlatex BC^2+AB^2 \\neq CA^2 endlatex], o triângulo [startlatexinline ABC endlatexinline] não é rectângulo."},
+ "penality": "0", 
+ "hidden": "0" 
+ } 
+ ]

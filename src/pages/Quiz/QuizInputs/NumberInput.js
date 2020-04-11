@@ -2,18 +2,18 @@ import React, { useState, useEffect } from "react";
 import LatexyString from 'components/LatexyString/LatexyString';
 import styles from './NumberInput.module.css';
 
+import { useTranslation } from "react-i18next";
+
 const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
+  const { t } = useTranslation();
+
   const { correctResponse, decimal } = inputItem;
 
   const [value, setValue] = useState("");
   const [isValid, setIsValid] = useState(false);
 
-  const updateParent = () => {
-    callBack(id, isValid);
-  }
-
   useEffect(() => {
-    updateParent();
+    callBack(id, isValid);
   }, [isValid]) 
 
   const handleChange = (e) => {
@@ -30,10 +30,10 @@ const NumberInput = ({ id, inputItem, callBack, displayErrors }) => {
         onChange={handleChange}
         step={decimal}
         disabled={displayErrors}
+        //required
       />
-
-      { displayErrors && !isValid && <span>{'useful error message'}</span> }
-
+      { displayErrors && !isValid && <span>{t("wrongAnswer")}</span> }
+      { displayErrors && isValid && <span>{t("rightAnswer")}</span> }
     </div>
   );
 };

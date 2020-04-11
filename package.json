@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "babel-runtime": "^6.26.0",
     "classnames": "^2.2.6",
     "firebase": "^7.13.2",
     "firebase-admin": "^8.10.0",
