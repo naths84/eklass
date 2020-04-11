@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 import { navigate } from '@reach/router';
@@ -16,6 +16,10 @@ export default function QuizSetup({ classId, subjectId }) {
   const [competence, setCompetence] = useState('');
   const [nb, setNb] = useState(0);
 
+  useEffect(() => {
+    console.log('competence', competence);
+  }, [competence])
+
   const {subjects, subjectCompetences} = mockData
 
   const competences = Object.values(subjectCompetences).find(
@@ -23,6 +27,7 @@ export default function QuizSetup({ classId, subjectId }) {
   );
 
   const handleSubmit = () => {
+    console.log('submit competence value:', competence)
     navigate(`/quiz/${classId}/${subjectId}/${competence}/${nb}`);
   };
 

@@ -1,14 +1,57 @@
 import React, { useState, useEffect } from 'react';
+import i18next from 'i18next';
+
 import LatexyString from 'components/LatexyString/LatexyString';
-
-import style from './QuizQuestion.module.css';
-
 import NumberInput from '../QuizInputs/NumberInput';
 import SelectInput from '../QuizInputs/SelectInput';
 
 import data from 'data/question-example.json';
 
-const Question = ({ index }) => {
+import data1101fr from 'data/1101-fr-quadratic.json';
+import data1101en from 'data/1101-en-quadratic.json';
+import data1101po from 'data/1101-po-quadratic.json';
+
+import data1003fr from 'data/1003-fr-pythagore.json';
+import data1003pt from 'data/1003-pt-pythagore.json';
+import data1003en from 'data/1003-en-pythagore.json';
+
+import data901fr from 'data/901-fr-ppmc.json';
+import data901en from 'data/901-en-ppmc.json';
+
+import data1103fr from 'data/1103-fr-pythagore.json';
+import data1103pt from 'data/1103-pt-pythagore.json';
+import data1103en from 'data/1103-en-pythagore.json';
+
+import style from './QuizQuestion.module.css';
+
+const QuizQuestion = ({ index, competenceId }) => {
+  let data = {};
+  const getLanguage = () => i18next.language;
+
+  if (competenceId === 'id-1101-c1' && getLanguage() === 'fr') {
+    data = data1101fr;
+  } else if (competenceId === 'id-1101-c1' && getLanguage() === 'en') {
+    data = data1101en;
+  } else if (competenceId === 'id-1101-c1' && getLanguage() === 'pt') {
+    data = data1101po;
+  } else if (competenceId === 'id-1103-c1' && getLanguage() === 'fr') {
+    data = data1103fr;
+  } else if (competenceId === 'id-1103-c1' && getLanguage() === 'en') {
+    data = data1103en;
+  } else if (competenceId === 'id-1103-c1' && getLanguage() === 'pt') {
+    data = data1103pt;
+  } else if (competenceId === 'id-1003-c1' && getLanguage() === 'fr') {
+    data = data1003fr;
+  } else if (competenceId === 'id-1003-c1' && getLanguage() === 'pt') {
+    data = data1003pt;
+  } else if (competenceId === 'id-1003-c1' && getLanguage() === 'en') {
+    data = data1003en;
+  } else if (competenceId === 'id-902-c8' && getLanguage() === 'en') {
+    data = data901en;
+  } else if (competenceId === 'id-902-c8' && getLanguage() == 'fr') {
+    data = data901fr;
+  }
+
   const {
     name,
     questiontext,
@@ -55,9 +98,8 @@ const Question = ({ index }) => {
           const inputItem = questionInputs[key];
           if (inputItem.type === 'number') {
             return (
-              <div className={style.nbInput}>
+              <div key={`question-input-${key}`} className={style.nbInput}>
                 <NumberInput
-                  key={`question-input-${key}`}
                   id={key}
                   inputItem={inputItem}
                   callBack={handleInput}
@@ -69,9 +111,8 @@ const Question = ({ index }) => {
 
           if (inputItem.type === 'select') {
             return (
-              <div className={style.selectInput}>
+              <div key={`question-input-${key}`} className={style.selectInput}>
                 <SelectInput
-                  key={`question-input-${key}`}
                   id={key}
                   inputItem={inputItem}
                   callBack={handleInput}
@@ -100,4 +141,4 @@ const Question = ({ index }) => {
   );
 };
 
-export default Question;
+export default QuizQuestion;

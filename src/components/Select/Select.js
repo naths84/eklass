@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import styles from './Select.module.css';
@@ -18,13 +18,15 @@ function Select({ onChangeHandler, options, className, disabled, inline, label }
     className
   );
 
+  // useEffect(() => {
+  //   onChangeHandler(selectValue);
+  // }, [])
+
   const handleChange = e => {
     const updatedValue = e.target.value;
     setSelectValue(updatedValue);
     onChangeHandler(updatedValue);
   }
-
-  console.log('selectValue : ', selectValue);
 
   return (
     <div className={containerClassNames}>
